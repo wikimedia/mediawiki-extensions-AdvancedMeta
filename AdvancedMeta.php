@@ -10,6 +10,7 @@
  */
 
 $wgExtensionCredits['parserhook'][] = array(
+	'path' => __FILE__,
 	'name' => 'Advanced Meta',
 	'author' => array( '[http://www.stephanmuller.nl Stephan Muller]', 'Bart van Heukelom, Zayoo' ),
 	'descriptionmsg' => 'ameta-desc',
