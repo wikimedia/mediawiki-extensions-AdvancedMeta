@@ -17,6 +17,7 @@ $messages['en'] = array(
 	'ameta-keywordsmodify' => 'can be modified at Mediawiki:Globalkeywords',
 );
 
+/** German (Deutsch) */
 $messages['de'] = array(
 	'ameta-desc' => 'Ermöglicht das Festlegen der Meta-Elemente „robots“, „keywords“ und „description“ sowie das Anpassen des Seitentitels',
 	'ameta-metasettings' => 'Meta-Einstellungen',
@@ -33,6 +34,40 @@ $messages['fr'] = array(
 	'ameta-keywordsmodify' => 'peuvent être modifiées sur la page Mediawiki:Globalkeywords',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'ameta-desc' => 'Permitte configurar le metadatos de cata pagina (robots, parolas-clave, description) e cambiar le titulo',
+	'ameta-metasettings' => 'Configuration de metadatos',
+	'ameta-titlealias' => 'Titulo alternative:',
+	'ameta-keywordsadd' => 'le sequente parolas-clave es addite a tote le paginas:',
+	'ameta-keywordsmodify' => 'pote esser modificate a Mediawiki:Globalkeywords',
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'ameta-desc' => 'Овозможува мета-поставки за поединечни страници (роботи, клучни зборови, опис) и промена на насловот',
+	'ameta-metasettings' => 'Мета-псотавки',
+	'ameta-titlealias' => 'Алијас на насловот:',
+	'ameta-keywordsadd' => 'следниве клучни зборови се додадени на сите страници:',
+	'ameta-keywordsmodify' => 'може да се измени во Mediawiki:Globalkeywords',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'ameta-desc' => 'Membolehkan tetapan meta selaman (robot, kata kunci, keterangan) dan penukaran tajuk',
+	'ameta-metasettings' => 'Tetapan meta',
+	'ameta-titlealias' => 'Alias tajuk:',
+	'ameta-keywordsadd' => 'kata-kata kunci berikut dibubuh di semua laman:',
+	'ameta-keywordsmodify' => 'boleh diubah suai di Mediawiki:Globalkeywords',
+);
+
+/** Dutch (Nederlands) */
 $messages['nl'] = array(
 	'ameta-desc' => 'Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen',
 	'ameta-metasettings' => 'Meta-instellingen',
@@ -41,6 +76,7 @@ $messages['nl'] = array(
 	'ameta-keywordsmodify' => 'kan worden gewijzigd op Mediawiki:Globalkeywords',
 );
 
+/** Simplified Chinese (‪中文(简体)‬) */
 $messages['zh-hans'] = array(
 	'ameta-desc' => '允许为每个页面设置机器人政策、关键词和描述，以及修改标题',
 	'ameta-metasettings' => 'Meta设置',
@@ -56,3 +92,4 @@ $messages['zh-hant'] = array(
 	'ameta-keywordsadd' => '以下內容自動作為關鍵字添加:',
 	'ameta-keywordsmodify' => '可在 Mediawiki:Globalkeywords 修改全域關鍵字',
 );
+
