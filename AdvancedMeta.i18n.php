@@ -17,6 +17,23 @@ $messages['en'] = array(
 	'ameta-keywordsmodify' => 'can be modified at Mediawiki:Globalkeywords',
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'ameta-desc' => 'Налады мэтазьвестак для асобных старонак (робаты, ключавыя словы, апісаньне) і магчымасьць зьмены загалоўка',
+	'ameta-metasettings' => 'Мэта-налады',
+	'ameta-keywordsadd' => 'наступныя ключавыя словы дадаюцца да ўсіх старонак:',
+	'ameta-keywordsmodify' => 'могуць быць зьмененыя на Mediawiki:Globalkeywords',
+);
+
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'ameta-metasettings' => 'Мета настройки',
+);
+
 /** German (Deutsch) */
 $messages['de'] = array(
 	'ameta-desc' => 'Ermöglicht das Festlegen der Meta-Elemente „robots“, „keywords“ und „description“ sowie das Anpassen des Seitentitels',
@@ -43,6 +60,13 @@ $messages['ia'] = array(
 	'ameta-titlealias' => 'Titulo alternative:',
 	'ameta-keywordsadd' => 'le sequente parolas-clave es addite a tote le paginas:',
 	'ameta-keywordsmodify' => 'pote esser modificate a Mediawiki:Globalkeywords',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'ameta-metasettings' => 'Meta-Astellungen',
 );
 
 /** Macedonian (Македонски)
@@ -74,6 +98,24 @@ $messages['nl'] = array(
 	'ameta-titlealias' => 'Titel-alias:',
 	'ameta-keywordsadd' => 'de volgende trefwoorden worden aan elke pagina toegevoegd:',
 	'ameta-keywordsmodify' => 'kan worden gewijzigd op Mediawiki:Globalkeywords',
+);
+
+/** Portuguese (Português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'ameta-desc' => 'Permite meta configurações por página (robôs, termos-chave, descrição) e alteração do título',
+	'ameta-metasettings' => 'Meta configurações',
+	'ameta-titlealias' => 'Nome alternativo para o título:',
+	'ameta-keywordsadd' => 'os seguintes termos-chave são adicionados a todas as páginas:',
+	'ameta-keywordsmodify' => 'podem ser alterados em Mediawiki:Globalkeywords',
+);
+
+/** Swedish (Svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'ameta-metasettings' => 'Meta-inställningar',
 );
 
 /** Simplified Chinese (‪中文(简体)‬) */
