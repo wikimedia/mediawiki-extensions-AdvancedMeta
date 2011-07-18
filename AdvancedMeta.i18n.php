@@ -17,6 +17,13 @@ $messages['en'] = array(
 	'ameta-keywordsmodify' => 'can be modified at Mediawiki:Globalkeywords',
 );
 
+/** Message documentation (Message documentation)
+ * @author Purodha
+ */
+$messages['qqq'] = array(
+	'ameta-desc' => '{{desc}}',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
@@ -43,6 +50,15 @@ $messages['de'] = array(
 	'ameta-keywordsmodify' => 'Sie können auf der Seite Mediawiki:Globalkeywords angepasst werden.',
 );
 
+/** Spanish (Español)
+ * @author Mor
+ * @author Pvgreenzebra
+ */
+$messages['es'] = array(
+	'ameta-metasettings' => 'Configuración de meta',
+	'ameta-titlealias' => 'Alias de título:',
+);
+
 $messages['fr'] = array(
 	'ameta-desc' => 'Permet le paramétrage des balises meta de chaque page (robots, mots clés, description) et le changement de titre',
 	'ameta-metasettings' => 'Paramètres des balises meta',
@@ -60,6 +76,17 @@ $messages['ia'] = array(
 	'ameta-titlealias' => 'Titulo alternative:',
 	'ameta-keywordsadd' => 'le sequente parolas-clave es addite a tote le paginas:',
 	'ameta-keywordsmodify' => 'pote esser modificate a Mediawiki:Globalkeywords',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'ameta-desc' => 'Määd et müjjejesch, de HTML Metta-Daate „<code lang="en">robots</code>“, „<code lang="en">keywords</code>“ un „<code lang="en">description</code>“ fö jeede Sigg enzejävve, un dä Tittel för di Sigg aanzpaße.',
+	'ameta-metasettings' => 'Metta-Daate',
+	'ameta-titlealias' => 'Dä zohsäzlejje Tittel:',
+	'ameta-keywordsadd' => 'Heh di Schlößelwööter kumme en de „<code lang="en">keywords</code>“ en alle Sigge:',
+	'ameta-keywordsmodify' => 'Se künne op dä Sigg [[Mediawiki:Globalkeywords]] aanjepaß wääde.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
