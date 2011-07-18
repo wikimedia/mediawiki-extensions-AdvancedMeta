@@ -1,4 +1,4 @@
-CREATE TABLE /*_*/dbprefix_ext_meta (
+CREATE TABLE /*_*/ext_meta (
   `pageid` INT(8) NOT NULL,
   `rindex` tinyint(1) NOT NULL,
   `rfollow` tinyint(1) NOT NULL,

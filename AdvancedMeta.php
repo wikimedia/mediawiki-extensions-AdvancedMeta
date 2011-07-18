@@ -1,5 +1,7 @@
 <?php
 
+if ( !defined( 'MEDIAWIKI' ) ) die( 'This is an extension to the MediaWiki software and cannot be used standalone.' );
+
 /**
  * MediaWiki Advanced Meta extension
  * Add meta data to individual pages or entire namespaces
@@ -21,6 +23,21 @@ $wgExtensionCredits['parserhook'][] = array(
 $wgExtensionMessagesFiles['MWAdvancedMeta'] = dirname( __FILE__ ) . '/MWAdvancedMeta.i18n.php';
 MWAdvancedMeta::setup();
 
+$wgHooks['LoadExtensionSchemaUpdates'][] = 'efAdvancedMetaSchemaUpdates';
+
+/**
+ * @param $updater DatabaseUpdater
+ * @return bool
+ */
+function efAdvancedMetaSchemaUpdates( $updater ) {
+	$base = dirname( __FILE__ );
+	switch ( $updater->getDB()->getType() ) {
+	case 'mysql':
+		$updater->addExtensionUpdate( array( 'addTable', 'ext_meta',
+			"$base/AdvancedMeta.sql", true ) ); // Initial install tables
+	}
+}
+
 class MWAdvancedMeta {
 
 	private static $instance = null;
@@ -30,18 +47,11 @@ class MWAdvancedMeta {
 	 * @return MWAdvancedMeta the plugin object, which you can use to set settings.
 	 */
 	public static function setup() {
-
-		// check for wiki
-		if ( !defined( 'MEDIAWIKI' ) ) {
-				throw new Exception( 'This is an extension to the MediaWiki software and cannot be used standalone.' );
-		}
-
 		// create plugin
 		if ( self::$instance === null ) {
 			self::$instance = new self();
 		}
 		return self::$instance;
-
 	}
 
 	private $indexedPages = array( NS_MAIN, NS_PROJECT );
