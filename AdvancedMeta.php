@@ -32,10 +32,16 @@ $wgHooks['LoadExtensionSchemaUpdates'][] = 'efAdvancedMetaSchemaUpdates';
 function efAdvancedMetaSchemaUpdates( $updater ) {
 	$base = dirname( __FILE__ );
 	switch ( $updater->getDB()->getType() ) {
-	case 'mysql':
-		$updater->addExtensionUpdate( array( 'addTable', 'ext_meta',
-			"$base/AdvancedMeta.sql", true ) ); // Initial install tables
+		case 'mysql':
+			$updater->addExtensionUpdate( array( 'addTable', 'ext_meta',
+				"$base/AdvancedMeta.sql", true ) ); // Initially install tables
+			break;
+		default:
+			print"\n".
+				"There are no table structures for the AdvancedMeta\n".
+				"extension for your data base type at the moment.\n\n";
 	}
+	return True;
 }
 
 class MWAdvancedMeta {
