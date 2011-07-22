@@ -127,6 +127,14 @@ $messages['nl'] = array(
 	'ameta-keywordsmodify' => 'kan worden gewijzigd op Mediawiki:Globalkeywords',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Event
+ */
+$messages['no'] = array(
+	'ameta-desc' => 'Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel',
+	'ameta-titlealias' => 'Tittel-alias:',
+);
+
 /** Portuguese (Português)
  * @author Hamilton Abreu
  */
