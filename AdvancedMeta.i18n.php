@@ -132,7 +132,10 @@ $messages['nl'] = array(
  */
 $messages['no'] = array(
 	'ameta-desc' => 'Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel',
+	'ameta-metasettings' => 'Meta-innstillinger',
 	'ameta-titlealias' => 'Tittel-alias:',
+	'ameta-keywordsadd' => 'følgende nøkkelord føyes til alle sider:',
+	'ameta-keywordsmodify' => 'kan endres på Mediawiki:Globalkeywords',
 );
 
 /** Portuguese (Português)
