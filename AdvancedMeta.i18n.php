@@ -25,11 +25,13 @@ $messages['qqq'] = array(
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Jim-by
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'ameta-desc' => 'Налады мэтазьвестак для асобных старонак (робаты, ключавыя словы, апісаньне) і магчымасьць зьмены загалоўка',
 	'ameta-metasettings' => 'Мэта-налады',
+	'ameta-titlealias' => 'Назва псэўданіму:',
 	'ameta-keywordsadd' => 'наступныя ключавыя словы дадаюцца да ўсіх старонак:',
 	'ameta-keywordsmodify' => 'могуць быць зьмененыя на Mediawiki:Globalkeywords',
 );
@@ -154,6 +156,16 @@ $messages['pt'] = array(
  */
 $messages['sv'] = array(
 	'ameta-metasettings' => 'Meta-inställningar',
+);
+
+/** Ukrainian (Українська)
+ * @author Microcell
+ */
+$messages['uk'] = array(
+	'ameta-metasettings' => 'Налаштування Meta',
+	'ameta-titlealias' => 'Назва простору-перенаправлення:',
+	'ameta-keywordsadd' => 'до всіх сторінок додано такі ключові слова:',
+	'ameta-keywordsmodify' => 'можна змінити на Mediawiki:Globalkeywords',
 );
 
 /** Simplified Chinese (‪中文(简体)‬) */
