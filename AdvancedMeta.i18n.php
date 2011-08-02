@@ -13,8 +13,8 @@ $messages['en'] = array(
 	'ameta-desc' => 'Allows per page meta settings (robots, keywords, description) and change title',
 	'ameta-metasettings' => 'Meta settings',
 	'ameta-titlealias' => 'Title alias:',
-	'ameta-keywordsadd' => 'the following keywords are added to all pages:',
-	'ameta-keywordsmodify' => 'can be modified at Mediawiki:Globalkeywords',
+	'ameta-keywordsadd' => 'The following {{PLURAL:$1|keyword is|$1 keywords are}} added to all pages:',
+	'ameta-keywordsmodify' => 'Keywords can be modified at [[Mediawiki:Globalkeywords]].',
 );
 
 /** Message documentation (Message documentation)

@@ -198,7 +198,7 @@ class MWAdvancedMeta {
 				<br /><strong>" . wfMsg( 'ameta-titlealias' ) . "</strong><br />
 				<input type='text' name='wpTitleAlias' id='wpTitleAlias' value='{$meta['titlealias']}' size='64'>
 
-				<br /><strong>Keywords:</strong> <small>" . wfMsg( 'ameta-keywordsadd' ) . "<a href='javascript:;' title='" . wfMsg( 'ameta-keywordsmodify' ) . "'>" . htmlspecialchars( str_replace( "$1", $wgTitle, $addedkeywords ) ) . "</a>
+				<br /><strong>Keywords:</strong> <small>" . wfMessage( 'ameta-keywordsadd', count( $addedkeywords ) )->text() . "<a href='javascript:;' title='" . wfMsg( 'ameta-keywordsmodify' ) . "'>" . htmlspecialchars( str_replace( "$1", $wgTitle, $addedkeywords ) ) . "</a>
 				</small><br />
 				<textarea tabindex='4' name='wpKeywords' id='wpKeywords' rows='1'
 				cols='{$cols}'{$ew}>{$meta['keywords']}</textarea>
