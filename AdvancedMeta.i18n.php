@@ -73,6 +73,14 @@ $messages['fr'] = array(
 	'ameta-keywordsmodify' => 'peuvent être modifiées sur la page Mediawiki:Globalkeywords',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'ameta-metasettings' => 'Paramètres de les mèta-balises',
+	'ameta-titlealias' => 'Nom paralèlo du titro :',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -174,13 +182,15 @@ $messages['uk'] = array(
 	'ameta-keywordsmodify' => 'можна змінити на Mediawiki:Globalkeywords',
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author PhiLiP
+ */
 $messages['zh-hans'] = array(
-	'ameta-desc' => '允许为每个页面设置机器人政策、关键词和描述，以及修改标题',
+	'ameta-desc' => '允许修改页面的meta设置（机器人、关键词和描述）和标题',
 	'ameta-metasettings' => 'Meta设置',
-	'ameta-titlealias' => '修改标题:',
-	'ameta-keywordsadd' => '以下内容自动作为关键词添加:',
-	'ameta-keywordsmodify' => '可在 Mediawiki:Globalkeywords 修改全局关键词',
+	'ameta-titlealias' => '标题：',
+	'ameta-keywordsadd' => '以下{{PLURAL:$1|关键词|$1个关键词}}已添加到所有页面：',
+	'ameta-keywordsmodify' => '可以在[[Mediawiki:Globalkeywords]]中修改关键词',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
