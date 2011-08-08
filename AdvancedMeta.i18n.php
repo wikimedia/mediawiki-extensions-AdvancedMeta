@@ -44,6 +44,14 @@ $messages['bg'] = array(
 	'ameta-metasettings' => 'Мета настройки',
 );
 
+/** Breton (Brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'ameta-metasettings' => 'Arventennoù Meta',
+	'ameta-titlealias' => 'Alias an titl :',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
