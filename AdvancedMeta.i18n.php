@@ -153,13 +153,14 @@ $messages['nl'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Event
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'ameta-desc' => 'Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel',
 	'ameta-metasettings' => 'Meta-innstillinger',
 	'ameta-titlealias' => 'Tittel-alias:',
-	'ameta-keywordsadd' => 'følgende nøkkelord føyes til alle sider:',
-	'ameta-keywordsmodify' => 'kan endres på Mediawiki:Globalkeywords',
+	'ameta-keywordsadd' => 'Følgende {{PLURAL:$1|nøkkelord|$1 nøkkelord}} føyes til alle sider:',
+	'ameta-keywordsmodify' => 'Nøkkelord kan endres på [[Mediawiki:Globalkeywords]].',
 );
 
 /** Portuguese (Português)
