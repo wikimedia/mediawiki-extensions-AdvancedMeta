@@ -188,7 +188,7 @@ $messages['uk'] = array(
 	'ameta-metasettings' => 'Налаштування Meta',
 	'ameta-titlealias' => 'Назва простору-перенаправлення:',
 	'ameta-keywordsadd' => 'до всіх сторінок додано такі ключові слова:',
-	'ameta-keywordsmodify' => 'можна змінити на Mediawiki:Globalkeywords',
+	'ameta-keywordsmodify' => 'Ключові слова можна змінити на Mediawiki:Globalkeywords',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
