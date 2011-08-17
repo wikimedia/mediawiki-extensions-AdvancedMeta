@@ -64,12 +64,16 @@ $messages['de'] = array(
 );
 
 /** Spanish (Español)
+ * @author Fitoschido
  * @author Mor
  * @author Pvgreenzebra
  */
 $messages['es'] = array(
+	'ameta-desc' => 'Permite metaconfigurar páginas individuals (robots, palabras clave, descripción) y cambiar el título',
 	'ameta-metasettings' => 'Configuración de meta',
 	'ameta-titlealias' => 'Alias de título:',
+	'ameta-keywordsadd' => '{{PLURAL:$1|La siguiente palabra clave se añadió|Las siguientes $1 palabras clave se añadieron}} a todas las páginas:',
+	'ameta-keywordsmodify' => 'Las palabras clave pueden modificarse en [[Mediawiki:Globalkeywords]].',
 );
 
 /** French (Français) */
