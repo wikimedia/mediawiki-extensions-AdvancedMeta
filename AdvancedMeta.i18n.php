@@ -104,6 +104,17 @@ $messages['ia'] = array(
 	'ameta-keywordsmodify' => 'Parolas-clave pote esser modificate in [[Mediawiki:Globalkeywords]].',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'ameta-desc' => 'Memungkinkan pengaturan meta (robot, kata kunci, deskripsi) dan perubahan judul per halaman',
+	'ameta-metasettings' => 'Pengaturan meta',
+	'ameta-titlealias' => 'Alias judul:',
+	'ameta-keywordsadd' => '{{PLURAL:$1|Kata kunci|$1 kata kunci}} berikut ditambahkan ke semua halaman:',
+	'ameta-keywordsmodify' => 'Kata kunci dapat diubah di [[Mediawiki:Globalkeywords]].',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
