@@ -131,6 +131,9 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'ameta-metasettings' => 'Meta-Astellungen',
+	'ameta-titlealias' => 'Alias vum Titel:',
+	'ameta-keywordsadd' => '{{PLURAL:$1|Dëst Schlësselwuert gëtt|Dës Schlësselwierder ginn}} op all Säiten derbäigesat:',
+	'ameta-keywordsmodify' => 'Schlësselwierder kënnen op [[Mediawiki:Globalkeywords]] geännert ginn.',
 );
 
 /** Macedonian (Македонски)
