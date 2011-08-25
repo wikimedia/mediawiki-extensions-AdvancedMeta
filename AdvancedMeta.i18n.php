@@ -76,13 +76,15 @@ $messages['es'] = array(
 	'ameta-keywordsmodify' => 'Las palabras clave pueden modificarse en [[Mediawiki:Globalkeywords]].',
 );
 
-/** French (Français) */
+/** French (Français)
+ * @author Gomoko
+ */
 $messages['fr'] = array(
 	'ameta-desc' => 'Permet le paramétrage des balises meta de chaque page (robots, mots clés, description) et le changement de titre',
 	'ameta-metasettings' => 'Paramètres des balises meta',
 	'ameta-titlealias' => 'Alias de titre:',
-	'ameta-keywordsadd' => 'Les mots clés suivant sont ajouté à toutes les pages:',
-	'ameta-keywordsmodify' => 'peuvent être modifiées sur la page Mediawiki:Globalkeywords',
+	'ameta-keywordsadd' => '{{PLURAL:$1|Le mot-clé suivant est ajouté|Les $1 mots-clés suivants sont ajoutés}} à toutes les pages:',
+	'ameta-keywordsmodify' => 'Les mots-clés peuvent être modifiées sur la page [[Mediawiki:Globalkeywords]].',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -179,6 +181,14 @@ $messages['no'] = array(
 	'ameta-titlealias' => 'Tittel-alias:',
 	'ameta-keywordsadd' => 'Følgende {{PLURAL:$1|nøkkelord|$1 nøkkelord}} føyes til alle sider:',
 	'ameta-keywordsmodify' => 'Nøkkelord kan endres på [[Mediawiki:Globalkeywords]].',
+);
+
+/** Polish (Polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'ameta-keywordsadd' => 'Następujące {{PLURAL:$1|słowo kluczowe zostało|$1 słowa kluczowe zostały}} dodane na wszystkie strony:',
+	'ameta-keywordsmodify' => 'Słowa kluczowe mogą być zmieniane na [[Mediawiki:Globalkeywords]].',
 );
 
 /** Portuguese (Português)
