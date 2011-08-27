@@ -132,6 +132,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'ameta-desc' => 'Erméiglecht d\'Festleeë vun de Meta-Elementer "robots, "keywords" an "description" an d\'Ännere vum Titel vun der Säit',
 	'ameta-metasettings' => 'Meta-Astellungen',
 	'ameta-titlealias' => 'Alias vum Titel:',
 	'ameta-keywordsadd' => '{{PLURAL:$1|Dëst Schlësselwuert gëtt|Dës Schlësselwierder ginn}} op all Säiten derbäigesat:',
