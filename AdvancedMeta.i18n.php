@@ -24,6 +24,17 @@ $messages['qqq'] = array(
 	'ameta-desc' => '{{desc}}',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'ameta-desc' => 'Permite una meta-configuración de cada páxina (robots, pallabres clave, descripción) y camudar el títulu',
+	'ameta-metasettings' => 'Meta-configuración',
+	'ameta-titlealias' => 'Títulu alternativu:',
+	'ameta-keywordsadd' => "{{PLURAL:$1|La siguiente pallabra clave s'amestó|Les siguientes pallabres clave s'amestaron}} a toles páxines:",
+	'ameta-keywordsmodify' => 'Les pallabres clave se pueden camudar en [[Mediawiki:Globalkeywords]].',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -93,6 +104,17 @@ $messages['fr'] = array(
 $messages['frp'] = array(
 	'ameta-metasettings' => 'Paramètres de les mèta-balises',
 	'ameta-titlealias' => 'Nom paralèlo du titro :',
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'ameta-desc' => 'Permite as configuracións meta de páxina (robots, palabras clave, descrición) e cambios de título',
+	'ameta-metasettings' => 'Configuración meta',
+	'ameta-titlealias' => 'Título alternativo:',
+	'ameta-keywordsadd' => '{{PLURAL:$1|A seguinte palabra clave engádese|As seguintes palabras clave engádense}} a todas as páxinas:',
+	'ameta-keywordsmodify' => 'As palabras clave pódense modificar en [[Mediawiki:Globalkeywords]].',
 );
 
 /** Interlingua (Interlingua)
