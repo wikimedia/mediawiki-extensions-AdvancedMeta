@@ -35,6 +35,13 @@ $messages['ast'] = array(
 	'ameta-keywordsmodify' => 'Les pallabres clave se pueden camudar en [[Mediawiki:Globalkeywords]].',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Ebrahimi-amir
+ */
+$messages['az'] = array(
+	'ameta-metasettings' => 'Meta tənzimləməsi',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -159,6 +166,17 @@ $messages['lb'] = array(
 	'ameta-titlealias' => 'Alias vum Titel:',
 	'ameta-keywordsadd' => '{{PLURAL:$1|Dëst Schlësselwuert gëtt|Dës Schlësselwierder ginn}} op all Säiten derbäigesat:',
 	'ameta-keywordsmodify' => 'Schlësselwierder kënnen op [[Mediawiki:Globalkeywords]] geännert ginn.',
+);
+
+/** Lithuanian (Lietuvių)
+ * @author Ignas693
+ */
+$messages['lt'] = array(
+	'ameta-desc' => 'Leidžia už puslapio meta parametrų (robotai, raktažodžius, aprašymą) ir keisti pavadinimą',
+	'ameta-metasettings' => 'Mano nustatymai',
+	'ameta-titlealias' => 'Antraštinė dalis pseudonimas:',
+	'ameta-keywordsadd' => 'Taip  {{PLURAL:$1| raktažodžių is| $1  raktažodžiai yra}} į visus puslapius:',
+	'ameta-keywordsmodify' => 'Raktažodžiai galima modifikuoti ne [[Mediawiki:Globalkeywords]].',
 );
 
 /** Macedonian (Македонски)
