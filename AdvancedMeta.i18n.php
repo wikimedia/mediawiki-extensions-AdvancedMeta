@@ -225,11 +225,12 @@ $messages['no'] = array(
 );
 
 /** Polish (Polski)
+ * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
-	'ameta-keywordsadd' => 'Następujące {{PLURAL:$1|słowo kluczowe zostało|$1 słowa kluczowe zostały}} dodane na wszystkie strony:',
-	'ameta-keywordsmodify' => 'Słowa kluczowe mogą być zmieniane na [[Mediawiki:Globalkeywords]].',
+	'ameta-keywordsadd' => 'Następujące {{PLURAL:$1|słowo kluczowe zostało dodane|$1 słowa kluczowe zostały dodane|$1 słów kluczowych zostało dodanych}} do wszystkich stron:',
+	'ameta-keywordsmodify' => 'Słowa kluczowe mogą być zmieniane na stronie [[Mediawiki:Globalkeywords]].',
 );
 
 /** Portuguese (Português)
