@@ -81,6 +81,17 @@ $messages['de'] = array(
 	'ameta-keywordsmodify' => 'Auf der Seite [[Mediawiki:Globalkeywords]] können die Schlüsselwörter („keywords“) angepasst werden.',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'ameta-desc' => 'Permesas en paĝo meta-agordoj (por robotoj, ŝlosilvortoj, priskribo) kaj ŝanĝado de titolo',
+	'ameta-metasettings' => 'Meta-agordoj',
+	'ameta-titlealias' => 'Kromnomo de titolo:',
+	'ameta-keywordsadd' => 'La {{PLURAL:$1|jena ŝlosilo estas aldonita|$1 jenaj ŝlosiloj estas aldonitaj}} al ĉiuj paĝoj:',
+	'ameta-keywordsmodify' => 'Ŝlosilvortoj estas ŝanĝebla ĉe [[Mediawiki:Globalkeywords]].',
+);
+
 /** Spanish (Español)
  * @author Fitoschido
  * @author Mor
