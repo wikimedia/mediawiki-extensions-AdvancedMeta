@@ -120,8 +120,11 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'ameta-desc' => 'Pèrmèt los paramètres de les mèta-balises de châque pâge (robots, mots-cllâfs, dèscripcion) et lo changement de titro.',
 	'ameta-metasettings' => 'Paramètres de les mèta-balises',
 	'ameta-titlealias' => 'Nom paralèlo du titro :',
+	'ameta-keywordsadd' => '{{PLURAL:$1|Ceti mot-cllâf est apondu|Cetos $1 mots-cllâfs sont apondus}} a totes les pâges :',
+	'ameta-keywordsmodify' => 'Los mots-cllâfs pôvont étre changiês sur la pâge [[Mediawiki:Globalkeywords]].',
 );
 
 /** Galician (Galego)
@@ -155,6 +158,17 @@ $messages['id'] = array(
 	'ameta-titlealias' => 'Alias judul:',
 	'ameta-keywordsadd' => '{{PLURAL:$1|Kata kunci|$1 kata kunci}} berikut ditambahkan ke semua halaman:',
 	'ameta-keywordsmodify' => 'Kata kunci dapat diubah di [[Mediawiki:Globalkeywords]].',
+);
+
+/** Japanese (日本語)
+ * @author Schu
+ */
+$messages['ja'] = array(
+	'ameta-desc' => 'ページ毎のメタ設定 ( ロボット、キーワード、説明 ) とタイトルを変更を可能にします。',
+	'ameta-metasettings' => 'メタ設定',
+	'ameta-titlealias' => 'タイトル別名：',
+	'ameta-keywordsadd' => '次の {{PLURAL:$1| キーワードは| $1 キーワードは}} すべてのページに追加されました：',
+	'ameta-keywordsmodify' => '[[Mediawiki:Globalkeywords]] で、キーワードを変更できます。',
 );
 
 /** Colognian (Ripoarisch)
@@ -253,6 +267,14 @@ $messages['pt'] = array(
 	'ameta-titlealias' => 'Nome alternativo para o título:',
 	'ameta-keywordsadd' => '{{PLURAL:$1|O seguinte termo-chave é adicionado|Os seguintes $1 termos-chave são adicionados}} a todas as páginas:',
 	'ameta-keywordsmodify' => 'Os termos-chave podem ser alterados em [[Mediawiki:Globalkeywords]].',
+);
+
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'ameta-metasettings' => 'Meta nastavenie',
+	'ameta-titlealias' => 'Alias názvu:',
 );
 
 /** Swedish (Svenska)
