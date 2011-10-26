@@ -70,6 +70,17 @@ $messages['br'] = array(
 	'ameta-titlealias' => 'Alias an titl :',
 );
 
+/** Welsh (Cymraeg)
+ * @author Pwyll
+ */
+$messages['cy'] = array(
+	'ameta-desc' => 'Yn galluogi gosodiadau meta yn ôl tudalen (robotiaid, geiriau allweddol, disgrifiad) a newid teitl',
+	'ameta-metasettings' => 'Gosodiadau meta',
+	'ameta-titlealias' => 'Teitl amgen:',
+	'ameta-keywordsadd' => 'Ychwanegir y {{PLURAL:$1|gair allweddol|$1 geiriau allweddol}} canlynol i bob tudalen:',
+	'ameta-keywordsmodify' => 'Gellir addasu geiriau allweddol yn [[Mediawiki:Globalkeywords]].',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -136,6 +147,16 @@ $messages['gl'] = array(
 	'ameta-titlealias' => 'Título alternativo:',
 	'ameta-keywordsadd' => '{{PLURAL:$1|A seguinte palabra clave engádese|As seguintes palabras clave engádense}} a todas as páxinas:',
 	'ameta-keywordsmodify' => 'As palabras clave pódense modificar en [[Mediawiki:Globalkeywords]].',
+);
+
+/** Hebrew (עברית)
+ * @author Deror avi
+ */
+$messages['he'] = array(
+	'ameta-metasettings' => 'הגדרות מטא',
+	'ameta-titlealias' => 'כינוי כותרת:',
+	'ameta-keywordsadd' => '{{PLURAL:$1|מילת המפתח|$1 מילות המפתח}} תתווספנה לכל הדפים:',
+	'ameta-keywordsmodify' => 'ניתן לשנות מילות מפתח בדף [[Mediawiki:Globalkeywords]].',
 );
 
 /** Interlingua (Interlingua)
