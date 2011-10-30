@@ -116,6 +116,14 @@ $messages['es'] = array(
 	'ameta-keywordsmodify' => 'Las palabras clave pueden modificarse en [[Mediawiki:Globalkeywords]].',
 );
 
+/** Persian (فارسی)
+ * @author Leyth
+ */
+$messages['fa'] = array(
+	'ameta-metasettings' => 'تنظیمات متا',
+	'ameta-keywordsmodify' => 'واژه‌های کلیدی می‌توانند در [[Mediawiki:Globalkeywords]] تغییر یابند.',
+);
+
 /** French (Français)
  * @author Gomoko
  */
