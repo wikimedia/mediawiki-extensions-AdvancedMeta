@@ -24,6 +24,13 @@ $messages['qqq'] = array(
 	'ameta-desc' => '{{desc}}',
 );
 
+/** Arabic (العربية)
+ * @author روخو
+ */
+$messages['ar'] = array(
+	'ameta-titlealias' => 'عنوان الاسم المستعار:',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -207,8 +214,8 @@ $messages['ksh'] = array(
 	'ameta-desc' => 'Määd et müjjejesch, de HTML Metta-Daate „<code lang="en">robots</code>“, „<code lang="en">keywords</code>“ un „<code lang="en">description</code>“ fö jeede Sigg enzejävve, un dä Tittel för di Sigg aanzpaße.',
 	'ameta-metasettings' => 'Metta-Daate',
 	'ameta-titlealias' => 'Dä zohsäzlejje Tittel:',
-	'ameta-keywordsadd' => 'Heh di Schlößelwööter kumme en de „<code lang="en">keywords</code>“ en alle Sigge:',
-	'ameta-keywordsmodify' => 'Se künne op dä Sigg [[Mediawiki:Globalkeywords]] aanjepaß wääde.',
+	'ameta-keywordsadd' => '{{PLURAL:$1|Heh dat Schlößelwoot kütt|Heh di $1 Schlößelwööter kumme|Kein  di Schlößelwööter kumme}} en de „<code lang="en">keywords</code>“ en alle Sigge:',
+	'ameta-keywordsmodify' => 'Schlößelwööter künne op dä Sigg [[Mediawiki:Globalkeywords]] aanjepaß wääde.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
