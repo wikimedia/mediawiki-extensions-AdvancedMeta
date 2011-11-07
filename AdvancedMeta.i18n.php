@@ -305,6 +305,17 @@ $messages['pt'] = array(
 	'ameta-keywordsmodify' => 'Os termos-chave podem ser alterados em [[Mediawiki:Globalkeywords]].',
 );
 
+/** Russian (Русский)
+ * @author DCamer
+ */
+$messages['ru'] = array(
+	'ameta-desc' => 'Добавляет к страницам мета-параметры (роботы, ключевые слова и описание) и изменение названия',
+	'ameta-metasettings' => 'Мета-параметры',
+	'ameta-titlealias' => 'Псевдоним названия:',
+	'ameta-keywordsadd' => '{{PLURAL:$1|Следующее ключевое слово добавлено|Следующие $1 ключевых слова добавлены|Следующие $1 ключевых слов добавлены}} ко всем страницам:',
+	'ameta-keywordsmodify' => 'Ключевые слова могут быть изменены в [[Mediawiki:Globalkeywords]].',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
