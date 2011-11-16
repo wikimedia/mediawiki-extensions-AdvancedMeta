@@ -174,6 +174,17 @@ $messages['he'] = array(
 	'ameta-keywordsmodify' => 'ניתן לשנות מילות מפתח בדף [[Mediawiki:Globalkeywords]].',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'ameta-desc' => 'Zmóžnja nastajenje meta-elementow (robots, keywords, description) a měnjenje titula strony',
+	'ameta-metasettings' => 'Metanastajenja',
+	'ameta-titlealias' => 'Aliasowy titul:',
+	'ameta-keywordsadd' => '{{PLURAL:Slědowace klučowe słowo přidawa|Slědowacej $1 klučowej słowje přidawatej|Slědowace $1 klučowe słowa přidawaja|Slědowace $1 klučowe słowa přidawaja}} so wšěm stronam:',
+	'ameta-keywordsmodify' => 'Klučowe słowa dadźa so na [[Mediawiki:Globalkeywords]] změnić.',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -205,6 +216,13 @@ $messages['ja'] = array(
 	'ameta-titlealias' => 'タイトル別名：',
 	'ameta-keywordsadd' => '次の {{PLURAL:$1| キーワードは| $1 キーワードは}} すべてのページに追加されました：',
 	'ameta-keywordsmodify' => '[[Mediawiki:Globalkeywords]] で、キーワードを変更できます。',
+);
+
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'ameta-metasettings' => '메타 설정',
 );
 
 /** Colognian (Ripoarisch)
