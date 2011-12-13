@@ -16,7 +16,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'Advanced Meta',
 	'author' => array( '[http://www.stephanmuller.nl Stephan Muller]', 'Bart van Heukelom, Zayoo' ),
 	'descriptionmsg' => 'ameta-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:Advanced_Meta',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Advanced_Meta',
 	'version' => '2.0.1'
 );
 
