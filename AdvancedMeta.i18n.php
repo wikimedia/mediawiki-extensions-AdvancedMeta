@@ -377,7 +377,7 @@ $messages['zh-hant'] = array(
 	'ameta-desc' => '允許為每個頁面設置機器人政策、關鍵字和描述，以及修改標題',
 	'ameta-metasettings' => 'Meta設置',
 	'ameta-titlealias' => '修改標題:',
-	'ameta-keywordsadd' => '以下內容自動作為關鍵字添加:',
-	'ameta-keywordsmodify' => '可在 Mediawiki:Globalkeywords 修改全域關鍵字',
+	'ameta-keywordsadd' => '以下{{PLURAL:$1|關鍵詞|$1個關鍵詞}}已添加到所有頁面：',
+	'ameta-keywordsmodify' => '可以在[[Mediawiki:Globalkeywords]]中修改關鍵詞',
 );
 
