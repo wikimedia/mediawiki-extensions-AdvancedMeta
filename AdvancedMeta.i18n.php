@@ -295,7 +295,7 @@ $messages['nl'] = array(
  * @author Event
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'ameta-desc' => 'Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel',
 	'ameta-metasettings' => 'Meta-innstillinger',
 	'ameta-titlealias' => 'Tittel-alias:',
