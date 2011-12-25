@@ -280,17 +280,6 @@ $messages['ms'] = array(
 	'ameta-keywordsmodify' => 'Kata kunci boleh diubah suai di [[Mediawiki:Globalkeywords]].',
 );
 
-/** Dutch (Nederlands)
- * @author Siebrand
- */
-$messages['nl'] = array(
-	'ameta-desc' => 'Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen',
-	'ameta-metasettings' => 'Meta-instellingen',
-	'ameta-titlealias' => 'Titel-alias:',
-	'ameta-keywordsadd' => '{{PLURAL:$1|Het volgende trefwoord wordt|De volgende $1 trefwoorden worden}} aan elke pagina toegevoegd:',
-	'ameta-keywordsmodify' => 'Trefwoorden kunnen worden gewijzigd op [[Mediawiki:Globalkeywords]].',
-);
-
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Event
  * @author Nghtwlkr
@@ -301,6 +290,17 @@ $messages['nb'] = array(
 	'ameta-titlealias' => 'Tittel-alias:',
 	'ameta-keywordsadd' => 'Følgende {{PLURAL:$1|nøkkelord|$1 nøkkelord}} føyes til alle sider:',
 	'ameta-keywordsmodify' => 'Nøkkelord kan endres på [[Mediawiki:Globalkeywords]].',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'ameta-desc' => 'Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen',
+	'ameta-metasettings' => 'Meta-instellingen',
+	'ameta-titlealias' => 'Titel-alias:',
+	'ameta-keywordsadd' => '{{PLURAL:$1|Het volgende trefwoord wordt|De volgende $1 trefwoorden worden}} aan elke pagina toegevoegd:',
+	'ameta-keywordsmodify' => 'Trefwoorden kunnen worden gewijzigd op [[Mediawiki:Globalkeywords]].',
 );
 
 /** Polish (Polski)
