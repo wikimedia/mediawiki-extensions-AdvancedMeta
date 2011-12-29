@@ -247,6 +247,17 @@ $messages['lb'] = array(
 	'ameta-keywordsmodify' => 'Schlësselwierder kënnen op [[Mediawiki:Globalkeywords]] geännert ginn.',
 );
 
+/** Limburgish (Limburgs)
+ * @author Pahles
+ */
+$messages['li'] = array(
+	'ameta-desc' => "Maak 't mäögelik de meta-insjtèllinge (robots, keywords, description) en de titel per pagina te verangere",
+	'ameta-metasettings' => 'Meta-insjtèllinge',
+	'ameta-titlealias' => 'Titel-alias:',
+	'ameta-keywordsadd' => "{{PLURAL:$1|'t Volgende trefwoord waert|De volgende $1 trefwäörd waere}} aan jeder pagina biegedoon:",
+	'ameta-keywordsmodify' => 'Trefwäörd kinne waere verangerd op [[Mediawiki:Globalkeywords]].',
+);
+
 /** Lithuanian (Lietuvių)
  * @author Ignas693
  */
