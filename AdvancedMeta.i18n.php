@@ -323,6 +323,17 @@ $messages['pl'] = array(
 	'ameta-keywordsmodify' => 'Słowa kluczowe mogą być zmieniane na stronie [[Mediawiki:Globalkeywords]].',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'ameta-desc' => 'A përmëtt ampostassion ëd meta për pagina (robot, paròle ciav, descrission) e ëd cangé tìtol',
+	'ameta-metasettings' => 'Ampostassion ëd Meta',
+	'ameta-titlealias' => 'Alias dël tìtol:',
+	'ameta-keywordsadd' => "{{PLURAL:$1|La paròla ciav d'apress a l'é|$1 paròle ciav d'apress a son}} giontà a tute le pagine:",
+	'ameta-keywordsmodify' => 'Le paròle ciav a peulo esse modificà a [[Mediawiki:Globalkeywords]].',
+);
+
 /** Portuguese (Português)
  * @author Hamilton Abreu
  */
