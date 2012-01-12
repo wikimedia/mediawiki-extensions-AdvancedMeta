@@ -324,13 +324,14 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'ameta-desc' => 'A përmëtt ampostassion ëd meta për pagina (robot, paròle ciav, descrission) e ëd cangé tìtol',
+	'ameta-desc' => "A përmët j'ampostassion ëd meta për pàgina (robò, paròle ciav, descrission) e ëd cangé 'd tìtol",
 	'ameta-metasettings' => 'Ampostassion ëd Meta',
 	'ameta-titlealias' => 'Alias dël tìtol:',
-	'ameta-keywordsadd' => "{{PLURAL:$1|La paròla ciav d'apress a l'é|$1 paròle ciav d'apress a son}} giontà a tute le pagine:",
+	'ameta-keywordsadd' => "{{PLURAL:$1|La paròla ciav sì-dapress a l'é|Le $1 paròle ciav sì-dapress a son}} giontà a tute le pàgine:",
 	'ameta-keywordsmodify' => 'Le paròle ciav a peulo esse modificà a [[Mediawiki:Globalkeywords]].',
 );
 
