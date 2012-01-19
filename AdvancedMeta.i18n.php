@@ -99,6 +99,17 @@ $messages['de'] = array(
 	'ameta-keywordsmodify' => 'Auf der Seite [[Mediawiki:Globalkeywords]] können die Schlüsselwörter („keywords“) angepasst werden.',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'ameta-desc' => 'Zmóžnja nastajenje meta-elementow (robots, keywords, description) a měnjenje titela boka',
+	'ameta-metasettings' => 'Metanastajenja',
+	'ameta-titlealias' => 'Aliasowy titel:',
+	'ameta-keywordsadd' => '{{PLURAL:Slědujuce klucowe słowo pśidawa|Slědujucej $1 klucowej słowje pśidawatej|Slědujuce $1 klucowe słowa pśidawaju|Slědujuce $1 klucowych słowow pśidawa}} se wšym bokam:',
+	'ameta-keywordsmodify' => 'Klucowe słowa daju se na [[Mediawiki:Globalkeywords]] změniś.',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
@@ -181,7 +192,7 @@ $messages['hsb'] = array(
 	'ameta-desc' => 'Zmóžnja nastajenje meta-elementow (robots, keywords, description) a měnjenje titula strony',
 	'ameta-metasettings' => 'Metanastajenja',
 	'ameta-titlealias' => 'Aliasowy titul:',
-	'ameta-keywordsadd' => '{{PLURAL:Slědowace klučowe słowo přidawa|Slědowacej $1 klučowej słowje přidawatej|Slědowace $1 klučowe słowa přidawaja|Slědowace $1 klučowe słowa přidawaja}} so wšěm stronam:',
+	'ameta-keywordsadd' => '{{PLURAL:Slědowace klučowe słowo přidawa|Slědowacej $1 klučowej słowje přidawatej|Slědowace $1 klučowe słowa přidawaja|Slědowace $1 klučowych słowow přidawaja}} so wšěm stronam:',
 	'ameta-keywordsmodify' => 'Klučowe słowa dadźa so na [[Mediawiki:Globalkeywords]] změnić.',
 );
 
