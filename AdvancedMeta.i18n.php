@@ -383,6 +383,13 @@ $messages['sv'] = array(
 	'ameta-metasettings' => 'Meta-inställningar',
 );
 
+/** Turkish (Türkçe)
+ * @author Incelemeelemani
+ */
+$messages['tr'] = array(
+	'ameta-metasettings' => 'Meta ayarları',
+);
+
 /** Ukrainian (Українська)
  * @author Microcell
  * @author Sodmy
