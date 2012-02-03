@@ -39,7 +39,7 @@ $messages['ast'] = array(
 	'ameta-metasettings' => 'Meta-configuración',
 	'ameta-titlealias' => 'Títulu alternativu:',
 	'ameta-keywordsadd' => "{{PLURAL:$1|La siguiente pallabra clave s'amestó|Les siguientes pallabres clave s'amestaron}} a toles páxines:",
-	'ameta-keywordsmodify' => 'Les pallabres clave se pueden camudar en [[Mediawiki:Globalkeywords]].',
+	'ameta-keywordsmodify' => 'Les pallabres clave se puen camudar en [[Mediawiki:Globalkeywords]].',
 );
 
 /** Azerbaijani (Azərbaycanca)
