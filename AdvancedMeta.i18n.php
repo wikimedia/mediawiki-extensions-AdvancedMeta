@@ -176,9 +176,11 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Deror avi
  */
 $messages['he'] = array(
+	'ameta-desc' => 'מתן אפשרות ליצור מטא־הגדרות לדפים (רובוטים, מילות מפתח, תיאור) ולשנות את הכותרת',
 	'ameta-metasettings' => 'הגדרות מטא',
 	'ameta-titlealias' => 'כינוי כותרת:',
 	'ameta-keywordsadd' => '{{PLURAL:$1|מילת המפתח|$1 מילות המפתח}} תתווספנה לכל הדפים:',
