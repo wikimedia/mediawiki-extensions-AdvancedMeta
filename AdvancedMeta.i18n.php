@@ -282,6 +282,16 @@ $messages['lt'] = array(
 	'ameta-keywordsmodify' => 'Raktažodžiai galima modifikuoti ne [[Mediawiki:Globalkeywords]].',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'ameta-metasettings' => 'Inremdàn nepnawi',
+	'ameta-titlealias' => 'Hming dang:',
+	'ameta-keywordsadd' => '{{PLURAL:$1|He thuchang|Heng thuchang $1-te}} hi phêk zawng zawngah telh vek a ni:',
+	'ameta-keywordsmodify' => 'Thuchangte hi [[Mediawiki:Globalkeywords]]-ah a siam danglam theih.',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
