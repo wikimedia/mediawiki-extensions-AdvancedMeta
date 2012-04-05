@@ -397,6 +397,9 @@ $messages['sk'] = array(
  */
 $messages['sv'] = array(
 	'ameta-metasettings' => 'Meta-inställningar',
+	'ameta-titlealias' => 'Titel-alias:',
+	'ameta-keywordsadd' => 'Följande {{PLURAL:$1|nyckelord|$1 nyckelord}} läggs till alla sidor:',
+	'ameta-keywordsmodify' => 'Nyckelord kan ändras på [[Mediawiki:Globalkeywords]].',
 );
 
 /** Turkish (Türkçe)
