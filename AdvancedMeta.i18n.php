@@ -337,6 +337,17 @@ $messages['nl'] = array(
 	'ameta-keywordsmodify' => 'Trefwoorden kunnen worden gewijzigd op [[Mediawiki:Globalkeywords]].',
 );
 
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'ameta-desc' => 'Eameschlischd uffde Said Meda-Oischdellunge („robots“, „keywords“ un „description“) uns Änare vum Titl',
+	'ameta-metasettings' => 'Meda-Oinschdellunge',
+	'ameta-titlealias' => 'Hilfstitl:',
+	'ameta-keywordsadd' => "{{PLURAL:$1|S'Schlisslwoad werd|Die $1 Schlisslweada werren}} uff alle Saide m'Meda-Deel „keywords“ d'zugfieschd:",
+	'ameta-keywordsmodify' => 'Uff [[Mediawiki:Globalkeywords]] kennen die Schlisslweada („keywords“) oagbassd werre.',
+);
+
 /** Polish (Polski)
  * @author BeginaFelicysym
  * @author Sp5uhe
