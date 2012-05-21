@@ -220,6 +220,14 @@ $messages['id'] = array(
 	'ameta-keywordsmodify' => 'Kata kunci dapat diubah di [[Mediawiki:Globalkeywords]].',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'ameta-keywordsadd' => '{{PLURAL:$1|La seguente parola chiave è stata aggiunta|Le seguenti $1 parole chiave sono state aggiunte}} a tutte le pagine:',
+	'ameta-keywordsmodify' => 'Le parole chiave possono essere modificate in [[Mediawiki:Globalkeywords]].',
+);
+
 /** Japanese (日本語)
  * @author Schu
  */
