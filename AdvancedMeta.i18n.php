@@ -241,9 +241,14 @@ $messages['ja'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
+	'ameta-desc' => '페이지 메타 설정 (로봇, 키워드, 설명)과 제목 바꾸기 허용',
 	'ameta-metasettings' => '메타 설정',
+	'ameta-titlealias' => '제목 별명:',
+	'ameta-keywordsadd' => '다음 키워드는 모든 페이지에 추가됩니다:',
+	'ameta-keywordsmodify' => '[[Mediawiki:Globalkeywords]]에서 키워드를 수정할 수 있습니다.',
 );
 
 /** Colognian (Ripoarisch)
