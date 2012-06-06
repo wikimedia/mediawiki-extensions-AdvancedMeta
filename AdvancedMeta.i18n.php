@@ -230,12 +230,13 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'ameta-desc' => 'ページ毎のメタ設定 ( ロボット、キーワード、説明 ) とタイトルを変更を可能にします。',
+	'ameta-desc' => 'ページ毎のメタ設定（ロボット、キーワード、説明）とタイトルを変更できるようにする',
 	'ameta-metasettings' => 'メタ設定',
 	'ameta-titlealias' => 'タイトル別名：',
-	'ameta-keywordsadd' => '次の {{PLURAL:$1| キーワードは| $1 キーワードは}} すべてのページに追加されました：',
+	'ameta-keywordsadd' => '以下の{{PLURAL:$1|キーワードを|&#32;$1 キーワードを}}すべてのページに追加しました：',
 	'ameta-keywordsmodify' => '[[Mediawiki:Globalkeywords]] で、キーワードを変更できます。',
 );
 
