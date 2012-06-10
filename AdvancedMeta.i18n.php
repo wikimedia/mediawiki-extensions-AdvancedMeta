@@ -437,7 +437,8 @@ $messages['tr'] = array(
 	'ameta-metasettings' => 'Meta ayarları',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
+ * @author A1
  * @author Microcell
  * @author Sodmy
  */
@@ -445,8 +446,8 @@ $messages['uk'] = array(
 	'ameta-desc' => 'Додає до сторінок мета-параметри (роботи, ключові слова, опис) та змінює назву',
 	'ameta-metasettings' => 'Налаштування Meta',
 	'ameta-titlealias' => 'Назва простору-перенаправлення:',
-	'ameta-keywordsadd' => 'до всіх сторінок додано такі ключові слова:',
-	'ameta-keywordsmodify' => 'Ключові слова можна змінити на Mediawiki:Globalkeywords',
+	'ameta-keywordsadd' => 'До всіх сторінок {{PLURAL:$1|додано таке ключове слово|додано такі ключові слова (усього - $1)}}:',
+	'ameta-keywordsmodify' => 'Ключові слова можна змінити на [[Mediawiki:Globalkeywords]]',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
