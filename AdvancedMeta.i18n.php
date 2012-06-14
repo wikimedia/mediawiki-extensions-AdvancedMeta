@@ -31,7 +31,7 @@ $messages['ar'] = array(
 	'ameta-titlealias' => 'عنوان الاسم المستعار:',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -42,7 +42,7 @@ $messages['ast'] = array(
 	'ameta-keywordsmodify' => 'Les pallabres clave se puen camudar en [[Mediawiki:Globalkeywords]].',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Ebrahimi-amir
  */
 $messages['az'] = array(
@@ -62,14 +62,14 @@ $messages['be-tarask'] = array(
 	'ameta-keywordsmodify' => 'Ключавыя словы могуць быць зьмененыя на [[Mediawiki:Globalkeywords]].',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
 	'ameta-metasettings' => 'Мета настройки',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -121,7 +121,7 @@ $messages['eo'] = array(
 	'ameta-keywordsmodify' => 'Ŝlosilvortoj estas ŝanĝebla ĉe [[Mediawiki:Globalkeywords]].',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  * @author Mor
  * @author Pvgreenzebra
@@ -142,7 +142,7 @@ $messages['fa'] = array(
 	'ameta-keywordsmodify' => 'واژه‌های کلیدی می‌توانند در [[Mediawiki:Globalkeywords]] تغییر یابند.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -153,7 +153,7 @@ $messages['fr'] = array(
 	'ameta-keywordsmodify' => 'Les mots-clés peuvent être modifiées sur la page [[Mediawiki:Globalkeywords]].',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -198,7 +198,7 @@ $messages['hsb'] = array(
 	'ameta-keywordsmodify' => 'Klučowe słowa dadźa so na [[Mediawiki:Globalkeywords]] změnić.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -288,7 +288,7 @@ $messages['li'] = array(
 	'ameta-keywordsmodify' => 'Trefwäörd kinne waere verangerd op [[Mediawiki:Globalkeywords]].',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Ignas693
  */
 $messages['lt'] = array(
@@ -309,7 +309,7 @@ $messages['lus'] = array(
 	'ameta-keywordsmodify' => 'Thuchangte hi [[Mediawiki:Globalkeywords]]-ah a siam danglam theih.',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -365,7 +365,7 @@ $messages['pfl'] = array(
 	'ameta-keywordsmodify' => 'Uff [[Mediawiki:Globalkeywords]] kennen die Schlisslweada („keywords“) oagbassd werre.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Sp5uhe
  * @author Woytecr
@@ -390,7 +390,7 @@ $messages['pms'] = array(
 	'ameta-keywordsmodify' => 'Le paròle ciav a peulo esse modificà a [[Mediawiki:Globalkeywords]].',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -401,7 +401,7 @@ $messages['pt'] = array(
 	'ameta-keywordsmodify' => 'Os termos-chave podem ser alterados em [[Mediawiki:Globalkeywords]].',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DCamer
  */
 $messages['ru'] = array(
@@ -412,7 +412,7 @@ $messages['ru'] = array(
 	'ameta-keywordsmodify' => 'Ключевые слова могут быть изменены в [[Mediawiki:Globalkeywords]].',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -420,7 +420,7 @@ $messages['sk'] = array(
 	'ameta-titlealias' => 'Alias názvu:',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -450,7 +450,7 @@ $messages['uk'] = array(
 	'ameta-keywordsmodify' => 'Ключові слова можна змінити на [[Mediawiki:Globalkeywords]]',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author PhiLiP
  */
 $messages['zh-hans'] = array(
@@ -461,7 +461,7 @@ $messages['zh-hans'] = array(
 	'ameta-keywordsmodify' => '可以在[[Mediawiki:Globalkeywords]]中修改关键词',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $messages['zh-hant'] = array(
 	'ameta-desc' => '允許為每個頁面設置機器人政策、關鍵字和描述，以及修改標題',
 	'ameta-metasettings' => 'Meta設置',
