@@ -49,7 +49,7 @@ $messages['az'] = array(
 	'ameta-metasettings' => 'Meta tənzimləməsi',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -99,7 +99,7 @@ $messages['de'] = array(
 	'ameta-keywordsmodify' => 'Auf der Seite [[Mediawiki:Globalkeywords]] können die Schlüsselwörter („keywords“) angepasst werden.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -164,7 +164,7 @@ $messages['frp'] = array(
 	'ameta-keywordsmodify' => 'Los mots-cllâfs pôvont étre changiês sur la pâge [[Mediawiki:Globalkeywords]].',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -187,7 +187,7 @@ $messages['he'] = array(
 	'ameta-keywordsmodify' => 'ניתן לשנות מילות מפתח בדף [[Mediawiki:Globalkeywords]].',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
