@@ -331,7 +331,7 @@ $messages['ms'] = array(
 	'ameta-keywordsmodify' => 'Kata kunci boleh diubah suai di [[Mediawiki:Globalkeywords]].',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Event
  * @author Nghtwlkr
  */
