@@ -198,6 +198,17 @@ $messages['hsb'] = array(
 	'ameta-keywordsmodify' => 'Klučowe słowa dadźa so na [[Mediawiki:Globalkeywords]] změnić.',
 );
 
+/** Hungarian (magyar)
+ * @author TK-999
+ */
+$messages['hu'] = array(
+	'ameta-desc' => 'Lehetővé teszi a meta-beállítások (robots, keywords, description) és a cím oldalanként történő változtatását',
+	'ameta-metasettings' => 'Meta-beállítások',
+	'ameta-titlealias' => 'Cím alias:',
+	'ameta-keywordsadd' => 'Az alábbi {{PLURAL:$1|egy|$1}} kulcsszó kerül az összes oldalra:',
+	'ameta-keywordsmodify' => 'A kulcszavakat a [[Mediawiki:Globalkeywords]] lapon lehet módosítani.',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
