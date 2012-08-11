@@ -423,6 +423,13 @@ $messages['ru'] = array(
 	'ameta-keywordsmodify' => 'Ключевые слова могут быть изменены в [[Mediawiki:Globalkeywords]].',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'ameta-metasettings' => 'මෙටා සැකසුම්',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
