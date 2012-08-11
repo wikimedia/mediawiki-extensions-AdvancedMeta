@@ -432,9 +432,11 @@ $messages['sk'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'ameta-desc' => 'Tillåter sidspecifika metainställningar (robotar, nyckelord, beskrivning) och rubrikändring',
 	'ameta-metasettings' => 'Meta-inställningar',
 	'ameta-titlealias' => 'Titel-alias:',
 	'ameta-keywordsadd' => 'Följande {{PLURAL:$1|nyckelord|$1 nyckelord}} läggs till alla sidor:',
