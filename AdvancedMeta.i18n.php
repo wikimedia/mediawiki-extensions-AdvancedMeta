@@ -450,6 +450,13 @@ $messages['sv'] = array(
 	'ameta-keywordsmodify' => 'Nyckelord kan ändras på [[Mediawiki:Globalkeywords]].',
 );
 
+/** Tamil (தமிழ்)
+ * @author மதனாஹரன்
+ */
+$messages['ta'] = array(
+	'ameta-titlealias' => 'தலைப்பு மாற்றுப்பெயர்:',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
