@@ -99,6 +99,14 @@ $messages['de'] = array(
 	'ameta-keywordsmodify' => 'Auf der Seite [[Mediawiki:Globalkeywords]] können die Schlüsselwörter („keywords“) angepasst werden.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'ameta-metasettings' => 'Sazê Meta',
+	'ameta-titlealias' => 'Sernameyo dıyın:',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
