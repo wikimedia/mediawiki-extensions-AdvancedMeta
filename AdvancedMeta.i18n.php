@@ -259,7 +259,7 @@ $messages['ja'] = array(
 	'ameta-metasettings' => 'メタ設定',
 	'ameta-titlealias' => 'タイトル別名：',
 	'ameta-keywordsadd' => '以下の{{PLURAL:$1|キーワードを|&#32;$1 キーワードを}}すべてのページに追加しました：',
-	'ameta-keywordsmodify' => '[[Mediawiki:Globalkeywords]] で、キーワードを変更できます。',
+	'ameta-keywordsmodify' => '[[Mediawiki:Globalkeywords]] でキーワードを変更できます。',
 );
 
 /** Korean (한국어)
