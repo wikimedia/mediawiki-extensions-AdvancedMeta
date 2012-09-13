@@ -409,6 +409,13 @@ $messages['pms'] = array(
 	'ameta-keywordsmodify' => 'Le paròle ciav a peulo esse modificà a [[Mediawiki:Globalkeywords]].',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'ameta-metasettings' => 'مېټا امستنې',
+);
+
 /** Portuguese (português)
  * @author Hamilton Abreu
  */
