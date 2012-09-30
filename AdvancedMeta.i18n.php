@@ -504,6 +504,17 @@ $messages['uk'] = array(
 	'ameta-keywordsmodify' => 'Ключові слова можна змінити на [[Mediawiki:Globalkeywords]]',
 );
 
+/** Waray (Winaray)
+ * @author Harvzsf
+ */
+$messages['war'] = array(
+	'ameta-desc' => 'Natugot ha tagsa pakli mga meta nga seting (mga robot, keyword, description) ngan pagbalyo han título',
+	'ameta-metasettings' => 'Mga Meta nga seting',
+	'ameta-titlealias' => 'Título nga alias:',
+	'ameta-keywordsadd' => 'An mga nasunod nga {{PLURAL:$1|keyword|$1 mga keyword}} gindugang ha ngatanan nga mga pakli:',
+	'ameta-keywordsmodify' => 'Maliliwat an mga keyword ha [[Mediawiki:Globalkeywords]].',
+);
+
 /** Simplified Chinese (‪中文（简体）‬)
  * @author PhiLiP
  */
