@@ -49,7 +49,7 @@ $messages['az'] = array(
 	'ameta-metasettings' => 'Meta tənzimləməsi',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -350,7 +350,7 @@ $messages['ms'] = array(
 	'ameta-keywordsmodify' => 'Kata kunci boleh diubah suai di [[Mediawiki:Globalkeywords]].',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  * @author Nghtwlkr
  */
@@ -515,7 +515,7 @@ $messages['war'] = array(
 	'ameta-keywordsmodify' => 'Maliliwat an mga keyword ha [[Mediawiki:Globalkeywords]].',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author PhiLiP
  */
 $messages['zh-hans'] = array(
@@ -526,7 +526,7 @@ $messages['zh-hans'] = array(
 	'ameta-keywordsmodify' => '可以在[[Mediawiki:Globalkeywords]]中修改关键词',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $messages['zh-hant'] = array(
 	'ameta-desc' => '允許為每個頁面設置機器人政策、關鍵字和描述，以及修改標題',
 	'ameta-metasettings' => 'Meta設置',
