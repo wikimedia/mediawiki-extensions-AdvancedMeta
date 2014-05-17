@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"A1",
+			"Microcell",
+			"Olvin",
+			"Sodmy"
+		]
+	},
+	"ameta-desc": "Додає до сторінок мета-параметри (роботи, ключові слова, опис) та змінює назву",
+	"ameta-metasettings": "Налаштування Meta",
+	"ameta-titlealias": "Назва простору-перенаправлення:",
+	"ameta-keywordsadd": "До всіх сторінок додано {{PLURAL:$1|$1 ключове слово|такі $1 ключові слова|$1 таких ключових слів}}:",
+	"ameta-keywordsmodify": "Ключові слова можна змінити на [[Mediawiki:Globalkeywords]]"
+}

@@ -5,7 +5,7 @@ if ( !defined( 'MEDIAWIKI' ) ) die( 'This is an extension to the MediaWiki softw
 /**
  * MediaWiki Advanced Meta extension
  * Add meta data to individual pages or entire namespaces
- * @version 2.0.1
+ * @version 2.0.2
  * @author Stephan Muller <mail@litso.com> (Main author)
  * @author Bart van Heukelom <b@rtvh.nl> (Objectification)
  * @author Zayoo <zayoo@126.com> (Revise & TitleAlias, refer to Extension:Add HTML Meta and Title & Extension:TitleAlias)
@@ -17,10 +17,11 @@ $wgExtensionCredits['parserhook'][] = array(
 	'author' => array( '[http://www.stephanmuller.nl Stephan Muller]', 'Bart van Heukelom, Zayoo' ),
 	'descriptionmsg' => 'ameta-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Advanced_Meta',
-	'version' => '2.0.1'
+	'version' => '2.0.2'
 );
 
 $wgExtensionMessagesFiles['MWAdvancedMeta'] = dirname( __FILE__ ) . '/MWAdvancedMeta.i18n.php';
+$wgMessagesDirs['MWAdvancedMeta'] = __DIR__ . '/i18n';
 MWAdvancedMeta::setup();
 
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'efAdvancedMetaSchemaUpdates';

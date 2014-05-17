@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"TK-999"
+		]
+	},
+	"ameta-desc": "Lehetővé teszi a meta-beállítások (robots, keywords, description) és a cím oldalanként történő változtatását",
+	"ameta-metasettings": "Meta-beállítások",
+	"ameta-titlealias": "Cím alias:",
+	"ameta-keywordsadd": "Az alábbi {{PLURAL:$1|egy|$1}} kulcsszó kerül az összes oldalra:",
+	"ameta-keywordsmodify": "A kulcszavakat a [[Mediawiki:Globalkeywords]] lapon lehet módosítani."
+}

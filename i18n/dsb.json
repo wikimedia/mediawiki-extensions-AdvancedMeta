@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"ameta-desc": "Zmóžnja nastajenje meta-elementow (robots, keywords, description) a měnjenje titela boka",
+	"ameta-metasettings": "Metanastajenja",
+	"ameta-titlealias": "Aliasowy titel:",
+	"ameta-keywordsadd": "{{PLURAL:Slědujuce klucowe słowo pśidawa|Slědujucej $1 klucowej słowje pśidawatej|Slědujuce $1 klucowe słowa pśidawaju|Slědujuce $1 klucowych słowow pśidawa}} se wšym bokam:",
+	"ameta-keywordsmodify": "Klucowe słowa daju se na [[Mediawiki:Globalkeywords]] změniś."
+}

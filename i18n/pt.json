@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"ameta-desc": "Permite meta configurações por página (robôs, termos-chave, descrição) e alteração do título",
+	"ameta-metasettings": "Meta configurações",
+	"ameta-titlealias": "Nome alternativo para o título:",
+	"ameta-keywordsadd": "{{PLURAL:$1|O seguinte termo-chave é adicionado|Os seguintes $1 termos-chave são adicionados}} a todas as páginas:",
+	"ameta-keywordsmodify": "Os termos-chave podem ser alterados em [[Mediawiki:Globalkeywords]]."
+}

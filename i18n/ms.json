@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"ameta-desc": "Membolehkan tetapan meta selaman (robot, kata kunci, keterangan) dan penukaran tajuk",
+	"ameta-metasettings": "Tetapan meta",
+	"ameta-titlealias": "Alias tajuk:",
+	"ameta-keywordsadd": "{{PLURAL:$1|Kata|$1 kata}} kunci berikut dibubuh di semua laman:",
+	"ameta-keywordsmodify": "Kata kunci boleh diubah suai di [[Mediawiki:Globalkeywords]]."
+}
