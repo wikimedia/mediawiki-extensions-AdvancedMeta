@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ignas693"
+		]
+	},
+	"ameta-desc": "Leidžia už puslapio meta parametrų (robotai, raktažodžius, aprašymą) ir keisti pavadinimą",
+	"ameta-metasettings": "Mano nustatymai",
+	"ameta-titlealias": "Antraštinė dalis pseudonimas:",
+	"ameta-keywordsadd": "Taip  {{PLURAL:$1| raktažodžių is| $1  raktažodžiai yra}} į visus puslapius:",
+	"ameta-keywordsmodify": "Raktažodžiai galima modifikuoti ne [[Mediawiki:Globalkeywords]]."
+}

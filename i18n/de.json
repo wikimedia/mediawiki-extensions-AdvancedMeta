@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"ameta-desc": "Ermöglicht das Festlegen der Meta-Elemente „robots“, „keywords“ und „description“ sowie das Anpassen des Seitentitels",
+	"ameta-metasettings": "Einstellungen zu den Meta-Elementen und dem Seitentitel",
+	"ameta-titlealias": "Title:",
+	"ameta-keywordsadd": "{{PLURAL:$1|Das folgende Schlüsselwort wird|Die folgenden $1 Schlüsselwörter werden}} auf allen Seiten dem Meta-Element „keywords“ hinzugefügt:",
+	"ameta-keywordsmodify": "Auf der Seite [[Mediawiki:Globalkeywords]] können die Schlüsselwörter („keywords“) angepasst werden."
+}

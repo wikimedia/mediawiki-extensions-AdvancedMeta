@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"ameta-desc": "Permet le paramétrage des balises meta de chaque page (robots, mots clés, description) et le changement de titre",
+	"ameta-metasettings": "Paramètres des balises meta",
+	"ameta-titlealias": "Alias de titre:",
+	"ameta-keywordsadd": "{{PLURAL:$1|Le mot-clé suivant est ajouté|Les $1 mots-clés suivants sont ajoutés}} à toutes les pages:",
+	"ameta-keywordsmodify": "Les mots-clés peuvent être modifiées sur la page [[Mediawiki:Globalkeywords]]."
+}
