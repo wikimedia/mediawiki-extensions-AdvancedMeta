@@ -142,7 +142,9 @@ class MWAdvancedMeta {
 	 */
 	public function onParserBeforeTidy( &$parser, &$text ) {
 
-		global $wgTitle, $wgUser, $wgRequest;
+		global $wgUser, $wgRequest;
+
+		$title = $parser->getTitle();
 
 		// only run this hook for edit forms
 		if ( !$wgRequest->getVal( 'action' ) == ( 'edit' || 'submit' ) ) return false;
@@ -162,10 +164,10 @@ class MWAdvancedMeta {
 				);
 		} else {
 				// else just get the meta from the db
-				$meta = $this->getMetaByArticleID( $wgTitle->getArticleID() );
+				$meta = $this->getMetaByArticleID( $title->getArticleID() );
 
 				// no meta or creating a new article? make default values
-				if ( empty( $meta ) || $wgTitle->getArticleID() == '0' ) {
+				if ( empty( $meta ) || $title->getArticleID() == '0' ) {
 						$meta = array(
 								'rindex' => '1',
 								'rfollow' => '1',
@@ -199,7 +201,7 @@ class MWAdvancedMeta {
 				<br /><strong>" . wfMsg( 'ameta-titlealias' ) . "</strong><br />
 				<input type='text' name='wpTitleAlias' id='wpTitleAlias' value='{$meta['titlealias']}' size='64'>
 
-				<br /><strong>Keywords:</strong> <small>" . wfMessage( 'ameta-keywordsadd', count( $addedkeywords ) )->text() . "<a href='javascript:;' title='" . wfMsg( 'ameta-keywordsmodify' ) . "'>" . htmlspecialchars( str_replace( "$1", $wgTitle, $addedkeywords ) ) . "</a>
+				<br /><strong>Keywords:</strong> <small>" . wfMessage( 'ameta-keywordsadd', count( $addedkeywords ) )->text() . "<a href='javascript:;' title='" . wfMsg( 'ameta-keywordsmodify' ) . "'>" . htmlspecialchars( str_replace( "$1", $title, $addedkeywords ) ) . "</a>
 				</small><br />
 				<textarea tabindex='4' name='wpKeywords' id='wpKeywords' rows='1'
 				cols='{$cols}'{$ew}>{$meta['keywords']}</textarea>
@@ -306,11 +308,12 @@ class MWAdvancedMeta {
 	 * @return true
 	 */
 	function onOutputPageBeforeHTML( &$out, &$text ) {
-		global $wgTitle, $wgArticleRobotPolicies, $wgDefaultRobotPolicy;
+		global $wgArticleRobotPolicies, $wgDefaultRobotPolicy;
 
-		$articleid = $wgTitle->getPrefixedText();
-		$addedkeywords = wfMsg( 'globalkeywords' ) == '&lt;globalkeywords&gt;' ? '' : wfMsg( 'globalkeywords' , $wgTitle );
-		$meta = $this->getMetaByArticleID( $wgTitle->getArticleID() );
+		$title = $out->getTitle();
+		$articleid = $title->getPrefixedText();
+		$addedkeywords = wfMsg( 'globalkeywords' ) == '&lt;globalkeywords&gt;' ? '' : wfMsg( 'globalkeywords' , $title );
+		$meta = $this->getMetaByArticleID( $title->getArticleID() );
 
 		/* robots policies */
 
@@ -318,7 +321,7 @@ class MWAdvancedMeta {
 		$policy = $wgDefaultRobotPolicy;
 
 		// fallback policy for pages that are not in the indexed namespaces and have no db info
-		if ( !in_array( $wgTitle->getnamespace(), $this->indexedPages ) ) {
+		if ( !in_array( $title->getnamespace(), $this->indexedPages ) ) {
 		   $policy = 'noindex,follow';
 		}
 
@@ -361,10 +364,7 @@ class MWAdvancedMeta {
 	 * @return true
 	 */
 	function onBeforePageDisplay( &$out, &$text ) {
-
-		global $wgTitle;
-
-		$meta = $this->getMetaByArticleID( $wgTitle->getArticleID() );
+		$meta = $this->getMetaByArticleID( $out->getTitle()->getArticleID() );
 
 		if ( empty( $meta ) ) {
 			return true;
@@ -410,16 +410,7 @@ class MWAdvancedMeta {
 	}
 
 	private function canEditMeta() {
-
-		global $wgUser, $wgTitle;
-
-		//$ns = $wgTitle->getNamespace();
-
-		// redirect pages don't need metadata
-		// TODO: make work in MediaWiki < 1.13
-		//        if ($wgTitle->isRedirect()) {
-		//            return false;
-		//        }
+		global $wgUser;
 
 		// does the user have permission?
 		return ( in_array( $wgUser->getName(), $this->allowedUsers )
