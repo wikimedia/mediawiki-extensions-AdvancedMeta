@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Purodha"
+			"Purodha",
+			"Siebrand"
 		]
 	},
-	"ameta-desc": "{{desc}}"
+	"ameta-desc": "{{desc}}",
+	"ameta-metasettings": "Used as header text (H2).",
+	"ameta-titlealias": "Used as field label.",
+	"ameta-keywordsadd": "Description for metadata keywords that will be added to each wiki page. Parameters:\n* $1 is the number of keywords that will be added to each page.",
+	"ameta-keywordsmodify": "Link description."
 }
