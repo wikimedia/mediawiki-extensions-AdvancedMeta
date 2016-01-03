@@ -146,28 +146,28 @@ class MWAdvancedMeta {
 		$cols = $wgUser->getIntOption( 'cols' );
 		$ew = $wgUser->getOption( 'editwidth' );
 
-		$addedkeywords = wfMsg( 'globalkeywords' ) == '&lt;globalkeywords&gt;' ?
+		$addedkeywords = wfMessage( 'globalkeywords' )->text() == '&lt;globalkeywords&gt;' ?
 			'(none)' :
-			wfMsg( 'globalkeywords' );
+			wfMessage( 'globalkeywords' )->text();
 
 		// define replacements
 		$replaceFrom[] = '<div id="editpage-copywarn">';
 
 		// @codingStandardsIgnoreStart Ignore long lines
 		$replaceWith[] =
-			'<h2>' . wfMsg( 'ameta-metasettings' ) . "</h2>
+			'<h2>' . wfMessage( 'ameta-metasettings' )->escaped() . "</h2>
 				<strong>Robots:</strong>
 						<label><input tabindex='2' id='wpIndex' type='checkbox' name='wpIndex' value='1' {$checkindex} accesskey='/'>
 						Index</label>
 						<label><input tabindex='3' id='wpFollow' type='checkbox' name='wpFollow' value='1' {$checkfollow} >
 						Follow</label>
 
-				<br /><strong>" . wfMsg( 'ameta-titlealias' ) . "</strong><br />
+				<br /><strong>" . wfMessage( 'ameta-titlealias' )->escaped() . "</strong><br />
 				<input type='text' name='wpTitleAlias' id='wpTitleAlias' value='{$meta['titlealias']}' size='64'>
 
 				<br /><strong>Keywords:</strong> <small>" .
 			wfMessage( 'ameta-keywordsadd', count( $addedkeywords ) )->text() .
-			"<a href='javascript:;' title='" . wfMsg( 'ameta-keywordsmodify' ) .
+			"<a href='javascript:;' title='" . wfMessage( 'ameta-keywordsmodify' )->escaped() .
 			"'>" . htmlspecialchars( str_replace( "$1", $title, $addedkeywords ) ) . "</a>
 				</small><br />
 				<textarea tabindex='4' name='wpKeywords' id='wpKeywords' rows='1'
@@ -278,9 +278,9 @@ class MWAdvancedMeta {
 
 		$title = $out->getTitle();
 		$articleid = $title->getPrefixedText();
-		$addedkeywords = wfMsg( 'globalkeywords' ) == '&lt;globalkeywords&gt;' ?
+		$addedkeywords = wfMessage( 'globalkeywords' )->text() == '&lt;globalkeywords&gt;' ?
 			'' :
-			wfMsg( 'globalkeywords', $title );
+			wfMessage( 'globalkeywords', $title )->text();
 		$meta = $this->getMetaByArticleID( $title->getArticleID() );
 
 		/* robots policies */
@@ -340,7 +340,7 @@ class MWAdvancedMeta {
 		}
 
 		if ( !empty( $meta['titlealias'] ) ) {
-			$out->mHTMLtitle = wfMsg( 'pagetitle', $meta['titlealias'] );
+			$out->mHTMLtitle = wfMessage( 'pagetitle', $meta['titlealias'] )->escaped();
 		}
 
 		return true;
