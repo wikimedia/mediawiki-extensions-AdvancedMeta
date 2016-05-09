@@ -15,14 +15,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * [1] Refer to Extension:Add HTML Meta and Title & Extension:TitleAlias)
  */
 
-$wgExtensionCredits['parserhook'][] = array(
+$wgExtensionCredits['parserhook'][] = [
 	'path' => __FILE__,
 	'name' => 'Advanced Meta',
-	'author' => array( '[http://www.stephanmuller.nl Stephan Muller]', 'Bart van Heukelom, Zayoo' ),
+	'author' => [ '[http://www.stephanmuller.nl Stephan Muller]', 'Bart van Heukelom, Zayoo' ],
 	'descriptionmsg' => 'ameta-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Advanced_Meta',
 	'version' => '2.1.0'
-);
+];
 
 $wgMessagesDirs['MWAdvancedMeta'] = __DIR__ . '/i18n';
 
@@ -39,8 +39,8 @@ $wgHooks['LoadExtensionSchemaUpdates'][] = 'efAdvancedMetaSchemaUpdates';
 function efAdvancedMetaSchemaUpdates( $updater ) {
 	switch ( $updater->getDB()->getType() ) {
 		case 'mysql':
-			$updater->addExtensionUpdate( array( 'addTable', 'ext_meta',
-				__DIR__ . '/AdvancedMeta.sql', true ) ); // Initially install tables
+			$updater->addExtensionUpdate( [ 'addTable', 'ext_meta',
+				__DIR__ . '/AdvancedMeta.sql', true ] ); // Initially install tables
 			break;
 		default:
 			print "\n" .

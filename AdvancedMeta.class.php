@@ -16,9 +16,9 @@ class MWAdvancedMeta {
 		return self::$instance;
 	}
 
-	private $indexedPages = array( NS_MAIN, NS_PROJECT );
-	private $allowedUsers = array();
-	private $allowedUsergroups = array( 'sysop', 'bureaucrat' );
+	private $indexedPages = [ NS_MAIN, NS_PROJECT ];
+	private $allowedUsers = [];
+	private $allowedUsergroups = [ 'sysop', 'bureaucrat' ];
 	private $savedMeta = null;
 
 	public function __construct() {
@@ -115,26 +115,26 @@ class MWAdvancedMeta {
 		// handle submit (preview)
 		if ( $wgRequest->wasPosted() ) {
 			// it's probably a preview, so show the newly submitted meta too, otherwise we'll lose 'em
-			$meta = array(
+			$meta = [
 				'rindex' => ( isset( $_POST['wpIndex'] ) ) ? '1' : '0',
 				'rfollow' => ( isset( $_POST['wpFollow'] ) ) ? '1' : '0',
 				'titlealias' => $_POST['wpTitleAlias'],
 				'keywords' => $_POST['wpKeywords'],
 				'description' => $_POST['wpDescription']
-			);
+			];
 		} else {
 			// else just get the meta from the db
 			$meta = $this->getMetaByArticleID( $title->getArticleID() );
 
 			// no meta or creating a new article? make default values
 			if ( empty( $meta ) || $title->getArticleID() == '0' ) {
-				$meta = array(
+				$meta = [
 					'rindex' => '1',
 					'rfollow' => '1',
 					'titlealias' => '',
 					'keywords' => '',
 					'description' => ''
-				);
+				];
 			}
 		}
 
@@ -206,13 +206,13 @@ class MWAdvancedMeta {
 		}
 
 		// get meta from the posted forms
-		$metaData = array(
+		$metaData = [
 			'rindex' => isset( $_POST['wpIndex'] ) ? '1' : '0',
 			'rfollow' => isset( $_POST['wpFollow'] ) ? '1' : '0',
 			'titlealias' => htmlspecialchars( $_POST['wpTitleAlias'] ),
 			'keywords' => htmlspecialchars( $_POST['wpKeywords'] ),
 			'description' => htmlspecialchars( $_POST['wpDescription'] )
-		);
+		];
 
 		if ( $id == 0 ) {
 			// if this is an insert, we need to store the meta until we know the page id
@@ -226,9 +226,9 @@ class MWAdvancedMeta {
 		$dbw = wfGetDB( DB_MASTER );
 		$timestamp = $dbw->timestamp();
 		$dbw->update( 'page',
-			array( 'page_touched' => $timestamp ),
-			array(
-				'page_id' => $id ),
+			[ 'page_touched' => $timestamp ],
+			[
+				'page_id' => $id ],
 			__METHOD__ );
 
 		return true;
@@ -351,8 +351,8 @@ class MWAdvancedMeta {
 		// get metadata from database
 		$dbr = wfGetDB( DB_MASTER );
 		$data = $dbr->select( 'ext_meta',
-			array( 'rindex', 'rfollow', 'titlealias', 'keywords', 'description' ),
-			array( 'pageid' => $id ),
+			[ 'rindex', 'rfollow', 'titlealias', 'keywords', 'description' ],
+			[ 'pageid' => $id ],
 			__METHOD__
 		);
 		$meta = $dbr->fetchRow( $data );
@@ -370,12 +370,12 @@ class MWAdvancedMeta {
 		) {
 			// delete meta with normal robot policies and without titlealias,
 			// keywords & description to save space
-			$dbw->delete( 'ext_meta', array( 'pageid' => $id ), __METHOD__ );
+			$dbw->delete( 'ext_meta', [ 'pageid' => $id ], __METHOD__ );
 		} else {
 			$dbw->replace(
 				'ext_meta',
-				array( 'pageid' => $id ),
-				array_merge( $metaData, array( 'pageid' => $id ) ),
+				[ 'pageid' => $id ],
+				array_merge( $metaData, [ 'pageid' => $id ] ),
 				$fname
 			);
 		}
