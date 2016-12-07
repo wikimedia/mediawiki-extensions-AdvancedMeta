@@ -30,21 +30,21 @@ class MWAdvancedMeta {
 		global $wgHooks;
 
 		// Inserts HTML for meta input fields into the edit page.
-		$wgHooks['ParserBeforeTidy'][] = $this;
+		$wgHooks['ParserBeforeTidy'][] = [ $this, 'onParserBeforeTidy' ];
 
-		// Before the updated text and properties of an article are saved to the database
+		// Before the updated text and properties of a wikiPage are saved to the database
 		// the new meta info is saved too
-		$wgHooks['ArticleSave'][] = $this;
+		$wgHooks['PageContentSave'][] = [ $this, 'onPageContentSave' ];
 
-		// If a new article is created the meta is temporarily saved as article ID '0'
-		// Move it to the newly created article now
-		$wgHooks['ArticleInsertComplete'][] = $this;
+		// If a new wikiPage is created the meta is temporarily saved as article ID '0'
+		// Move it to the newly created wikiPage now
+		$wgHooks['PageContentInsertComplete'][] = [ $this, 'onPageContentInsertComplete' ];
 
 		// Insert meta into article
-		$wgHooks['OutputPageBeforeHTML'][] = $this;
+		$wgHooks['OutputPageBeforeHTML'][] = [ $this, 'onOutputPageBeforeHTML' ];
 
 		// Title Alias
-		$wgHooks['BeforePageDisplay'][] = $this;
+		$wgHooks['BeforePageDisplay'][] = [ $this, 'onBeforePageDisplay' ];
 	}
 
 	/**
@@ -187,18 +187,28 @@ class MWAdvancedMeta {
 	}
 
 	/**
-	 * Hook 2: Called during function doEdit() in /includes/Article.php
+	 * Hook 2: Called during function doEditContent() in /includes/page/WikiPage.php
 	 * Adds the new meta information to the database when an article is saved
 	 *
-	 * @param object $article The entire article and it's properties
-	 * @param object $user The user updating the article
+	 * @param object $wikiPage The entire Wikipage and its properties
+	 * @param object $user The User saving the article
+	 * @param object $content The new article content, as a Content object
+	 * @param string $summary The article summary, as a comment
+	 * @param boolean $isMinor Minor flag
+	 * @param boolean $isWatch Watch flag (not used, always null)
+	 * @param boolean $section section number (not used, always null)
+	 * @param unknown $flags Flags passed to Wikipage::doEditContent()
+	 * @param object $status
+	 *
 	 * @return true
 	 *
-	 * @global indexedpages , array of namespaces that should be indexed
+	 * @global indexedpages, array of namespaces that should be indexed
 	 *
 	 */
-	public function onArticleSave( &$article, &$user ) {
-		$id = $article->mTitle->getArticleID();
+	public function onPageContentSave( &$wikiPage, &$user, &$content, &$summary, $isMinor,
+		$isWatch, $section, &$flags, &$status ) {
+
+		$id = $wikiPage->getTitle()->getArticleID();
 
 		// can this user edit meta for this page?
 		if ( !$this->canEditMeta() ) {
@@ -238,27 +248,28 @@ class MWAdvancedMeta {
 	 * Hook 3: Called during function doEdit() in /includes/Article.php
 	 * Move the new meta information from a temporary id='0' to the new article's id
 	 *
-	 * @param object $article : the article (object) saved
-	 * @param object $user : the user (object) who saved the article
-	 * @param string $text : the new article content
-	 * @param string $summary : the article summary (comment)
-	 * @param bool $minoredit : minor edit flag
-	 * @param bool $watchthis : not used as of 1.8 (automatically set to "null")
-	 * @param bool $sectionanchor : not used as of 1.8 (automatically set to "null")
-	 * @param unknown $flags : bitfield, see source code for details; passed to Article::doedit()
-	 * @param object $revision : The newly inserted revision object (as of 1.11.0)
+	 * @param object $wikiPage The entire Wikipage created and its properties
+	 * @param object $user The User creating the article
+	 * @param object $content The new article content, as a Content object
+	 * @param string $summary The edit summary, as a comment
+	 * @param boolean $isMinor Minor flag
+	 * @param boolean $isWatch Watch flag (not used, always null)
+	 * @param boolean $section section number (not used, always null)
+	 * @param unknown $flags Flags passed to Wikipage::doEditContent()
+	 * @param object $revision The newly inserted revision object
+	 *
 	 * @return true
 	 *
-	 * @global indexedpages , array of namespaces that should be indexed
+	 * @global indexedpages, array of namespaces that should be indexed
 	 *
 	 */
-	function onArticleInsertComplete( &$article, &$user, $text, $summary, $minoredit,
-		$watchthis, $sectionanchor, &$flags, $revision ) {
+	function onPageContentInsertComplete( &$wikiPage, &$user, $content, $summary, $isMinor,
+		$isWatch, $section, $flags, $revision ) {
 
 		// if we have saved metadata, insert it
 		if ( $this->savedMeta !== null ) {
 			// write new metadata to the database
-			$this->writeMeta( $article->getID(), $this->savedMeta );
+			$this->writeMeta( $wikiPage->getID(), $this->savedMeta );
 			$this->savedMeta = null;
 		}
 
