@@ -22,7 +22,6 @@ class MWAdvancedMeta {
 	private $savedMeta = null;
 
 	public function __construct() {
-
 		/*********
 		 * Hooks *
 		 *********/
@@ -97,7 +96,6 @@ class MWAdvancedMeta {
 	 *
 	 */
 	public function onParserBeforeTidy( &$parser, &$text ) {
-
 		global $wgUser, $wgRequest;
 
 		$title = $parser->getTitle();
@@ -207,7 +205,6 @@ class MWAdvancedMeta {
 	 */
 	public function onPageContentSave( &$wikiPage, &$user, &$content, &$summary, $isMinor,
 		$isWatch, $section, &$flags, &$status ) {
-
 		$id = $wikiPage->getTitle()->getArticleID();
 
 		// can this user edit meta for this page?
@@ -265,7 +262,6 @@ class MWAdvancedMeta {
 	 */
 	function onPageContentInsertComplete( &$wikiPage, &$user, $content, $summary, $isMinor,
 		$isWatch, $section, $flags, $revision ) {
-
 		// if we have saved metadata, insert it
 		if ( $this->savedMeta !== null ) {
 			// write new metadata to the database
@@ -358,7 +354,6 @@ class MWAdvancedMeta {
 	}
 
 	private function getMetaByArticleID( $id ) {
-
 		// get metadata from database
 		$dbr = wfGetDB( DB_MASTER );
 		$data = $dbr->select( 'ext_meta',
