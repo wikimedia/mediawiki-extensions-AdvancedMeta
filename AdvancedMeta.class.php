@@ -192,9 +192,9 @@ class MWAdvancedMeta {
 	 * @param object $user The User saving the article
 	 * @param object $content The new article content, as a Content object
 	 * @param string $summary The article summary, as a comment
-	 * @param boolean $isMinor Minor flag
-	 * @param boolean $isWatch Watch flag (not used, always null)
-	 * @param boolean $section section number (not used, always null)
+	 * @param bool $isMinor Minor flag
+	 * @param bool $isWatch Watch flag (not used, always null)
+	 * @param bool $section section number (not used, always null)
 	 * @param unknown $flags Flags passed to Wikipage::doEditContent()
 	 * @param object $status
 	 *
@@ -249,9 +249,9 @@ class MWAdvancedMeta {
 	 * @param object $user The User creating the article
 	 * @param object $content The new article content, as a Content object
 	 * @param string $summary The edit summary, as a comment
-	 * @param boolean $isMinor Minor flag
-	 * @param boolean $isWatch Watch flag (not used, always null)
-	 * @param boolean $section section number (not used, always null)
+	 * @param bool $isMinor Minor flag
+	 * @param bool $isWatch Watch flag (not used, always null)
+	 * @param bool $section section number (not used, always null)
 	 * @param unknown $flags Flags passed to Wikipage::doEditContent()
 	 * @param object $revision The newly inserted revision object
 	 *
