@@ -1,4 +1,16 @@
 {
+	"name": "mediawiki/advanced-meta",
+	"type": "mediawiki-extension",
+	"description": "Allows setting the robots, keywords and description meta tags for MediaWiki, for SEO purposes.",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"AdvancedMeta\\" : "src"
+		}
+	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "1.0.0",
 		"mediawiki/mediawiki-codesniffer": "18.0.0",

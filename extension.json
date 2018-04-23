@@ -1,0 +1,95 @@
+{
+	"name": "AdvancedMeta",
+	"version": "3.0.0",
+	"author": [
+		"[http://www.stephanmuller.nl Stephan Muller]",
+		"Bart van Heukelom",
+		"Zayoo",
+		"Patric Wirth <wirth@hallowelt.com>"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Advanced_Meta",
+	"descriptionmsg": "ameta-desc",
+	"type": "other",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
+	"callback": "\\AdvancedMeta\\Extension::onRegistration",
+	"MessagesDirs": {
+		"AdvancedMeta": [
+			"i18n"
+		]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"APIModules": {
+		"advancedmeta-tasks": "\\AdvancedMeta\\Api\\Tasks"
+	},
+	"GroupPermissions": {
+		"*": {
+			"advancedmeta-edit": false
+		},
+		"user": {
+			"advancedmeta-edit": false
+		},
+		"bureaucrat": {
+			"advancedmeta-edit": true
+		},
+		"sysop": {
+			"advancedmeta-edit": true
+		}
+	},
+	"AvailableRights": [
+		"advancedmeta-edit"
+	],
+	"config": {
+		"_prefix": "adwm",
+		"GlobalKeywordsMsgKey": "globalkeywords"
+	},
+	"ConfigRegistry": {
+		"adwm": "\\AdvancedMeta\\Config::newInstance"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "\\AdvancedMeta\\Hook\\LoadExtensionSchemaUpdates\\AddAdvancedMetaDBSchema::callback",
+		"BeforePageDisplay": [
+			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddResources::callback",
+			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddPolicies::callback",
+			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddJSConfigVar::callback",
+			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddKeywords::callback",
+			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddDescription::callback",
+			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\SetHTMLTitle::callback"
+		],
+		"SkinTemplateNavigation": "\\AdvancedMeta\\Hook\\SkinTemplateNavigation\\AddAdvancedMeta::callback"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "AdvancedMeta/resources"
+	},
+	"ResourceModules": {
+		"ext.advancedmeta": {
+			"scripts": [
+				"ext.advancedmeta.js"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"oojs",
+				"oojs-ui"
+			],
+			"messages": [
+				"ameta-metasettings",
+				"ameta-titlealias",
+				"advancedmeta-dialog-btn-label-save",
+				"advancedmeta-dialog-btn-label-cancel",
+				"advancedmeta-dialog-btn-label-delete",
+				"advancedmeta-dialog-input-label-description",
+				"advancedmeta-dialog-input-label-follow",
+				"advancedmeta-dialog-input-label-index",
+				"advancedmeta-dialog-input-label-keywords",
+				"advancedmeta-dialog-input-help-keywords"
+			]
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}
