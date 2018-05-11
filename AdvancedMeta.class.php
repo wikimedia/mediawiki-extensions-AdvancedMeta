@@ -51,7 +51,7 @@ class MWAdvancedMeta {
 	 * Use this method to specify namespaces with interesting content,
 	 * pages in which should be indexed.
 	 * Default is NS_MAIN and NS_PROJECT.
-	 * @param $indexedPages Array of namespace names.
+	 * @param array $indexedPages Array of namespace names.
 	 */
 	public function setIndexedPages( array $indexedPages ) {
 		$this->indexedPages = $indexedPages;
@@ -59,7 +59,7 @@ class MWAdvancedMeta {
 
 	/**
 	 * Specify keywords that should be added to every page.
-	 * @param $keywords The keywords in an array.
+	 * @param array $keywords The keywords in an array.
 	 */
 	public function setGlobalKeywords( $keywords ) {
 		$this->globalKeywords = $keywords;
@@ -68,6 +68,7 @@ class MWAdvancedMeta {
 	/**
 	 * SEO can be a delicate issue. Define here who is allowed to edit the meta tags
 	 * allow users individually, by username. Warning: Case sensitive!
+	 * @param array $users
 	 */
 	public function setAllowedUsers( $users ) {
 		$this->allowedUsers = $users;
@@ -76,6 +77,7 @@ class MWAdvancedMeta {
 	/**
 	 * allow users by mediawiki's own usergroups
 	 * or the special groups 'loggedin' and 'all' ('all' allowing even anonymous edits)
+	 * @param array $usergroups
 	 */
 	public function setAllowedUsergroups( $usergroups ) {
 		$this->allowedUsergroups = $usergroups;
@@ -86,8 +88,8 @@ class MWAdvancedMeta {
 	 * Loops through the different sections of the page being parsed
 	 * and adds html for the meta input forms into the article edit pages
 	 *
-	 * @param object $parser The parser object
-	 * @param string $text
+	 * @param object &$parser The parser object
+	 * @param string &$text
 	 *
 	 * @global indexedpages defined in the global config section above
 	 * @global alloweusers defined in the global config section above
@@ -188,15 +190,15 @@ class MWAdvancedMeta {
 	 * Hook 2: Called during function doEditContent() in /includes/page/WikiPage.php
 	 * Adds the new meta information to the database when an article is saved
 	 *
-	 * @param object $wikiPage The entire Wikipage and its properties
-	 * @param object $user The User saving the article
-	 * @param object $content The new article content, as a Content object
-	 * @param string $summary The article summary, as a comment
+	 * @param object &$wikiPage The entire Wikipage and its properties
+	 * @param object &$user The User saving the article
+	 * @param object &$content The new article content, as a Content object
+	 * @param string &$summary The article summary, as a comment
 	 * @param bool $isMinor Minor flag
 	 * @param bool $isWatch Watch flag (not used, always null)
 	 * @param bool $section section number (not used, always null)
-	 * @param unknown $flags Flags passed to Wikipage::doEditContent()
-	 * @param object $status
+	 * @param unknown &$flags Flags passed to Wikipage::doEditContent()
+	 * @param object &$status
 	 *
 	 * @return true
 	 *
@@ -245,8 +247,8 @@ class MWAdvancedMeta {
 	 * Hook 3: Called during function doEdit() in /includes/Article.php
 	 * Move the new meta information from a temporary id='0' to the new article's id
 	 *
-	 * @param object $wikiPage The entire Wikipage created and its properties
-	 * @param object $user The User creating the article
+	 * @param object &$wikiPage The entire Wikipage created and its properties
+	 * @param object &$user The User creating the article
 	 * @param object $content The new article content, as a Content object
 	 * @param string $summary The edit summary, as a comment
 	 * @param bool $isMinor Minor flag
@@ -260,7 +262,7 @@ class MWAdvancedMeta {
 	 * @global indexedpages, array of namespaces that should be indexed
 	 *
 	 */
-	function onPageContentInsertComplete( &$wikiPage, &$user, $content, $summary, $isMinor,
+	public function onPageContentInsertComplete( &$wikiPage, &$user, $content, $summary, $isMinor,
 		$isWatch, $section, $flags, $revision ) {
 		// if we have saved metadata, insert it
 		if ( $this->savedMeta !== null ) {
@@ -276,11 +278,11 @@ class MWAdvancedMeta {
 	 * Hook 4: Called during function view() in /includes/OutputPage.php
 	 * Adds the proper meta tags to the article when a page is viewed
 	 *
-	 * @param object $out The outputted page
-	 * @param string $text The file description
+	 * @param object &$out The outputted page
+	 * @param string &$text The file description
 	 * @return true
 	 */
-	function onOutputPageBeforeHTML( &$out, &$text ) {
+	public function onOutputPageBeforeHTML( &$out, &$text ) {
 		global $wgArticleRobotPolicies, $wgDefaultRobotPolicy;
 
 		$title = $out->getTitle();
@@ -335,11 +337,11 @@ class MWAdvancedMeta {
 	 * Hook 5: Called during function output() in /includes/OutputPage.php
 	 * Allows last minute changes to the output page, e.g. adding of CSS or Javascript by extensions
 	 *
-	 * @param object $out The OutputPage object
-	 * @param string $sk Skin object that will be used to generate the page
+	 * @param object &$out The OutputPage object
+	 * @param string &$text
 	 * @return true
 	 */
-	function onBeforePageDisplay( &$out, &$text ) {
+	public function onBeforePageDisplay( &$out, &$text ) {
 		$meta = $this->getMetaByArticleID( $out->getTitle()->getArticleID() );
 
 		if ( empty( $meta ) ) {

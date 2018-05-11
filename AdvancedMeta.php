@@ -33,7 +33,7 @@ MWAdvancedMeta::setup();
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'efAdvancedMetaSchemaUpdates';
 
 /**
- * @param $updater DatabaseUpdater
+ * @param DatabaseUpdater $updater
  * @return bool
  */
 function efAdvancedMetaSchemaUpdates( $updater ) {
