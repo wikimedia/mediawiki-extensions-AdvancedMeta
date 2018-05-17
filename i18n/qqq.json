@@ -8,6 +8,18 @@
 	"ameta-desc": "{{desc}}",
 	"ameta-metasettings": "Used as header text (H2).",
 	"ameta-titlealias": "Used as field label.",
-	"ameta-keywordsadd": "Description for metadata keywords that will be added to each wiki page. Parameters:\n* $1 is the number of keywords that will be added to each page.",
-	"ameta-keywordsmodify": "Link description."
+	"advancedmeta-navigation-contentaction-label": "Label for content action \"ca-advancedmeta\" to open the OOJS dialog for AdvancedMeta.\n{{Identical|Search engine optimizations}}",
+	"advancedmeta-dialog-btn-label-save": "Label for save button in the OOJS dialog for AdvancedMeta.\n{{Identical|Save}}",
+	"advancedmeta-dialog-btn-label-cancel": "Label for cancel button in the OOJS dialog for AdvancedMeta.\n{{Identical|Cancel}}",
+	"advancedmeta-dialog-btn-label-delete": "Label for delete button in the OOJS dialog for AdvancedMeta.\n{{Identical|Delete}}",
+	"advancedmeta-dialog-input-label-description": "Label for text input field \"description\" in the OOJS dialog for AdvancedMeta.\n{{Identical|Description}}",
+	"advancedmeta-dialog-input-label-follow": "Label for checkbox input field \"follow\" in the OOJS dialog for AdvancedMeta.\n{{Identical|Follow}}",
+	"advancedmeta-dialog-input-label-index": "Label for checkbox input field \"index\" in the OOJS dialog for AdvancedMeta.\n{{Identical|Index}}",
+	"advancedmeta-dialog-input-label-keywords": "Label for text input field \"keywords\" in the OOJS dialog for AdvancedMeta.\n{{Identical|Keywords}}",
+	"advancedmeta-dialog-input-help-keywords": "Help text for text input field \"keywords\" in the OOJS dialog for AdvancedMeta, that explains, that keywords can be added in this input in the style of a comma separated list.\nPlease add an example like \"For example: keyword1, keyword2, keyword3\"",
+	"apihelp-advancedmeta-tasks-description": "{{doc-apihelp-description|advancedmeta-tasks}}",
+	"apihelp-advancedmeta-tasks-summary": "{{doc-apihelp-summary|advancedmeta-tasks}}",
+	"apihelp-advancedmeta-tasks-param-task": "{{doc-apihelp-param|advancedmeta-tasks|task}}",
+	"apihelp-advancedmeta-tasks-param-taskdata": "{{doc-apihelp-param|advancedmeta-tasks|taskdata}}",
+	"apihelp-advancedmeta-tasks-param-format": "{{doc-apihelp-param|advancedmeta-tasks|format}}"
 }
