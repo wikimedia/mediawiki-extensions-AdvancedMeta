@@ -7,7 +7,7 @@
 		"Zayoo",
 		"Patric Wirth <wirth@hallowelt.com>"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:Advanced_Meta",
+	"url": "https://www.mediawiki.org/wiki/Extension:AdvancedMeta",
 	"descriptionmsg": "ameta-desc",
 	"type": "other",
 	"requires": {
