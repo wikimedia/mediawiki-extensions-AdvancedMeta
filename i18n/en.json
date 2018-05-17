@@ -5,6 +5,18 @@
 	"ameta-desc": "Allows per page meta settings (robots, keywords, description) and change title",
 	"ameta-metasettings": "Meta settings",
 	"ameta-titlealias": "Title alias:",
-	"ameta-keywordsadd": "The following {{PLURAL:$1|keyword is|$1 keywords are}} added to all pages:",
-	"ameta-keywordsmodify": "Keywords can be modified at [[Mediawiki:Globalkeywords]]."
+	"advancedmeta-navigation-contentaction-label": "Search engine optimization",
+	"advancedmeta-dialog-btn-label-save": "Save",
+	"advancedmeta-dialog-btn-label-cancel": "Cancel",
+	"advancedmeta-dialog-btn-label-delete": "Delete",
+	"advancedmeta-dialog-input-label-description": "Description",
+	"advancedmeta-dialog-input-label-follow": "Follow",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Keywords",
+	"advancedmeta-dialog-input-help-keywords": "Comma separated list of keywords. For example: keyword1, keyword2, keyword3",
+	"apihelp-advancedmeta-tasks-description": "Provides common operations for AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Provides operations such as delete and edit for AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "The task that should be executed",
+	"apihelp-advancedmeta-tasks-param-taskdata": "JSON string encoded object with arbitrary data for the task",
+	"apihelp-advancedmeta-tasks-param-format": "The format of the output (only JSON or formatted JSON)"
 }
