@@ -1,6 +1,7 @@
 <?php
 
 namespace AdvancedMeta\Hook\BeforePageDisplay;
+
 use AdvancedMeta\Hook\BeforePageDisplay;
 use AdvancedMeta\MetaHandler;
 
@@ -11,7 +12,7 @@ class AddDescription extends BeforePageDisplay {
 			$this->out->getTitle()
 		);
 		$data = $metaHandler->getData();
-		if( $data[MetaHandler::DESCRIPTION] == '' ) {
+		if ( $data[MetaHandler::DESCRIPTION] == '' ) {
 			return true;
 		}
 		return false;

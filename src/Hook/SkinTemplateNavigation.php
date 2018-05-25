@@ -1,6 +1,7 @@
 <?php
 
 namespace AdvancedMeta\Hook;
+
 use AdvancedMeta\Hook;
 
 abstract class SkinTemplateNavigation extends Hook {
@@ -21,7 +22,7 @@ abstract class SkinTemplateNavigation extends Hook {
 	 *
 	 * @param \SkinTemplate &$sktemplate
 	 * @param array &$links
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function callback( &$sktemplate, &$links ) {
 		$className = static::class;

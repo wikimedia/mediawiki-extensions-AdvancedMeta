@@ -18,7 +18,6 @@ abstract class Hook {
 	 */
 	private $config = null;
 
-
 	/**
 	 * Normally both parameters are NULL on instantiation. This is because we
 	 * perform a lazy loading out of performance reasons. But for the sake of
@@ -36,7 +35,7 @@ abstract class Hook {
 	 * @return \IContextSource
 	 */
 	protected function getContext() {
-		if( $this->context instanceof \IContextSource === false ) {
+		if ( $this->context instanceof \IContextSource === false ) {
 			$this->context = \RequestContext::getMain();
 		}
 		return $this->context;
@@ -53,7 +52,7 @@ abstract class Hook {
 	 * @return \Config
 	 */
 	protected function getConfig() {
-		if( $this->config instanceof \Config === false ) {
+		if ( $this->config instanceof \Config === false ) {
 			$this->config = $this->getServices()->getConfigFactory()
 				->makeConfig( static::$configName );
 		}
@@ -70,7 +69,7 @@ abstract class Hook {
 	}
 
 	public function process() {
-		if( $this->skipProcessing() ) {
+		if ( $this->skipProcessing() ) {
 			return true;
 		}
 
@@ -78,11 +77,11 @@ abstract class Hook {
 		return $result;
 	}
 
-	protected abstract function doProcess();
+	abstract protected function doProcess();
 
 	/**
 	 * Allow subclasses to define a skip condition
-	 * @return boolean
+	 * @return bool
 	 */
 	protected function skipProcessing() {
 		return false;

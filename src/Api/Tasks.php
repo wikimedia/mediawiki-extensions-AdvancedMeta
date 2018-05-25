@@ -26,34 +26,34 @@ class Tasks extends \ApiBase {
 	protected function task_save( $taskData, $params ) {
 		$result = $this->makeStandardReturn();
 
-		if( empty( $taskData->articleId ) ) {
+		if ( empty( $taskData->articleId ) ) {
 			$taskData->articleId = 0;
 		}
-		if( empty( $taskData->{MetaHandler::ALIAS} ) ) {
+		if ( empty( $taskData->{MetaHandler::ALIAS} ) ) {
 			$taskData->{MetaHandler::ALIAS} = '';
 		}
-		if( empty( $taskData->{MetaHandler::DESCRIPTION} ) ) {
+		if ( empty( $taskData->{MetaHandler::DESCRIPTION} ) ) {
 			$taskData->{MetaHandler::DESCRIPTION} = '';
 		}
-		if( !isset( $taskData->{MetaHandler::FOLLOW} ) ) {
+		if ( !isset( $taskData->{MetaHandler::FOLLOW} ) ) {
 			$taskData->{MetaHandler::FOLLOW} = false;
 		}
-		if( !isset( $taskData->{MetaHandler::INDEX} ) ) {
+		if ( !isset( $taskData->{MetaHandler::INDEX} ) ) {
 			$taskData->{MetaHandler::INDEX} = false;
 		}
-		if( empty( $taskData->{MetaHandler::KEYWORDS} ) ) {
+		if ( empty( $taskData->{MetaHandler::KEYWORDS} ) ) {
 			$taskData->{MetaHandler::KEYWORDS} = [];
 		}
 
 		$metaHandler = $this->getFactory()->newFromTitle(
 			\Title::newFromID( $taskData->articleId )
 		);
-		if( !$metaHandler ) {
+		if ( !$metaHandler ) {
 			return $result;
 		}
-		$status = $metaHandler->save( (array) $taskData, $this->getUser() );
+		$status = $metaHandler->save( (array)$taskData, $this->getUser() );
 
-		if( !$result->success = $status->isOK() ) {
+		if ( !$result->success = $status->isOK() ) {
 			$result->message = $status->getHTML();
 		}
 
@@ -64,19 +64,19 @@ class Tasks extends \ApiBase {
 	protected function task_delete( $taskData, $params ) {
 		$result = $this->makeStandardReturn();
 
-		if( empty( $taskData->articleId ) ) {
+		if ( empty( $taskData->articleId ) ) {
 			$taskData->articleId = 0;
 		}
 
 		$metaHandler = $this->getFactory()->newFromTitle(
 			\Title::newFromID( $taskData->articleId )
 		);
-		if( !$metaHandler ) {
+		if ( !$metaHandler ) {
 			return $result;
 		}
 
 		$status = $metaHandler->delete( $this->getUser() );
-		if( !$result->success = $status->isOK() ) {
+		if ( !$result->success = $status->isOK() ) {
 			$result->message = $status->getHTML();
 		}
 
@@ -87,7 +87,7 @@ class Tasks extends \ApiBase {
 	 * @return \AdvancedMeta\Factory
 	 */
 	protected function getFactory() {
-		if( $this->getServices() ) {
+		if ( $this->getServices() ) {
 			return $this->getServices()->getService( 'AdvancedMetaFactory' );
 		}
 	}
@@ -97,7 +97,7 @@ class Tasks extends \ApiBase {
 	 * @return \MediaWiki\MediaWikiServices | false
 	 */
 	protected function getServices() {
-		if( !class_exists( "\\MediaWiki\\MediaWikiServices" ) ) {
+		if ( !class_exists( "\\MediaWiki\\MediaWikiServices" ) ) {
 			return false;
 		}
 		return \MediaWiki\MediaWikiServices::getInstance();
@@ -111,11 +111,11 @@ class Tasks extends \ApiBase {
 		$method = "task_$task";
 		$result = $this->makeStandardReturn();
 
-		if( !is_callable( [ $this, $method ] ) ) {
+		if ( !is_callable( [ $this, $method ] ) ) {
 			$result->errors['task'] = "Task '$task' not implemented!";
 		} else {
 			$res = $this->checkTaskPermission( $task );
-			if( !$res ) {
+			if ( !$res ) {
 				if ( is_callable( [ $this, 'dieWithError' ] ) ) {
 					$this->dieWithError(
 						'apierror-permissiondenied-generic',
@@ -125,12 +125,12 @@ class Tasks extends \ApiBase {
 					$this->dieUsageMsg( 'badaccess-groups' );
 				}
 			}
-			if( wfReadOnly() ) {
+			if ( wfReadOnly() ) {
 				global $wgReadOnly;
 				$result->message = $wgReadOnly;
 			} else {
 				$taskData = $this->getParameter( 'taskdata' );
-				if( empty( $result->errors ) && empty( $result->message ) ) {
+				if ( empty( $result->errors ) && empty( $result->message ) ) {
 					try {
 						$result = $this->$method( $taskData, $params );
 					} catch ( Exception $e ) {
@@ -139,9 +139,9 @@ class Tasks extends \ApiBase {
 						$mCode = method_exists( $e, 'getCodeString' )
 							? $e->getCodeString()
 							: $e->getCode();
-						if( $e instanceof DBError ) {
-							//TODO: error code for subtypes like DBQueryError or
-							//DBReadOnlyError?
+						if ( $e instanceof DBError ) {
+							// TODO: error code for subtypes like DBQueryError or
+							// DBReadOnlyError?
 							$mCode = 'dberror';
 						}
 						$result->errors[$mCode] = $e->getMessage();
@@ -151,14 +151,14 @@ class Tasks extends \ApiBase {
 			}
 		}
 
-		foreach( $result as $sFieldName => $mFieldValue ) {
-			if( $mFieldValue === null ) {
-				continue; //MW Api doesn't like NULL values
+		foreach ( $result as $sFieldName => $mFieldValue ) {
+			if ( $mFieldValue === null ) {
+				continue; // MW Api doesn't like NULL values
 			}
 
-			//Remove empty 'errors' array from respons as mw.Api in MW 1.30+
-			//will interpret this field as indicator for a failed request
-			if( $sFieldName === 'errors' && empty( $mFieldValue ) ) {
+			// Remove empty 'errors' array from respons as mw.Api in MW 1.30+
+			// will interpret this field as indicator for a failed request
+			if ( $sFieldName === 'errors' && empty( $mFieldValue ) ) {
 				continue;
 			}
 			$this->getResult()->addValue( null, $sFieldName, $mFieldValue );
@@ -171,10 +171,10 @@ class Tasks extends \ApiBase {
 			$paramSettings,
 			$parseLimit
 		);
-		//Unfortunately there is no way to register custom types for parameters
-		if( $paramName == 'taskdata' ) {
-			$value = \FormatJson::decode($value);
-			if( empty($value) ) {
+		// Unfortunately there is no way to register custom types for parameters
+		if ( $paramName == 'taskdata' ) {
+			$value = \FormatJson::decode( $value );
+			if ( empty( $value ) ) {
 				return new \stdClass();
 			}
 		}
@@ -182,7 +182,7 @@ class Tasks extends \ApiBase {
 	}
 
 	protected function makeStandardReturn() {
-		return (object) [
+		return (object)[
 			'errors' => [],
 			'success' => false,
 			'message' => '',
@@ -194,23 +194,23 @@ class Tasks extends \ApiBase {
 	/**
 	 *
 	 * @param string $task
-	 * @return boolean null if requested task not in list
+	 * @return bool null if requested task not in list
 	 * true if allowed
 	 * false if not found in permission table of current user
 	 */
 	public function checkTaskPermission( $task ) {
 		$taskPermissions = $this->getRequiredTaskPermissions();
 
-		if( empty($taskPermissions[$task]) ) {
+		if ( empty( $taskPermissions[$task] ) ) {
 			return;
 		}
-		//lookup permission for given task
-		foreach( $taskPermissions[$task] as $sPermission ) {
-			//check if user have needed permission
-			if( $this->getUser()->isAllowed( $sPermission ) ) {
+		// lookup permission for given task
+		foreach ( $taskPermissions[$task] as $sPermission ) {
+			// check if user have needed permission
+			if ( $this->getUser()->isAllowed( $sPermission ) ) {
 				continue;
 			}
-			//TODO: Reflect permission in error message
+			// TODO: Reflect permission in error message
 			return false;
 		}
 

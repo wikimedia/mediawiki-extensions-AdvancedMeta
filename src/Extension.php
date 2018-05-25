@@ -4,7 +4,7 @@ namespace AdvancedMeta;
 
 class Extension {
 	public static function onRegistration() {
-		if( $GLOBALS['wgVersion'] >= '1.29' ) {
+		if ( $GLOBALS['wgVersion'] >= '1.29' ) {
 			return;
 		}
 		$GLOBALS['wgServiceWiringFiles'][] = $GLOBALS['wgExtensionDirectory']

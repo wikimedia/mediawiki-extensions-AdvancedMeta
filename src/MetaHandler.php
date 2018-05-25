@@ -2,7 +2,6 @@
 
 namespace AdvancedMeta;
 
-
 class MetaHandler implements \JsonSerializable {
 	const DESCRIPTION = 'description';
 	const FOLLOW = 'follow';
@@ -55,7 +54,7 @@ class MetaHandler implements \JsonSerializable {
 
 	/**
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public function exists() {
 		return $this->exists;
@@ -64,7 +63,7 @@ class MetaHandler implements \JsonSerializable {
 	protected function load() {
 		$this->loadDefaults();
 
-		if( $this->getTitle()->getArticleID() < 1 ) {
+		if ( $this->getTitle()->getArticleID() < 1 ) {
 			return true;
 		}
 
@@ -80,7 +79,7 @@ class MetaHandler implements \JsonSerializable {
 			[ 'pageid' => $this->getTitle()->getArticleID() ],
 			__METHOD__
 		);
-		if( !$res ) {
+		if ( !$res ) {
 			return true;
 		}
 		$this->exists = true;
@@ -103,44 +102,44 @@ class MetaHandler implements \JsonSerializable {
 		$this->params[ static::DESCRIPTION ] = '';
 		$policies = explode( ',', $this->config->get( 'DefaultRobotPolicy' ) );
 
-		if( in_array( 'index', $policies ) ) {
+		if ( in_array( 'index', $policies ) ) {
 			$this->params[ static::INDEX ] = true;
 		}
-		if( in_array( 'follow', $policies ) ) {
+		if ( in_array( 'follow', $policies ) ) {
 			$this->params[ static::FOLLOW ] = true;
 		}
 		$nsPolicies = $this->config->get( 'NamespaceRobotPolicies' );
-		if( !empty( $nsPolicies[$this->title->getNamespace()] ) ) {
+		if ( !empty( $nsPolicies[$this->title->getNamespace()] ) ) {
 			$policies = explode(
 				',',
 				$nsPolicies[$this->title->getNamespace()]
 			);
-			if( in_array( 'follow', $policies ) ) {
+			if ( in_array( 'follow', $policies ) ) {
 				$this->params[ static::FOLLOW ] = true;
-			} elseif( in_array( 'nofollow', $policies ) ) {
+			} elseif ( in_array( 'nofollow', $policies ) ) {
 				$this->params[ static::FOLLOW ] = false;
 			}
-			if( in_array( 'index', $policies ) ) {
+			if ( in_array( 'index', $policies ) ) {
 				$this->params[ static::INDEX ] = true;
-			} elseif( in_array( 'noindex', $policies ) ) {
+			} elseif ( in_array( 'noindex', $policies ) ) {
 				$this->params[ static::INDEX ] = false;
 			}
 		}
 
 		$articlePolicies = $this->config->get( 'ArticleRobotPolicies' );
-		if( !empty( $articlePolicies[$this->title->getFullText()] ) ) {
+		if ( !empty( $articlePolicies[$this->title->getFullText()] ) ) {
 			$policies = explode(
 				',',
 				$articlePolicies[$this->title->getFullText()]
 			);
-			if( in_array( 'follow', $policies ) ) {
+			if ( in_array( 'follow', $policies ) ) {
 				$this->params[ static::FOLLOW ] = true;
-			} elseif( in_array( 'nofollow', $policies ) ) {
+			} elseif ( in_array( 'nofollow', $policies ) ) {
 				$this->params[ static::FOLLOW ] = false;
 			}
-			if( in_array( 'index', $policies ) ) {
+			if ( in_array( 'index', $policies ) ) {
 				$this->params[ static::INDEX ] = true;
-			} elseif( in_array( 'noindex', $policies ) ) {
+			} elseif ( in_array( 'noindex', $policies ) ) {
 				$this->params[ static::INDEX ] = false;
 			}
 		}
@@ -157,32 +156,32 @@ class MetaHandler implements \JsonSerializable {
 	/**
 	 *
 	 * @param array $params
-	 * @param \User $user
+	 * @param \User|null $user
 	 * @return \Status
 	 */
 	public function save( array $params = [], \User $user = null ) {
-		//TODO: logging
+		// TODO: logging
 
 		$data = [];
-		foreach( $this->getData() as $name => $value ) {
+		foreach ( $this->getData() as $name => $value ) {
 			try {
 				$value = $this->prepareSave( $name, $value, $params );
-			} catch( \Exception $e ) {
+			} catch ( \Exception $e ) {
 				return \Status::newFatal( $e->getMessage() );
 			}
-			if( $name == static::ALIAS ) {
+			if ( $name == static::ALIAS ) {
 				$name = 'titlealias';
 			}
-			if( $name == static::FOLLOW ) {
+			if ( $name == static::FOLLOW ) {
 				$name = 'rfollow';
 			}
-			if( $name == static::INDEX ) {
+			if ( $name == static::INDEX ) {
 				$name = 'rindex';
 			}
 			$data[$name] = $value;
 		}
 
-		if( !$this->exists() ) {
+		if ( !$this->exists() ) {
 			$res = $this->db->insert(
 				'ext_meta',
 				$data + [ 'pageid' => $this->getTitle()->getArticleID() ],
@@ -201,37 +200,37 @@ class MetaHandler implements \JsonSerializable {
 	}
 
 	protected function prepareSave( $name, $value, $params ) {
-		if( isset( $params[$name] ) ) {
+		if ( isset( $params[$name] ) ) {
 			$value = $params[$name];
 		}
-		if( $name == static::ALIAS || $name == static::DESCRIPTION ) {
+		if ( $name == static::ALIAS || $name == static::DESCRIPTION ) {
 			$value = trim( strip_tags( (string)$value ) );
-			if( $name !== static::ALIAS || $value == '' ) {
+			if ( $name !== static::ALIAS || $value == '' ) {
 				return $value;
 			}
-			if( !$title = \Title::newFromText( $value ) ) {
+			if ( !$title = \Title::newFromText( $value ) ) {
 				throw new \MWException(
 					"invalid value or param $name: ".__METHOD__
 				);
 			}
 			return $value;
 		}
-		if( $name === static::INDEX || $name === static::FOLLOW ) {
+		if ( $name === static::INDEX || $name === static::FOLLOW ) {
 			return isset( $value ) && $value === true;
 		}
-		if( $name === static::KEYWORDS ) {
-			if( !is_array( $value ) ) {
+		if ( $name === static::KEYWORDS ) {
+			if ( !is_array( $value ) ) {
 				throw new \MWException(
 					"invalid value or param $name: ".__METHOD__
 				);
 			}
 			$keywords = [];
-			foreach( $value as $keyword ) {
+			foreach ( $value as $keyword ) {
 				$keyword = trim( strip_tags( (string)$keyword ) );
-				if( empty( $keyword ) ) {
+				if ( empty( $keyword ) ) {
 					continue;
 				}
-				if( !$title = \Title::newFromText( $keyword ) ) {
+				if ( !$title = \Title::newFromText( $keyword ) ) {
 					continue;
 				}
 				$keywords[] = $title->getText();
@@ -245,12 +244,12 @@ class MetaHandler implements \JsonSerializable {
 	}
 	/**
 	 *
-	 * @param \User $user
+	 * @param \User|null $user
 	 * @return \Status
 	 */
 	public function delete( \User $user = null ) {
-		//TODO: logging
-		if( !$this->exists() ) {
+		// TODO: logging
+		if ( !$this->exists() ) {
 			return \Status::newGood( $this );
 		}
 		$res = $this->db->delete(
@@ -282,7 +281,7 @@ class MetaHandler implements \JsonSerializable {
 
 	public function invalidate() {
 		$this->getTitle()->invalidateCache();
-		//\DeferredUpdates::doUpdates();
+		// \DeferredUpdates::doUpdates();
 		$this->load();
 	}
 

@@ -43,16 +43,16 @@ class GlobalMetaKeys {
 	}
 
 	protected function parseMessage( $msgText ) {
-		if( $msgText == '' ) {
+		if ( $msgText == '' ) {
 			return [];
 		}
 		$keywords = [];
-		foreach( explode( ',', $msgText ) as $keyword ) {
+		foreach ( explode( ',', $msgText ) as $keyword ) {
 			$keyword = trim( strip_tags( (string)$keyword ) );
-			if( empty( $keyword ) ) {
+			if ( empty( $keyword ) ) {
 				continue;
 			}
-			if( !$title = \Title::newFromText( $keyword ) ) {
+			if ( !$title = \Title::newFromText( $keyword ) ) {
 				continue;
 			}
 			$keywords[] = $title->getText();

@@ -1,6 +1,7 @@
 <?php
 
 namespace AdvancedMeta\Hook\BeforePageDisplay;
+
 use AdvancedMeta\Hook\BeforePageDisplay;
 use AdvancedMeta\MetaHandler;
 

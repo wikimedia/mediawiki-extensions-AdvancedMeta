@@ -1,6 +1,7 @@
 <?php
 
 namespace AdvancedMeta\Hook\BeforePageDisplay;
+
 use AdvancedMeta\Hook\BeforePageDisplay;
 use AdvancedMeta\MetaHandler;
 
@@ -9,7 +10,7 @@ class AddKeywords extends BeforePageDisplay {
 	protected $keywords = null;
 
 	protected function skipProcessing() {
-		if( count( $this->getKeywords() ) < 1 ) {
+		if ( count( $this->getKeywords() ) < 1 ) {
 			return true;
 		}
 		return false;
@@ -21,7 +22,7 @@ class AddKeywords extends BeforePageDisplay {
 	}
 
 	protected function getKeywords() {
-		if( $this->keywords ) {
+		if ( $this->keywords ) {
 			return $this->keywords;
 		}
 

@@ -1,6 +1,7 @@
 <?php
 
 namespace AdvancedMeta\Hook;
+
 use AdvancedMeta\Hook;
 
 abstract class BeforePageDisplay extends Hook {
@@ -21,9 +22,9 @@ abstract class BeforePageDisplay extends Hook {
 	 *
 	 * @param \OutputPage $out
 	 * @param \Skin $skin
-	 * @return boolean
+	 * @return bool
 	 */
-	public static function callback( $out, $skin  ) {
+	public static function callback( $out, $skin ) {
 		$className = static::class;
 		$hookHandler = new $className(
 			null,

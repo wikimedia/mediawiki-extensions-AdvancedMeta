@@ -1,17 +1,18 @@
 <?php
 
 namespace AdvancedMeta\Hook\SkinTemplateNavigation;
+
 use AdvancedMeta\Hook\SkinTemplateNavigation;
 
 class AddAdvancedMeta extends SkinTemplateNavigation {
 	protected function skipProcessing() {
-		if( !$this->sktemplate->getTitle() ) {
+		if ( !$this->sktemplate->getTitle() ) {
 			return true;
 		}
-		if( $this->sktemplate->getTitle()->getArticleID() < 1 ) {
+		if ( $this->sktemplate->getTitle()->getArticleID() < 1 ) {
 			return true;
 		}
-		if( !$this->sktemplate->getTitle()->userCan( 'advancedmeta-edit' ) ) {
+		if ( !$this->sktemplate->getTitle()->userCan( 'advancedmeta-edit' ) ) {
 			return true;
 		}
 		return false;

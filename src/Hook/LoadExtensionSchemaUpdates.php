@@ -1,6 +1,7 @@
 <?php
 
 namespace AdvancedMeta\Hook;
+
 use AdvancedMeta\Hook;
 
 abstract class LoadExtensionSchemaUpdates extends Hook {
@@ -14,7 +15,7 @@ abstract class LoadExtensionSchemaUpdates extends Hook {
 	/**
 	 *
 	 * @param \DatabaseUpdater $updater
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function callback( $updater ) {
 		$className = static::class;
