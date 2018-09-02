@@ -8,6 +8,6 @@ class Extension {
 			return;
 		}
 		$GLOBALS['wgServiceWiringFiles'][] = $GLOBALS['wgExtensionDirectory']
-			."/AdvancedMeta/includes/ServiceWiring.php";
+			. "/AdvancedMeta/includes/ServiceWiring.php";
 	}
 }

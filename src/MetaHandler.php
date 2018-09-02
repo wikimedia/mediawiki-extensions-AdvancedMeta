@@ -210,7 +210,7 @@ class MetaHandler implements \JsonSerializable {
 			}
 			if ( !$title = \Title::newFromText( $value ) ) {
 				throw new \MWException(
-					"invalid value or param $name: ".__METHOD__
+					"invalid value or param $name: " . __METHOD__
 				);
 			}
 			return $value;
@@ -221,7 +221,7 @@ class MetaHandler implements \JsonSerializable {
 		if ( $name === static::KEYWORDS ) {
 			if ( !is_array( $value ) ) {
 				throw new \MWException(
-					"invalid value or param $name: ".__METHOD__
+					"invalid value or param $name: " . __METHOD__
 				);
 			}
 			$keywords = [];
@@ -239,7 +239,7 @@ class MetaHandler implements \JsonSerializable {
 		}
 
 		throw new \MWException(
-			"unknown param $name: ".__METHOD__
+			"unknown param $name: " . __METHOD__
 		);
 	}
 	/**
