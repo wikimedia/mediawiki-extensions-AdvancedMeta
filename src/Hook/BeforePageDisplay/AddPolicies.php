@@ -7,18 +7,27 @@ use AdvancedMeta\MetaHandler;
 class AddPolicies extends BeforePageDisplay {
 
 	protected function doProcess() {
-		$metaHandler = $this->getFactory()->newFromTitle(
-			$this->out->getTitle()
-		);
-		$data = $metaHandler->getData();
+		$metaData = $this->getFactory()->newFromTitle( $this->out->getTitle() )->getData();
 
-		$this->out->setIndexPolicy(
-			$data[ MetaHandler::INDEX ] ? 'index' : 'noindex'
-		);
-		$this->out->setFollowPolicy(
-			$data[ MetaHandler::FOLLOW ] ? 'follow' : 'nofollow'
-		);
+		$request = $this->out->getContext()->getRequest();
 
+		$current = true;
+		$namespace = $this->out->getTitle()->getNamespace();
+		if ( $namespace >= 0 && $request->getIntOrNull( 'oldid' ) !== null ) {
+			$current = false;
+		}
+		$noOldVersions = $this->getConfig()->get( 'NoIndexOnOldVersions' );
+		if ( $noOldVersions && !$current ) {
+			$this->out->setIndexPolicy( 'noindex' );
+			$this->out->setFollowPolicy( 'nofollow' );
+		} else {
+			$this->out->setIndexPolicy(
+				$metaData[MetaHandler::INDEX] ? 'index' : 'noindex'
+			);
+			$this->out->setFollowPolicy(
+				$metaData[MetaHandler::FOLLOW] ? 'follow' : 'nofollow'
+			);
+		}
 		return true;
 	}
 }
