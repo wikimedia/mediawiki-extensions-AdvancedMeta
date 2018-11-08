@@ -44,7 +44,8 @@
 	],
 	"config": {
 		"_prefix": "adwm",
-		"GlobalKeywordsMsgKey": "globalkeywords"
+		"GlobalKeywordsMsgKey": "globalkeywords",
+		"NoIndexOnOldVersions": false
 	},
 	"ConfigRegistry": {
 		"adwm": "\\AdvancedMeta\\Config::newInstance"
