@@ -19,5 +19,6 @@
 	"apihelp-advancedmeta-tasks-param-task": "The task that should be executed",
 	"apihelp-advancedmeta-tasks-param-taskdata": "JSON string encoded object with arbitrary data for the task",
 	"apihelp-advancedmeta-tasks-param-format": "The format of the output (only JSON or formatted JSON)",
+	"action-advancedmeta-edit": "edit page or namespace meta elements",
 	"right-advancedmeta-edit": "Edit page or namespace meta elements"
 }

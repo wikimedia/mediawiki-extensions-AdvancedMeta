@@ -22,5 +22,6 @@
 	"apihelp-advancedmeta-tasks-param-task": "{{doc-apihelp-param|advancedmeta-tasks|task}}",
 	"apihelp-advancedmeta-tasks-param-taskdata": "{{doc-apihelp-param|advancedmeta-tasks|taskdata}}",
 	"apihelp-advancedmeta-tasks-param-format": "{{doc-apihelp-param|advancedmeta-tasks|format}}",
+	"action-advancedmeta-edit": "{{doc-action|advancedmeta-edit}}",
 	"right-advancedmeta-edit": "{{doc-right|advancedmeta-edit}}"
 }
