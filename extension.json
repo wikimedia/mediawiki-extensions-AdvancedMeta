@@ -8,7 +8,7 @@
 		"Patric Wirth <wirth@hallowelt.com>"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:AdvancedMeta",
-	"descriptionmsg": "ameta-desc",
+	"descriptionmsg": "advancedmeta-desc",
 	"type": "other",
 	"license-name": "GPL-2.0-or-later",
 	"requires": {
@@ -78,8 +78,8 @@
 				"oojs-ui"
 			],
 			"messages": [
-				"ameta-metasettings",
-				"ameta-titlealias",
+				"advancedmeta-metasettings",
+				"advancedmeta-titlealias",
 				"advancedmeta-dialog-btn-label-save",
 				"advancedmeta-dialog-btn-label-cancel",
 				"advancedmeta-dialog-btn-label-delete",
