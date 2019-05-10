@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "Zmóžnja nastajenje meta-elementow (robots, keywords, description) a měnjenje titula strony",
 	"ameta-metasettings": "Metanastajenja",
-	"ameta-titlealias": "Aliasowy titul:",
-	"ameta-keywordsadd": "{{PLURAL:Slědowace klučowe słowo přidawa|Slědowacej $1 klučowej słowje přidawatej|Slědowace $1 klučowe słowa přidawaja|Slědowace $1 klučowych słowow přidawaja}} so wšěm stronam:",
-	"ameta-keywordsmodify": "Klučowe słowa dadźa so na [[Mediawiki:Globalkeywords]] změnić."
+	"ameta-titlealias": "Aliasowy titul:"
 }

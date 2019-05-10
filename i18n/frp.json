@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "Pèrmèt los paramètres de les mèta-balises de châque pâge (robots, mots-cllâfs, dèscripcion) et lo changement de titro.",
 	"ameta-metasettings": "Paramètres de les mèta-balises",
-	"ameta-titlealias": "Nom paralèlo du titro :",
-	"ameta-keywordsadd": "{{PLURAL:$1|Ceti mot-cllâf est apondu|Cetos $1 mots-cllâfs sont apondus}} a totes les pâges :",
-	"ameta-keywordsmodify": "Los mots-cllâfs pôvont étre changiês sur la pâge [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Nom paralèlo du titro :"
 }

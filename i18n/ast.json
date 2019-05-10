@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "Permite una meta-configuración de cada páxina (robots, pallabres clave, descripción) y camudar el títulu",
 	"ameta-metasettings": "Meta-configuración",
-	"ameta-titlealias": "Títulu alternativu:",
-	"ameta-keywordsadd": "{{PLURAL:$1|La siguiente pallabra clave s'amestó|Les siguientes pallabres clave s'amestaron}} a toles páxines:",
-	"ameta-keywordsmodify": "Les pallabres clave se puen camudar en [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Títulu alternativu:"
 }

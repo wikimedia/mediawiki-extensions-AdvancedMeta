@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "允许修改页面的meta设置（机器人、关键词和描述）和标题",
 	"ameta-metasettings": "Meta设置",
-	"ameta-titlealias": "标题：",
-	"ameta-keywordsadd": "以下{{PLURAL:$1|关键词|$1个关键词}}已添加到所有页面：",
-	"ameta-keywordsmodify": "可以在[[Mediawiki:Globalkeywords]]中修改关键词"
+	"ameta-titlealias": "标题："
 }

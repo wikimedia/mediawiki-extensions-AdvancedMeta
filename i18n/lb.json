@@ -7,6 +7,11 @@
 	"ameta-desc": "Erméiglecht d'Festleeë vun de Meta-Elementer \"robots, \"keywords\" an \"description\" an d'Ännere vum Titel vun der Säit",
 	"ameta-metasettings": "Meta-Astellungen",
 	"ameta-titlealias": "Alias vum Titel:",
-	"ameta-keywordsadd": "{{PLURAL:$1|Dëst Schlësselwuert gëtt|Dës Schlësselwierder ginn}} op all Säiten derbäigesat:",
-	"ameta-keywordsmodify": "Schlësselwierder kënnen op [[Mediawiki:Globalkeywords]] geännert ginn."
+	"advancedmeta-dialog-btn-label-save": "Späicheren",
+	"advancedmeta-dialog-btn-label-cancel": "Ofbriechen",
+	"advancedmeta-dialog-btn-label-delete": "Läschen",
+	"advancedmeta-dialog-input-label-description": "Beschreiwung",
+	"advancedmeta-dialog-input-label-follow": "Iwwerwaachen",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Schlësselwierder"
 }

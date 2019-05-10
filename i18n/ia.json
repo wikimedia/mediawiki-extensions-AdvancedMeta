@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "Permitte configurar le metadatos de cata pagina (robots, parolas-clave, description) e cambiar le titulo",
 	"ameta-metasettings": "Configuration de metadatos",
-	"ameta-titlealias": "Titulo alternative:",
-	"ameta-keywordsadd": "Le sequente {{PLURAL:$1|parola-clave|parolas-clave}} es addite a tote le paginas:",
-	"ameta-keywordsmodify": "Parolas-clave pote esser modificate in [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Titulo alternative:"
 }

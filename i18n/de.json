@@ -1,12 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln"
+			"Kghbln",
+			"Metalhead64"
 		]
 	},
 	"ameta-desc": "Ermöglicht das Festlegen der Meta-Elemente „robots“, „keywords“ und „description“ sowie das Anpassen des Seitentitels",
 	"ameta-metasettings": "Einstellungen zu den Meta-Elementen und dem Seitentitel",
 	"ameta-titlealias": "Title:",
-	"ameta-keywordsadd": "{{PLURAL:$1|Das folgende Schlüsselwort wird|Die folgenden $1 Schlüsselwörter werden}} auf allen Seiten dem Meta-Element „keywords“ hinzugefügt:",
-	"ameta-keywordsmodify": "Auf der Seite [[Mediawiki:Globalkeywords]] können die Schlüsselwörter („keywords“) angepasst werden."
+	"advancedmeta-navigation-contentaction-label": "Optimierung der Suchmaschine",
+	"advancedmeta-dialog-btn-label-save": "Speichern",
+	"advancedmeta-dialog-btn-label-cancel": "Abbrechen",
+	"advancedmeta-dialog-btn-label-delete": "Löschen",
+	"advancedmeta-dialog-input-label-description": "Beschreibung",
+	"advancedmeta-dialog-input-label-follow": "Folgen",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Schlüsselwörter",
+	"advancedmeta-dialog-input-help-keywords": "Kommagetrennte Liste der Schlüsselwörter. Zum Beispiel: keyword1, keyword2, keyword3",
+	"apihelp-advancedmeta-tasks-description": "Bietet allgemeine Operationen für AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Bietet Operationen wie das Löschen und Bearbeiten für AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "Die Aufgabe, die ausgeführt werden soll.",
+	"apihelp-advancedmeta-tasks-param-taskdata": "JSON-Zeichenfolgekodiertes Objekt mit beliebigen Daten für die Aufgabe",
+	"apihelp-advancedmeta-tasks-param-format": "Das Format der Ausgabe (nur JSON oder formatiertes JSON)",
+	"action-advancedmeta-edit": "Seiten- oder Namensraum-Metaelemente zu bearbeiten",
+	"right-advancedmeta-edit": "Seiten- oder Namensraum-Metaelemente bearbeiten"
 }

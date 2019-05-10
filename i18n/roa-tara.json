@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Reggìstre",
+	"advancedmeta-dialog-btn-label-cancel": "Annulle",
+	"advancedmeta-dialog-btn-label-delete": "Scangìlle",
+	"advancedmeta-dialog-input-label-description": "Descrizione",
+	"advancedmeta-dialog-input-label-keywords": "Parole chiave",
+	"apihelp-advancedmeta-tasks-description": "Dèje le operaziune comune pe AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "L'attività ca avessa essere eseguite",
+	"apihelp-advancedmeta-tasks-param-format": "'U formate d'u resultate (sulamende JSON o formattate JSON)",
+	"action-advancedmeta-edit": "cange le meta eleminde d'a pàgene o d'u namespace"
+}

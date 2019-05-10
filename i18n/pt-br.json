@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Hamilton Abreu"
+		]
+	},
+	"ameta-desc": "Permite metaconfigurações por página (robôs, palavras-chave, descrição) e alteração do título",
+	"ameta-metasettings": "Meta configurações",
+	"ameta-titlealias": "Nome alternativo para o título:",
+	"advancedmeta-navigation-contentaction-label": "Otimização de mecanismos de pesquisa",
+	"advancedmeta-dialog-btn-label-save": "Salvar",
+	"advancedmeta-dialog-btn-label-cancel": "Cancelar",
+	"advancedmeta-dialog-btn-label-delete": "Excluir",
+	"advancedmeta-dialog-input-label-description": "Descrição",
+	"advancedmeta-dialog-input-label-follow": "Seguir",
+	"advancedmeta-dialog-input-label-index": "Índice",
+	"advancedmeta-dialog-input-label-keywords": "Palavras-chave",
+	"advancedmeta-dialog-input-help-keywords": "Lista separada por vírgula de palavras-chave. Por exemplo: palavrachave1, palavrachave2, palavrachave3",
+	"apihelp-advancedmeta-tasks-description": "Fornece operações comuns para AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Fornece operações como excluir e editar para AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "A tarefa que deve ser excluída",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Objeto codificado em texto JSON com dados arbitrários para a tarefa",
+	"apihelp-advancedmeta-tasks-param-format": "O formato do resultado (só JSON, ou JSON formatado)",
+	"action-advancedmeta-edit": "editar meta elementos de página ou espaço nominal",
+	"right-advancedmeta-edit": "Editar meta elementos de página ou espaço nominal"
+}

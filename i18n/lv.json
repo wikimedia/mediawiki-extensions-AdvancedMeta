@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Saglabāt",
+	"advancedmeta-dialog-btn-label-cancel": "Atcelt",
+	"advancedmeta-dialog-btn-label-delete": "Dzēst",
+	"advancedmeta-dialog-input-label-description": "Apraksts",
+	"advancedmeta-dialog-input-label-follow": "Sekot",
+	"advancedmeta-dialog-input-label-keywords": "Atslēgas vārdi"
+}

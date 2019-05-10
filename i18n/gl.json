@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "Permite as configuracións meta de páxina (robots, palabras clave, descrición) e cambios de título",
 	"ameta-metasettings": "Configuración meta",
-	"ameta-titlealias": "Título alternativo:",
-	"ameta-keywordsadd": "{{PLURAL:$1|A seguinte palabra clave engádese|As seguintes palabras clave engádense}} a todas as páxinas:",
-	"ameta-keywordsmodify": "As palabras clave pódense modificar en [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Título alternativo:"
 }

@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen",
 	"ameta-metasettings": "Meta-instellingen",
-	"ameta-titlealias": "Titel-alias:",
-	"ameta-keywordsadd": "{{PLURAL:$1|Het volgende trefwoord wordt|De volgende $1 trefwoorden worden}} aan elke pagina toegevoegd:",
-	"ameta-keywordsmodify": "Trefwoorden kunnen worden gewijzigd op [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Titel-alias:"
 }

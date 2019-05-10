@@ -2,12 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Kwj2772",
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"ameta-desc": "페이지 메타 설정 (로봇, 키워드, 설명)과 제목 바꾸기 허용",
 	"ameta-metasettings": "메타 설정",
 	"ameta-titlealias": "제목 별명:",
-	"ameta-keywordsadd": "다음 {{PLURAL:$1|키워드|키워드 $1개}}는 모든 페이지에 추가됩니다:",
-	"ameta-keywordsmodify": "[[Mediawiki:Globalkeywords]]에서 키워드를 수정할 수 있습니다."
+	"advancedmeta-navigation-contentaction-label": "검색 엔진 최적화",
+	"advancedmeta-dialog-btn-label-save": "저장",
+	"advancedmeta-dialog-btn-label-cancel": "취소",
+	"advancedmeta-dialog-btn-label-delete": "삭제",
+	"advancedmeta-dialog-input-label-description": "설명",
+	"advancedmeta-dialog-input-label-index": "색인",
+	"advancedmeta-dialog-input-label-keywords": "키워드",
+	"right-advancedmeta-edit": "문서 또는 이름공간 메타 요소 편집"
 }

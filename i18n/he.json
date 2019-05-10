@@ -7,7 +7,5 @@
 	},
 	"ameta-desc": "מתן אפשרות ליצור מטא־הגדרות לדפים (רובוטים, מילות מפתח, תיאור) ולשנות את הכותרת",
 	"ameta-metasettings": "הגדרות מטא",
-	"ameta-titlealias": "כינוי כותרת:",
-	"ameta-keywordsadd": "{{PLURAL:$1|מילת המפתח|$1 מילות המפתח}} תתווספנה לכל הדפים:",
-	"ameta-keywordsmodify": "ניתן לשנות מילות מפתח בדף [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "כינוי כותרת:"
 }

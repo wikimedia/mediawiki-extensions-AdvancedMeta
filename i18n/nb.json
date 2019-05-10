@@ -7,7 +7,5 @@
 	},
 	"ameta-desc": "Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel",
 	"ameta-metasettings": "Meta-innstillinger",
-	"ameta-titlealias": "Tittel-alias:",
-	"ameta-keywordsadd": "Følgende {{PLURAL:$1|nøkkelord|$1 nøkkelord}} føyes til alle sider:",
-	"ameta-keywordsmodify": "Nøkkelord kan endres på [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Tittel-alias:"
 }

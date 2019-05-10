@@ -7,6 +7,14 @@
 	"ameta-desc": "Consente meta-impostazioni per pagina (robots, parole chiave, descrizione) e cambio titolo",
 	"ameta-metasettings": "Meta-impostazioni",
 	"ameta-titlealias": "Alias titolo:",
-	"ameta-keywordsadd": "{{PLURAL:$1|La seguente parola chiave è stata aggiunta|Le seguenti $1 parole chiave sono state aggiunte}} a tutte le pagine:",
-	"ameta-keywordsmodify": "Le parole chiave possono essere modificate in [[Mediawiki:Globalkeywords]]."
+	"advancedmeta-dialog-btn-label-save": "Salva",
+	"advancedmeta-dialog-btn-label-cancel": "Annulla",
+	"advancedmeta-dialog-btn-label-delete": "Cancella",
+	"advancedmeta-dialog-input-label-description": "Descrizione",
+	"advancedmeta-dialog-input-label-follow": "Segui",
+	"advancedmeta-dialog-input-label-index": "Indice",
+	"advancedmeta-dialog-input-label-keywords": "Parole chiave",
+	"apihelp-advancedmeta-tasks-param-task": "L'attività che deve essere eseguita",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Un oggetto stringa JSON codificata con dati arbitrari per l'attività",
+	"apihelp-advancedmeta-tasks-param-format": "Il formato di output (solo JSON o JSON formattato)"
 }

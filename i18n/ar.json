@@ -1,8 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
-			"روخو"
+			"روخو",
+			"ديفيد"
 		]
 	},
-	"ameta-titlealias": "عنوان الاسم المستعار:"
+	"ameta-desc": "يسمح بإعدادات التعريف لكل صفحة (الروبوتات والكلمات الرئيسية والوصف) وتغيير العنوان",
+	"ameta-metasettings": "إعدادات التعريف",
+	"ameta-titlealias": "عنوان الاسم المستعار:",
+	"advancedmeta-navigation-contentaction-label": "محرك البحث الأمثل",
+	"advancedmeta-dialog-btn-label-save": "حفظ",
+	"advancedmeta-dialog-btn-label-cancel": "إلغاء",
+	"advancedmeta-dialog-btn-label-delete": "حذف",
+	"advancedmeta-dialog-input-label-description": "الوصف",
+	"advancedmeta-dialog-input-label-follow": "تابع",
+	"advancedmeta-dialog-input-label-index": "فهرس",
+	"advancedmeta-dialog-input-label-keywords": "الكلمات الدالة",
+	"advancedmeta-dialog-input-help-keywords": " قائمة الكلمات الرئيسية مفصولة بفواصل، على سبيل المثال: الكلمة الأساسية1، الكلمة الأساسية2، الكلمة الأساسية3",
+	"apihelp-advancedmeta-tasks-description": "يوفر عمليات مشتركة لبيانات التعريف المتقدمة",
+	"apihelp-advancedmeta-tasks-summary": "يوفر عمليات مثل حذف وتعديل بيانات التعريف المتقدمة",
+	"apihelp-advancedmeta-tasks-param-task": "المهمة التي يجب تنفيذها",
+	"apihelp-advancedmeta-tasks-param-taskdata": "كائن JSON المشفر مع بيانات تعسفية لهذه المهمة",
+	"apihelp-advancedmeta-tasks-param-format": "تنسيق الإخراج (فقط JSON أو JSON المنسق)",
+	"action-advancedmeta-edit": "تحرير عناصر تعريف الصفحة أو النطاق",
+	"right-advancedmeta-edit": "تحرير عناصر تعريف الصفحة أو النطاق"
 }

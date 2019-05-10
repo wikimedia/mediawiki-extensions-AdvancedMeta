@@ -4,12 +4,28 @@
 			"A1",
 			"Microcell",
 			"Olvin",
-			"Sodmy"
+			"Sodmy",
+			"Vlad5250",
+			"Ата"
 		]
 	},
 	"ameta-desc": "Додає до сторінок мета-параметри (роботи, ключові слова, опис) та змінює назву",
 	"ameta-metasettings": "Налаштування Meta",
 	"ameta-titlealias": "Назва простору-перенаправлення:",
-	"ameta-keywordsadd": "До всіх сторінок додано {{PLURAL:$1|$1 ключове слово|такі $1 ключові слова|$1 таких ключових слів}}:",
-	"ameta-keywordsmodify": "Ключові слова можна змінити на [[Mediawiki:Globalkeywords]]"
+	"advancedmeta-navigation-contentaction-label": "Оптимізація пошукового рушія",
+	"advancedmeta-dialog-btn-label-save": "Зберегти",
+	"advancedmeta-dialog-btn-label-cancel": "Скасувати",
+	"advancedmeta-dialog-btn-label-delete": "Вилучити",
+	"advancedmeta-dialog-input-label-description": "Опис",
+	"advancedmeta-dialog-input-label-follow": "Стежити",
+	"advancedmeta-dialog-input-label-index": "Індекс",
+	"advancedmeta-dialog-input-label-keywords": "Ключові слова",
+	"advancedmeta-dialog-input-help-keywords": "Список ключових слів через кому. Наприклад: слово1, слово2, слово3",
+	"apihelp-advancedmeta-tasks-description": "Надає загальні операції для AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Надає операції на зразок вилучення та редагування для AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "Завдання, яке треба виконати",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Об'єкт із допоміжними даними для завдання, закодований у форматі рядка JSON",
+	"apihelp-advancedmeta-tasks-param-format": "Формат виводу (лише JSON або форматований JSON)",
+	"action-advancedmeta-edit": "редагування мета-елементів сторінки чи простору назв",
+	"right-advancedmeta-edit": "Редагування мета-елементів сторінки чи простору назв"
 }

@@ -7,7 +7,5 @@
 	},
 	"ameta-desc": "ページ毎のメタ設定（ロボット、キーワード、説明）とタイトルを変更できるようにする",
 	"ameta-metasettings": "メタ設定",
-	"ameta-titlealias": "タイトル別名：",
-	"ameta-keywordsadd": "以下の{{PLURAL:$1|キーワードを|&#32;$1 キーワードを}}すべてのページに追加しました：",
-	"ameta-keywordsmodify": "[[Mediawiki:Globalkeywords]] でキーワードを変更できます。"
+	"ameta-titlealias": "タイトル別名："
 }

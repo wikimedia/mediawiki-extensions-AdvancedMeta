@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "Yn galluogi gosodiadau meta yn ôl tudalen (robotiaid, geiriau allweddol, disgrifiad) a newid teitl",
 	"ameta-metasettings": "Gosodiadau meta",
-	"ameta-titlealias": "Teitl amgen:",
-	"ameta-keywordsadd": "Ychwanegir y {{PLURAL:$1|gair allweddol|$1 geiriau allweddol}} canlynol i bob tudalen:",
-	"ameta-keywordsmodify": "Gellir addasu geiriau allweddol yn [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Teitl amgen:"
 }

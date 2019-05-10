@@ -6,7 +6,5 @@
 	},
 	"ameta-desc": "Nagpapahintulot ng mga katakdaang meta na pambawat pahina (mga robot, mga susing salita, paglalarawan) at pagbago ng pamagat",
 	"ameta-metasettings": "Mga katakdaan ng meta",
-	"ameta-titlealias": "Bansag ng pamagat:",
-	"ameta-keywordsadd": "Ang sumusunod na {{PLURAL:$1|susing salita ay|$1 susing mga salita ay}} idinagdag sa lahat ng mga pahina:",
-	"ameta-keywordsmodify": "Maaaring baguhin ang susing mga salita doon sa [[Mediawiki:Globalkeywords|Mediawiki:Pangglobong mga susing salita]]."
+	"ameta-titlealias": "Bansag ng pamagat:"
 }

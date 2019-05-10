@@ -8,7 +8,5 @@
 	},
 	"ameta-desc": "Pozwala na oddzielne meta ustawienia strony (roboty, słowa kluczowe, opis) i zmienia tytuł",
 	"ameta-metasettings": "Metaznaczniki",
-	"ameta-titlealias": "Alias nazwy:",
-	"ameta-keywordsadd": "Następujące {{PLURAL:$1|słowo kluczowe zostało dodane|$1 słowa kluczowe zostały dodane|$1 słów kluczowych zostało dodanych}} do wszystkich stron:",
-	"ameta-keywordsmodify": "Słowa kluczowe mogą być zmieniane na stronie [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Alias nazwy:"
 }

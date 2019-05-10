@@ -7,6 +7,20 @@
 	"ameta-desc": "Permet le paramétrage des balises meta de chaque page (robots, mots clés, description) et le changement de titre",
 	"ameta-metasettings": "Paramètres des balises meta",
 	"ameta-titlealias": "Alias de titre:",
-	"ameta-keywordsadd": "{{PLURAL:$1|Le mot-clé suivant est ajouté|Les $1 mots-clés suivants sont ajoutés}} à toutes les pages:",
-	"ameta-keywordsmodify": "Les mots-clés peuvent être modifiées sur la page [[Mediawiki:Globalkeywords]]."
+	"advancedmeta-navigation-contentaction-label": "Rechercher une optimisation du moteur",
+	"advancedmeta-dialog-btn-label-save": "Enregistrer",
+	"advancedmeta-dialog-btn-label-cancel": "Annuler",
+	"advancedmeta-dialog-btn-label-delete": "Supprimer",
+	"advancedmeta-dialog-input-label-description": "Description",
+	"advancedmeta-dialog-input-label-follow": "Suivre",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Mots-clés",
+	"advancedmeta-dialog-input-help-keywords": "Liste de mots-clés séparés par des virgules. Par exemple : motclé1, motclé2, motclé3",
+	"apihelp-advancedmeta-tasks-description": "Fournit les opérations communes pour AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Fournit des opérations telles que supprimer et modifier pour AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "La tâche qu’il faut exécuter",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Objet encodé en chaîne JSON avec des données arbitraires pour la tâche",
+	"apihelp-advancedmeta-tasks-param-format": "Le format de la sortie (JSON uniquement, ou JSON mis en forme)",
+	"action-advancedmeta-edit": "modifier les méta-éléments de la page ou de l’espace de noms",
+	"right-advancedmeta-edit": "Modifier les méta-éléments de la page ou de l’espace de noms"
 }

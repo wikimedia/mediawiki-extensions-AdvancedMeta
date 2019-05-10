@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan"
+			"Erdemaslancan",
+			"Mirzali"
 		]
 	},
 	"ameta-metasettings": "Sazê Meta",
-	"ameta-titlealias": "Sernameyo dıyın:"
+	"ameta-titlealias": "Sernameyo dıyın:",
+	"advancedmeta-dialog-btn-label-save": "Qeyd ke",
+	"advancedmeta-dialog-btn-label-cancel": "Bıtexelne",
+	"advancedmeta-dialog-btn-label-delete": "Bestere",
+	"advancedmeta-dialog-input-label-description": "Şınasnayış",
+	"advancedmeta-dialog-input-label-index": "Zerrek",
+	"advancedmeta-dialog-input-label-keywords": "Çekuyên kıliti"
 }

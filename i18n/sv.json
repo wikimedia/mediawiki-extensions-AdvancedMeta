@@ -7,7 +7,5 @@
 	},
 	"ameta-desc": "Tillåter sidspecifika metainställningar (robotar, nyckelord, beskrivning) och rubrikändring",
 	"ameta-metasettings": "Meta-inställningar",
-	"ameta-titlealias": "Titel-alias:",
-	"ameta-keywordsadd": "Följande {{PLURAL:$1|nyckelord|$1 nyckelord}} läggs till alla sidor:",
-	"ameta-keywordsmodify": "Nyckelord kan ändras på [[Mediawiki:Globalkeywords]]."
+	"ameta-titlealias": "Titel-alias:"
 }
