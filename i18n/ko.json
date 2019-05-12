@@ -3,7 +3,8 @@
 		"authors": [
 			"Kwj2772",
 			"아라",
-			"Ykhwong"
+			"Ykhwong",
+			"Maoue"
 		]
 	},
 	"ameta-desc": "페이지 메타 설정 (로봇, 키워드, 설명)과 제목 바꾸기 허용",
@@ -14,6 +15,7 @@
 	"advancedmeta-dialog-btn-label-cancel": "취소",
 	"advancedmeta-dialog-btn-label-delete": "삭제",
 	"advancedmeta-dialog-input-label-description": "설명",
+	"advancedmeta-dialog-input-label-follow": "팔로우",
 	"advancedmeta-dialog-input-label-index": "색인",
 	"advancedmeta-dialog-input-label-keywords": "키워드",
 	"right-advancedmeta-edit": "문서 또는 이름공간 메타 요소 편집"

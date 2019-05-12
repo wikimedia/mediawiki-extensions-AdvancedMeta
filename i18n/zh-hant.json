@@ -1,6 +1,16 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
 	"ameta-desc": "允許為每個頁面設置機器人政策、關鍵字和描述，以及修改標題",
 	"ameta-metasettings": "Meta設置",
-	"ameta-titlealias": "修改標題:"
+	"ameta-titlealias": "修改標題:",
+	"advancedmeta-navigation-contentaction-label": "搜尋引擎最佳化",
+	"advancedmeta-dialog-btn-label-cancel": "取消",
+	"advancedmeta-dialog-btn-label-delete": "刪除",
+	"advancedmeta-dialog-input-label-description": "描述",
+	"advancedmeta-dialog-input-label-follow": "關注",
+	"advancedmeta-dialog-input-label-index": "索引"
 }
