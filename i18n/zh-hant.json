@@ -12,5 +12,8 @@
 	"advancedmeta-dialog-btn-label-delete": "刪除",
 	"advancedmeta-dialog-input-label-description": "描述",
 	"advancedmeta-dialog-input-label-follow": "關注",
-	"advancedmeta-dialog-input-label-index": "索引"
+	"advancedmeta-dialog-input-label-index": "索引",
+	"apihelp-advancedmeta-tasks-param-task": "應被執行的任務",
+	"apihelp-advancedmeta-tasks-param-taskdata": "用於任務，帶有任意資料的 JSON 字串編碼物件",
+	"apihelp-advancedmeta-tasks-param-format": "輸出格式（僅限 JSON 或格式化 JSON）"
 }
