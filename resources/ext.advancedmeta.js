@@ -33,7 +33,7 @@
 		// Specify a symbolic name (e.g., 'simple', in this example) using the static 'name' property.
 		mw.advancedmeta.dialog.static.name = 'advancedmeta';
 		mw.advancedmeta.dialog.static.title = mw.message(
-			'ameta-metasettings'
+			'advancedmeta-metasettings'
 		).plain();
 		mw.advancedmeta.dialog.static.actions = [{
 			action: 'save',
@@ -73,7 +73,7 @@
 			this.content.addItems([
 				this.errorSection,
 				new OO.ui.FieldLayout( this.alias, {
-					label: mw.message( 'ameta-titlealias' ).plain(),
+					label: mw.message( 'advancedmeta-titlealias' ).plain(),
 					align: 'top'
 				} ),
 				new OO.ui.FieldLayout( this.index, {

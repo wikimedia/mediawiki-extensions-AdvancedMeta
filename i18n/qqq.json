@@ -5,9 +5,9 @@
 			"Siebrand"
 		]
 	},
-	"ameta-desc": "{{desc}}",
-	"ameta-metasettings": "Used as header text (H2).",
-	"ameta-titlealias": "Used as field label.",
+	"advancedmeta-desc": "{{desc}}",
+	"advancedmeta-metasettings": "Used as header text (H2).",
+	"advancedmeta-titlealias": "Used as field label.",
 	"advancedmeta-navigation-contentaction-label": "Label for content action \"ca-advancedmeta\" to open the OOJS dialog for AdvancedMeta.\n{{Identical|Search engine optimizations}}",
 	"advancedmeta-dialog-btn-label-save": "Label for save button in the OOJS dialog for AdvancedMeta.\n{{Identical|Save}}",
 	"advancedmeta-dialog-btn-label-cancel": "Label for cancel button in the OOJS dialog for AdvancedMeta.\n{{Identical|Cancel}}",

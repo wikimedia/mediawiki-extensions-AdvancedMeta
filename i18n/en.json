@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": []
 	},
-	"ameta-desc": "Allows per page meta settings (robots, keywords, description) and change title",
-	"ameta-metasettings": "Meta settings",
-	"ameta-titlealias": "Title alias:",
+	"advancedmeta-desc": "Allows per page meta settings (robots, keywords, description) and change title",
+	"advancedmeta-metasettings": "Meta settings",
+	"advancedmeta-titlealias": "Title alias:",
 	"advancedmeta-navigation-contentaction-label": "Search engine optimization",
 	"advancedmeta-dialog-btn-label-save": "Save",
 	"advancedmeta-dialog-btn-label-cancel": "Cancel",
