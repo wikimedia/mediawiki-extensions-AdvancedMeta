@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Purodha",
-			"Siebrand"
+			"Siebrand",
+			"Raymond"
 		]
 	},
 	"advancedmeta-desc": "{{desc}}",

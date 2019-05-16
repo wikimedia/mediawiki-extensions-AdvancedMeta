@@ -7,5 +7,6 @@
 	"advancedmeta-dialog-btn-label-save": "భద్రపరుచు",
 	"advancedmeta-dialog-btn-label-cancel": "రద్దుచేయి",
 	"advancedmeta-dialog-btn-label-delete": "తొలగించు",
-	"advancedmeta-dialog-input-label-description": "వివరణ"
+	"advancedmeta-dialog-input-label-description": "వివరణ",
+	"advancedmeta-dialog-input-label-keywords": "కీలకపదాలు"
 }

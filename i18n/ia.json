@@ -4,7 +4,7 @@
 			"McDutchie"
 		]
 	},
-	"ameta-desc": "Permitte configurar le metadatos de cata pagina (robots, parolas-clave, description) e cambiar le titulo",
-	"ameta-metasettings": "Configuration de metadatos",
-	"ameta-titlealias": "Titulo alternative:"
+	"advancedmeta-desc": "Permitte configurar le metadatos de cata pagina (robots, parolas-clave, description) e cambiar le titulo",
+	"advancedmeta-metasettings": "Configuration de metadatos",
+	"advancedmeta-titlealias": "Titulo alternative:"
 }

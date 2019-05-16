@@ -4,9 +4,9 @@
 			"Gomoko"
 		]
 	},
-	"ameta-desc": "Permet le paramétrage des balises meta de chaque page (robots, mots clés, description) et le changement de titre",
-	"ameta-metasettings": "Paramètres des balises meta",
-	"ameta-titlealias": "Alias de titre:",
+	"advancedmeta-desc": "Permet le paramétrage des balises meta de chaque page (robots, mots clés, description) et le changement de titre",
+	"advancedmeta-metasettings": "Paramètres des balises meta",
+	"advancedmeta-titlealias": "Alias de titre:",
 	"advancedmeta-navigation-contentaction-label": "Rechercher une optimisation du moteur",
 	"advancedmeta-dialog-btn-label-save": "Enregistrer",
 	"advancedmeta-dialog-btn-label-cancel": "Annuler",

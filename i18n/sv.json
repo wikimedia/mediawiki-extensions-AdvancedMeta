@@ -5,7 +5,7 @@
 			"WikiPhoenix"
 		]
 	},
-	"ameta-desc": "Tillåter sidspecifika metainställningar (robotar, nyckelord, beskrivning) och rubrikändring",
-	"ameta-metasettings": "Meta-inställningar",
-	"ameta-titlealias": "Titel-alias:"
+	"advancedmeta-desc": "Tillåter sidspecifika metainställningar (robotar, nyckelord, beskrivning) och rubrikändring",
+	"advancedmeta-metasettings": "Meta-inställningar",
+	"advancedmeta-titlealias": "Titel-alias:"
 }

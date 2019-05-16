@@ -4,7 +4,7 @@
 			"Farras"
 		]
 	},
-	"ameta-desc": "Memungkinkan pengaturan meta (robot, kata kunci, deskripsi) dan perubahan judul per halaman",
-	"ameta-metasettings": "Pengaturan meta",
-	"ameta-titlealias": "Alias judul:"
+	"advancedmeta-desc": "Memungkinkan pengaturan meta (robot, kata kunci, deskripsi) dan perubahan judul per halaman",
+	"advancedmeta-metasettings": "Pengaturan meta",
+	"advancedmeta-titlealias": "Alias judul:"
 }

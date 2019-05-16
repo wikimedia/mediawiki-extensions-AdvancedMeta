@@ -6,7 +6,7 @@
 			"Pvgreenzebra"
 		]
 	},
-	"ameta-desc": "Permite metaconfigurar páginas individuals (robots, palabras clave, descripción) y cambiar el título",
-	"ameta-metasettings": "Configuración de meta",
-	"ameta-titlealias": "Alias de título:"
+	"advancedmeta-desc": "Permite metaconfigurar páginas individuals (robots, palabras clave, descripción) y cambiar el título",
+	"advancedmeta-metasettings": "Configuración de meta",
+	"advancedmeta-titlealias": "Alias de título:"
 }

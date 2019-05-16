@@ -5,7 +5,7 @@
 			"Nghtwlkr"
 		]
 	},
-	"ameta-desc": "Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel",
-	"ameta-metasettings": "Meta-innstillinger",
-	"ameta-titlealias": "Tittel-alias:"
+	"advancedmeta-desc": "Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel",
+	"advancedmeta-metasettings": "Meta-innstillinger",
+	"advancedmeta-titlealias": "Tittel-alias:"
 }

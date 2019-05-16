@@ -9,9 +9,9 @@
 			"Ата"
 		]
 	},
-	"ameta-desc": "Додає до сторінок мета-параметри (роботи, ключові слова, опис) та змінює назву",
-	"ameta-metasettings": "Налаштування Meta",
-	"ameta-titlealias": "Назва простору-перенаправлення:",
+	"advancedmeta-desc": "Додає до сторінок мета-параметри (роботи, ключові слова, опис) та змінює назву",
+	"advancedmeta-metasettings": "Налаштування Meta",
+	"advancedmeta-titlealias": "Назва простору-перенаправлення:",
 	"advancedmeta-navigation-contentaction-label": "Оптимізація пошукового рушія",
 	"advancedmeta-dialog-btn-label-save": "Зберегти",
 	"advancedmeta-dialog-btn-label-cancel": "Скасувати",

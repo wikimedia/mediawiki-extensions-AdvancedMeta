@@ -5,9 +5,9 @@
 			"Metalhead64"
 		]
 	},
-	"ameta-desc": "Ermöglicht das Festlegen der Meta-Elemente „robots“, „keywords“ und „description“ sowie das Anpassen des Seitentitels",
-	"ameta-metasettings": "Einstellungen zu den Meta-Elementen und dem Seitentitel",
-	"ameta-titlealias": "Title:",
+	"advancedmeta-desc": "Ermöglicht das Festlegen der Meta-Elemente „robots“, „keywords“ und „description“ sowie das Anpassen des Seitentitels",
+	"advancedmeta-metasettings": "Einstellungen zu den Meta-Elementen und dem Seitentitel",
+	"advancedmeta-titlealias": "Title:",
 	"advancedmeta-navigation-contentaction-label": "Optimierung der Suchmaschine",
 	"advancedmeta-dialog-btn-label-save": "Speichern",
 	"advancedmeta-dialog-btn-label-cancel": "Abbrechen",

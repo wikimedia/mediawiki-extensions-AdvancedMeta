@@ -4,7 +4,7 @@
 			"TK-999"
 		]
 	},
-	"ameta-desc": "Lehetővé teszi a meta-beállítások (robots, keywords, description) és a cím oldalanként történő változtatását",
-	"ameta-metasettings": "Meta-beállítások",
-	"ameta-titlealias": "Cím alias:"
+	"advancedmeta-desc": "Lehetővé teszi a meta-beállítások (robots, keywords, description) és a cím oldalanként történő változtatását",
+	"advancedmeta-metasettings": "Meta-beállítások",
+	"advancedmeta-titlealias": "Cím alias:"
 }

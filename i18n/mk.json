@@ -4,9 +4,9 @@
 			"Bjankuloski06"
 		]
 	},
-	"ameta-desc": "Овозможува мета-поставки за поединечни страници (роботи, клучни зборови, опис) и промена на насловот",
-	"ameta-metasettings": "Мета-псотавки",
-	"ameta-titlealias": "Алијас на насловот:",
+	"advancedmeta-desc": "Овозможува мета-поставки за поединечни страници (роботи, клучни зборови, опис) и промена на насловот",
+	"advancedmeta-metasettings": "Мета-псотавки",
+	"advancedmeta-titlealias": "Алијас на насловот:",
 	"advancedmeta-navigation-contentaction-label": "Оптимизација на пребарувачот",
 	"advancedmeta-dialog-btn-label-save": "Зачувај",
 	"advancedmeta-dialog-btn-label-cancel": "Откажи",

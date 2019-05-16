@@ -4,9 +4,9 @@
 			"Beta16"
 		]
 	},
-	"ameta-desc": "Consente meta-impostazioni per pagina (robots, parole chiave, descrizione) e cambio titolo",
-	"ameta-metasettings": "Meta-impostazioni",
-	"ameta-titlealias": "Alias titolo:",
+	"advancedmeta-desc": "Consente meta-impostazioni per pagina (robots, parole chiave, descrizione) e cambio titolo",
+	"advancedmeta-metasettings": "Meta-impostazioni",
+	"advancedmeta-titlealias": "Alias titolo:",
 	"advancedmeta-dialog-btn-label-save": "Salva",
 	"advancedmeta-dialog-btn-label-cancel": "Annulla",
 	"advancedmeta-dialog-btn-label-delete": "Cancella",

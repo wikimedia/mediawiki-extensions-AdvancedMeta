@@ -4,7 +4,7 @@
 			"Toliño"
 		]
 	},
-	"ameta-desc": "Permite as configuracións meta de páxina (robots, palabras clave, descrición) e cambios de título",
-	"ameta-metasettings": "Configuración meta",
-	"ameta-titlealias": "Título alternativo:"
+	"advancedmeta-desc": "Permite as configuracións meta de páxina (robots, palabras clave, descrición) e cambios de título",
+	"advancedmeta-metasettings": "Configuración meta",
+	"advancedmeta-titlealias": "Título alternativo:"
 }

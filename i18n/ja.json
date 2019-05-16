@@ -5,7 +5,7 @@
 			"Shirayuki"
 		]
 	},
-	"ameta-desc": "ページ毎のメタ設定（ロボット、キーワード、説明）とタイトルを変更できるようにする",
-	"ameta-metasettings": "メタ設定",
-	"ameta-titlealias": "タイトル別名："
+	"advancedmeta-desc": "ページ毎のメタ設定（ロボット、キーワード、説明）とタイトルを変更できるようにする",
+	"advancedmeta-metasettings": "メタ設定",
+	"advancedmeta-titlealias": "タイトル別名："
 }

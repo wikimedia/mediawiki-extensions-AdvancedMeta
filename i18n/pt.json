@@ -4,9 +4,9 @@
 			"Hamilton Abreu"
 		]
 	},
-	"ameta-desc": "Permite meta configurações por página (robôs, termos-chave, descrição) e alteração do título",
-	"ameta-metasettings": "Metaconfigurações",
-	"ameta-titlealias": "Nome alternativo para o título:",
+	"advancedmeta-desc": "Permite meta configurações por página (robôs, termos-chave, descrição) e alteração do título",
+	"advancedmeta-metasettings": "Metaconfigurações",
+	"advancedmeta-titlealias": "Nome alternativo para o título:",
 	"advancedmeta-navigation-contentaction-label": "Otimização para motores de pesquisa",
 	"advancedmeta-dialog-btn-label-save": "Gravar",
 	"advancedmeta-dialog-btn-label-cancel": "Cancelar",

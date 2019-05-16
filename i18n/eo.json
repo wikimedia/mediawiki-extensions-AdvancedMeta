@@ -5,9 +5,9 @@
 			"Mirin"
 		]
 	},
-	"ameta-desc": "Permesas en paĝo meta-agordoj (por robotoj, ŝlosilvortoj, priskribo) kaj ŝanĝado de titolo",
-	"ameta-metasettings": "Meta-agordoj",
-	"ameta-titlealias": "Kromnomo de titolo:",
+	"advancedmeta-desc": "Permesas en paĝo meta-agordoj (por robotoj, ŝlosilvortoj, priskribo) kaj ŝanĝado de titolo",
+	"advancedmeta-metasettings": "Meta-agordoj",
+	"advancedmeta-titlealias": "Kromnomo de titolo:",
 	"advancedmeta-dialog-btn-label-save": "Konservi",
 	"advancedmeta-dialog-btn-label-cancel": "Nuligi",
 	"advancedmeta-dialog-btn-label-delete": "Forigi",

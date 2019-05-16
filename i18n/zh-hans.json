@@ -5,9 +5,9 @@
 			"科劳"
 		]
 	},
-	"ameta-desc": "允许修改页面的meta设置（机器人、关键词和描述）和标题",
-	"ameta-metasettings": "Meta设置",
-	"ameta-titlealias": "标题：",
+	"advancedmeta-desc": "允许修改页面的meta设置（机器人、关键词和描述）和标题",
+	"advancedmeta-metasettings": "Meta设置",
+	"advancedmeta-titlealias": "标题：",
 	"advancedmeta-dialog-btn-label-save": "保存进度",
 	"advancedmeta-dialog-btn-label-cancel": "取消",
 	"advancedmeta-dialog-btn-label-delete": "删除",

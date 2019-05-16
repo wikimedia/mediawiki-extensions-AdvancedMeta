@@ -4,7 +4,7 @@
 			"Siebrand"
 		]
 	},
-	"ameta-desc": "Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen",
-	"ameta-metasettings": "Meta-instellingen",
-	"ameta-titlealias": "Titel-alias:"
+	"advancedmeta-desc": "Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen",
+	"advancedmeta-metasettings": "Meta-instellingen",
+	"advancedmeta-titlealias": "Titel-alias:"
 }

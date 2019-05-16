@@ -5,9 +5,9 @@
 			"ديفيد"
 		]
 	},
-	"ameta-desc": "يسمح بإعدادات التعريف لكل صفحة (الروبوتات والكلمات الرئيسية والوصف) وتغيير العنوان",
-	"ameta-metasettings": "إعدادات التعريف",
-	"ameta-titlealias": "عنوان الاسم المستعار:",
+	"advancedmeta-desc": "يسمح بإعدادات التعريف لكل صفحة (الروبوتات والكلمات الرئيسية والوصف) وتغيير العنوان",
+	"advancedmeta-metasettings": "إعدادات التعريف",
+	"advancedmeta-titlealias": "عنوان الاسم المستعار:",
 	"advancedmeta-navigation-contentaction-label": "محرك البحث الأمثل",
 	"advancedmeta-dialog-btn-label-save": "حفظ",
 	"advancedmeta-dialog-btn-label-cancel": "إلغاء",

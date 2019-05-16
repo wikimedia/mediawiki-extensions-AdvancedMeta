@@ -4,7 +4,7 @@
 			"Xuacu"
 		]
 	},
-	"ameta-desc": "Permite una meta-configuración de cada páxina (robots, pallabres clave, descripción) y camudar el títulu",
-	"ameta-metasettings": "Meta-configuración",
-	"ameta-titlealias": "Títulu alternativu:"
+	"advancedmeta-desc": "Permite una meta-configuración de cada páxina (robots, pallabres clave, descripción) y camudar el títulu",
+	"advancedmeta-metasettings": "Meta-configuración",
+	"advancedmeta-titlealias": "Títulu alternativu:"
 }
