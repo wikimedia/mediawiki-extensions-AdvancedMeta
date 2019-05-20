@@ -2,10 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Deror avi"
+			"Deror avi",
+			"Erelon"
 		]
 	},
 	"advancedmeta-desc": "מתן אפשרות ליצור מטא־הגדרות לדפים (רובוטים, מילות מפתח, תיאור) ולשנות את הכותרת",
 	"advancedmeta-metasettings": "הגדרות מטא",
-	"advancedmeta-titlealias": "כינוי כותרת:"
+	"advancedmeta-titlealias": "כינוי כותרת:",
+	"advancedmeta-dialog-btn-label-save": "שמירה",
+	"advancedmeta-dialog-btn-label-cancel": "ביטול",
+	"advancedmeta-dialog-btn-label-delete": "מחיקה",
+	"advancedmeta-dialog-input-label-description": "תיאור",
+	"advancedmeta-dialog-input-label-follow": "עקוב",
+	"advancedmeta-dialog-input-label-index": "אינדקס",
+	"advancedmeta-dialog-input-label-keywords": "מילות מפתח"
 }

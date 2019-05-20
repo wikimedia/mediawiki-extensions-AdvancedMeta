@@ -2,10 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Schu",
-			"Shirayuki"
+			"Shirayuki",
+			"Aefgh39622"
 		]
 	},
 	"advancedmeta-desc": "ページ毎のメタ設定（ロボット、キーワード、説明）とタイトルを変更できるようにする",
 	"advancedmeta-metasettings": "メタ設定",
-	"advancedmeta-titlealias": "タイトル別名："
+	"advancedmeta-titlealias": "タイトル別名：",
+	"advancedmeta-dialog-btn-label-save": "保存",
+	"advancedmeta-dialog-btn-label-cancel": "キャンセル",
+	"advancedmeta-dialog-btn-label-delete": "削除",
+	"advancedmeta-dialog-input-label-description": "説明",
+	"advancedmeta-dialog-input-label-index": "目次",
+	"advancedmeta-dialog-input-label-keywords": "キーワード"
 }

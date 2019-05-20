@@ -3,10 +3,19 @@
 		"authors": [
 			"Fitoschido",
 			"Mor",
-			"Pvgreenzebra"
+			"Pvgreenzebra",
+			"Ryo567"
 		]
 	},
 	"advancedmeta-desc": "Permite metaconfigurar páginas individuals (robots, palabras clave, descripción) y cambiar el título",
 	"advancedmeta-metasettings": "Configuración de meta",
-	"advancedmeta-titlealias": "Alias de título:"
+	"advancedmeta-titlealias": "Alias de título:",
+	"advancedmeta-navigation-contentaction-label": "Optimización del motor de búsqueda",
+	"advancedmeta-dialog-btn-label-save": "Guardar",
+	"advancedmeta-dialog-btn-label-cancel": "Cancelar",
+	"advancedmeta-dialog-btn-label-delete": "Eliminar",
+	"advancedmeta-dialog-input-label-description": "Descripción",
+	"advancedmeta-dialog-input-label-follow": "Seguir",
+	"advancedmeta-dialog-input-label-index": "Índice",
+	"advancedmeta-dialog-input-label-keywords": "Palabras clave"
 }

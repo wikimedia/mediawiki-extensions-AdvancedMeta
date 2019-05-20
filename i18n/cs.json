@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slepi"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Uložit",
+	"advancedmeta-dialog-btn-label-cancel": "Zrušit",
+	"advancedmeta-dialog-btn-label-delete": "Smazat",
+	"advancedmeta-dialog-input-label-description": "Popis",
+	"advancedmeta-dialog-input-label-follow": "Sledovat",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Klíčová slova",
+	"advancedmeta-dialog-input-help-keywords": "Seznam klíčových slov oddělených čárkou. Např. slovo1, slovo2, slovo3"
+}

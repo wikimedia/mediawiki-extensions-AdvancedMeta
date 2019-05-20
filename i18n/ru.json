@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCamer"
+			"DCamer",
+			"1233qwer1234qwer4"
 		]
 	},
 	"advancedmeta-desc": "Добавляет к страницам мета-параметры (роботы, ключевые слова и описание) и изменение названия",
 	"advancedmeta-metasettings": "Мета-параметры",
-	"advancedmeta-titlealias": "Псевдоним названия:"
+	"advancedmeta-titlealias": "Псевдоним названия:",
+	"advancedmeta-dialog-btn-label-save": "Сохранить",
+	"advancedmeta-dialog-btn-label-cancel": "Отменить",
+	"advancedmeta-dialog-btn-label-delete": "Удалить",
+	"advancedmeta-dialog-input-label-description": "Описание",
+	"advancedmeta-dialog-input-label-index": "Индекс",
+	"advancedmeta-dialog-input-label-keywords": "Ключевые слова",
+	"advancedmeta-dialog-input-help-keywords": "Разделённый запятыми список ключевых слов. Например: слово1, слово2, слово3"
 }
