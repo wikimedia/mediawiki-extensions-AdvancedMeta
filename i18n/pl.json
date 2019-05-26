@@ -3,10 +3,20 @@
 		"authors": [
 			"BeginaFelicysym",
 			"Sp5uhe",
-			"Woytecr"
+			"Woytecr",
+			"Railfail536"
 		]
 	},
 	"advancedmeta-desc": "Pozwala na oddzielne meta ustawienia strony (roboty, słowa kluczowe, opis) i zmienia tytuł",
 	"advancedmeta-metasettings": "Metaznaczniki",
-	"advancedmeta-titlealias": "Alias nazwy:"
+	"advancedmeta-titlealias": "Alias nazwy:",
+	"advancedmeta-navigation-contentaction-label": "Optymalizacja dla wyszukiwarek internetowych",
+	"advancedmeta-dialog-btn-label-save": "Zapisz",
+	"advancedmeta-dialog-btn-label-cancel": "Anuluj",
+	"advancedmeta-dialog-btn-label-delete": "Usuń",
+	"advancedmeta-dialog-input-label-description": "Opis",
+	"advancedmeta-dialog-input-label-follow": "Obserwuj",
+	"advancedmeta-dialog-input-label-index": "Indeks",
+	"advancedmeta-dialog-input-label-keywords": "Słowa kluczowe",
+	"advancedmeta-dialog-input-help-keywords": "Słowa kluczowe oddzielone przecinkami. Na przykład: klucz1, klucz2, klucz3"
 }
