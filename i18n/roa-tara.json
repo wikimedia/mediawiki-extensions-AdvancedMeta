@@ -4,13 +4,23 @@
 			"Joetaras"
 		]
 	},
+	"advancedmeta-desc": "Permette le meta-'mbostaziune pe pàgene (robbot, parole chiavem descrizione) e cange d'u titole",
+	"advancedmeta-metasettings": "'Mbostaziune de meta",
+	"advancedmeta-titlealias": "Alias d'u titole:",
+	"advancedmeta-navigation-contentaction-label": "Ottimizzazzione d'u motore de recerche",
 	"advancedmeta-dialog-btn-label-save": "Reggìstre",
 	"advancedmeta-dialog-btn-label-cancel": "Annulle",
 	"advancedmeta-dialog-btn-label-delete": "Scangìlle",
 	"advancedmeta-dialog-input-label-description": "Descrizione",
+	"advancedmeta-dialog-input-label-follow": "Segue",
+	"advancedmeta-dialog-input-label-index": "Indice",
 	"advancedmeta-dialog-input-label-keywords": "Parole chiave",
+	"advancedmeta-dialog-input-help-keywords": "Elenghe separate da virgole de le parole chiave. Pe esembie: parolechiave1, parolechiave2, parolechiave3",
 	"apihelp-advancedmeta-tasks-description": "Dèje le operaziune comune pe AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Dèje operaziune cumme scangellazzione e cangiamende pe AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "L'attività ca avessa essere eseguite",
+	"apihelp-advancedmeta-tasks-param-taskdata": "'N'oggette stringhe JSON codifecate cu date arbitrarie pe l'attivitate",
 	"apihelp-advancedmeta-tasks-param-format": "'U formate d'u resultate (sulamende JSON o formattate JSON)",
-	"action-advancedmeta-edit": "cange le meta eleminde d'a pàgene o d'u namespace"
+	"action-advancedmeta-edit": "cange le meta eleminde d'a pàgene o d'u namespace",
+	"right-advancedmeta-edit": "Cange le meta eleminde d'a pàgene o d'u namespace"
 }
