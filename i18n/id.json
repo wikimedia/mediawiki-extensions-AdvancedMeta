@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Farras"
+			"Farras",
+			"Palladin911"
 		]
 	},
 	"advancedmeta-desc": "Memungkinkan pengaturan meta (robot, kata kunci, deskripsi) dan perubahan judul per halaman",
 	"advancedmeta-metasettings": "Pengaturan meta",
-	"advancedmeta-titlealias": "Alias judul:"
+	"advancedmeta-titlealias": "Alias judul:",
+	"advancedmeta-dialog-btn-label-save": "Simpan",
+	"advancedmeta-dialog-btn-label-cancel": "Batal",
+	"advancedmeta-dialog-btn-label-delete": "Hapus",
+	"advancedmeta-dialog-input-label-description": "Deskripsi",
+	"advancedmeta-dialog-input-label-follow": "mengikuti",
+	"advancedmeta-dialog-input-label-index": "Indeks",
+	"advancedmeta-dialog-input-label-keywords": "Kata kunci"
 }
