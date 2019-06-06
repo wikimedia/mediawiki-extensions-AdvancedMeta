@@ -3,10 +3,12 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
 	"advancedmeta-desc": "Налады мэтазьвестак для асобных старонак (робаты, ключавыя словы, апісаньне) і магчымасьць зьмены загалоўка",
 	"advancedmeta-metasettings": "Мэта-налады",
-	"advancedmeta-titlealias": "Назва псэўданіму:"
+	"advancedmeta-titlealias": "Назва псэўданіму:",
+	"advancedmeta-dialog-btn-label-save": "Захаваць"
 }
