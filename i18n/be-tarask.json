@@ -10,5 +10,8 @@
 	"advancedmeta-desc": "Налады мэтазьвестак для асобных старонак (робаты, ключавыя словы, апісаньне) і магчымасьць зьмены загалоўка",
 	"advancedmeta-metasettings": "Мэта-налады",
 	"advancedmeta-titlealias": "Назва псэўданіму:",
-	"advancedmeta-dialog-btn-label-save": "Захаваць"
+	"advancedmeta-dialog-btn-label-save": "Захаваць",
+	"advancedmeta-dialog-btn-label-cancel": "Адмяніць",
+	"advancedmeta-dialog-btn-label-delete": "Выдаліць",
+	"advancedmeta-dialog-input-label-description": "Апісаньне"
 }
