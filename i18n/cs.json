@@ -4,6 +4,9 @@
 			"Slepi"
 		]
 	},
+	"advancedmeta-metasettings": "Meta nastavení",
+	"advancedmeta-titlealias": "Alias názvu:",
+	"advancedmeta-navigation-contentaction-label": "Optimalizace pro vyhledávače",
 	"advancedmeta-dialog-btn-label-save": "Uložit",
 	"advancedmeta-dialog-btn-label-cancel": "Zrušit",
 	"advancedmeta-dialog-btn-label-delete": "Smazat",

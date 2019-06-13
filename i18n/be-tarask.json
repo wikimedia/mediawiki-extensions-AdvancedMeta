@@ -13,5 +13,7 @@
 	"advancedmeta-dialog-btn-label-save": "Захаваць",
 	"advancedmeta-dialog-btn-label-cancel": "Адмяніць",
 	"advancedmeta-dialog-btn-label-delete": "Выдаліць",
-	"advancedmeta-dialog-input-label-description": "Апісаньне"
+	"advancedmeta-dialog-input-label-description": "Апісаньне",
+	"advancedmeta-dialog-input-label-index": "Індэкс",
+	"advancedmeta-dialog-input-label-keywords": "Ключавыя словы"
 }
