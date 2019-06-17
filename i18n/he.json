@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Deror avi",
-			"Erelon"
+			"Erelon",
+			"Steeve815"
 		]
 	},
 	"advancedmeta-desc": "מתן אפשרות ליצור מטא־הגדרות לדפים (רובוטים, מילות מפתח, תיאור) ולשנות את הכותרת",
@@ -15,5 +16,6 @@
 	"advancedmeta-dialog-input-label-description": "תיאור",
 	"advancedmeta-dialog-input-label-follow": "עקוב",
 	"advancedmeta-dialog-input-label-index": "אינדקס",
-	"advancedmeta-dialog-input-label-keywords": "מילות מפתח"
+	"advancedmeta-dialog-input-label-keywords": "מילות מפתח",
+	"apihelp-advancedmeta-tasks-param-task": "המשימה שאמורה להתבצע"
 }
