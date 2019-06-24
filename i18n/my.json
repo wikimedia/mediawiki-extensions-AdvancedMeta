@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"advancedmeta-metasettings": "မေတာ အပြင်အဆင်များ",
+	"advancedmeta-dialog-btn-label-save": "သိမ်းရန်",
+	"advancedmeta-dialog-btn-label-cancel": "မလုပ်တော့ပါ",
+	"advancedmeta-dialog-btn-label-delete": "ဖျက်​ပါ​",
+	"advancedmeta-dialog-input-label-description": "ဖော်ပြချက်",
+	"advancedmeta-dialog-input-label-follow": "လိုက်သည်",
+	"advancedmeta-dialog-input-label-index": "မာတိကာ"
+}
