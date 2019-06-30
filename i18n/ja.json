@@ -3,7 +3,8 @@
 		"authors": [
 			"Schu",
 			"Shirayuki",
-			"Aefgh39622"
+			"Aefgh39622",
+			"マツムシ"
 		]
 	},
 	"advancedmeta-desc": "ページ毎のメタ設定（ロボット、キーワード、説明）とタイトルを変更できるようにする",
@@ -13,6 +14,7 @@
 	"advancedmeta-dialog-btn-label-cancel": "キャンセル",
 	"advancedmeta-dialog-btn-label-delete": "削除",
 	"advancedmeta-dialog-input-label-description": "説明",
+	"advancedmeta-dialog-input-label-follow": "フォロー",
 	"advancedmeta-dialog-input-label-index": "目次",
 	"advancedmeta-dialog-input-label-keywords": "キーワード"
 }

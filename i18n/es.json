@@ -19,5 +19,6 @@
 	"advancedmeta-dialog-input-label-index": "Índice",
 	"advancedmeta-dialog-input-label-keywords": "Palabras clave",
 	"advancedmeta-dialog-input-help-keywords": "Lista de palabras clave separadas por comas. Por ejemplo: palabra1, palabra2, palabra3",
-	"apihelp-advancedmeta-tasks-param-task": "La tarea que debe ejecutarse"
+	"apihelp-advancedmeta-tasks-param-task": "La tarea que debe ejecutarse",
+	"apihelp-advancedmeta-tasks-param-format": "El formato de la salida (JSON solamente o JSON con formato)"
 }

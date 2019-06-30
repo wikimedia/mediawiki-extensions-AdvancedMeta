@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Mainframe98"
 		]
 	},
 	"advancedmeta-desc": "Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen",
 	"advancedmeta-metasettings": "Meta-instellingen",
-	"advancedmeta-titlealias": "Titel-alias:"
+	"advancedmeta-titlealias": "Titel-alias:",
+	"advancedmeta-navigation-contentaction-label": "Zoekmachine optimalisatie",
+	"advancedmeta-dialog-btn-label-save": "Opslaan",
+	"advancedmeta-dialog-btn-label-cancel": "Annuleren",
+	"advancedmeta-dialog-btn-label-delete": "Verwijderen",
+	"advancedmeta-dialog-input-label-description": "Beschrijving",
+	"advancedmeta-dialog-input-label-follow": "Volg",
+	"advancedmeta-dialog-input-label-keywords": "Trefwoorden"
 }
