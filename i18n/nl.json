@@ -14,5 +14,6 @@
 	"advancedmeta-dialog-btn-label-delete": "Verwijderen",
 	"advancedmeta-dialog-input-label-description": "Beschrijving",
 	"advancedmeta-dialog-input-label-follow": "Volg",
-	"advancedmeta-dialog-input-label-keywords": "Trefwoorden"
+	"advancedmeta-dialog-input-label-keywords": "Trefwoorden",
+	"apihelp-advancedmeta-tasks-param-format": "Het uitvoerformaat (alleen JSON of opgemaakte JSON)"
 }
