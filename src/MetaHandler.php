@@ -242,6 +242,7 @@ class MetaHandler implements \JsonSerializable {
 			"unknown param $name: " . __METHOD__
 		);
 	}
+
 	/**
 	 *
 	 * @param \User|null $user
