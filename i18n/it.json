@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"TheRukk"
 		]
 	},
 	"advancedmeta-desc": "Consente meta-impostazioni per pagina (robots, parole chiave, descrizione) e cambio titolo",
 	"advancedmeta-metasettings": "Meta-impostazioni",
 	"advancedmeta-titlealias": "Alias titolo:",
+	"advancedmeta-navigation-contentaction-label": "Ottimizzazione per i motori di ricerca",
 	"advancedmeta-dialog-btn-label-save": "Salva",
 	"advancedmeta-dialog-btn-label-cancel": "Annulla",
 	"advancedmeta-dialog-btn-label-delete": "Cancella",
@@ -14,6 +16,9 @@
 	"advancedmeta-dialog-input-label-follow": "Segui",
 	"advancedmeta-dialog-input-label-index": "Indice",
 	"advancedmeta-dialog-input-label-keywords": "Parole chiave",
+	"advancedmeta-dialog-input-help-keywords": "Elenco di parole chiave separate da virgole. Per esempio: parola1, parola2, parola3",
+	"apihelp-advancedmeta-tasks-description": "Fornisce le operazioni comuni per AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Fornisce le operazione come rimuovi e modifica per AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "L'attività che deve essere eseguita",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Un oggetto stringa JSON codificata con dati arbitrari per l'attività",
 	"apihelp-advancedmeta-tasks-param-format": "Il formato di output (solo JSON o JSON formattato)"
