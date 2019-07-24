@@ -14,6 +14,10 @@
 	"advancedmeta-dialog-btn-label-delete": "Verwijderen",
 	"advancedmeta-dialog-input-label-description": "Beschrijving",
 	"advancedmeta-dialog-input-label-follow": "Volg",
+	"advancedmeta-dialog-input-label-index": "Index",
 	"advancedmeta-dialog-input-label-keywords": "Trefwoorden",
-	"apihelp-advancedmeta-tasks-param-format": "Het uitvoerformaat (alleen JSON of opgemaakte JSON)"
+	"advancedmeta-dialog-input-help-keywords": "Een kommagescheiden lijst met sleutelwoorden. Bijvoorbeeld: sleutelwoord1, sleutelwoord2, sleutelwoord3",
+	"apihelp-advancedmeta-tasks-param-format": "Het uitvoerformaat (alleen JSON of opgemaakte JSON)",
+	"action-advancedmeta-edit": "meta-elementen van pagina's of naamruimten te bewerken",
+	"right-advancedmeta-edit": "Meta-elementen van pagina's of naamruimten kunnen bewerken"
 }
