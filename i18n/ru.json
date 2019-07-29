@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"DCamer",
-			"1233qwer1234qwer4"
+			"1233qwer1234qwer4",
+			"Sobloku"
 		]
 	},
 	"advancedmeta-desc": "Добавляет к страницам мета-параметры (роботы, ключевые слова и описание) и изменение названия",
@@ -12,7 +13,11 @@
 	"advancedmeta-dialog-btn-label-cancel": "Отменить",
 	"advancedmeta-dialog-btn-label-delete": "Удалить",
 	"advancedmeta-dialog-input-label-description": "Описание",
+	"advancedmeta-dialog-input-label-follow": "Подписаться",
 	"advancedmeta-dialog-input-label-index": "Индекс",
 	"advancedmeta-dialog-input-label-keywords": "Ключевые слова",
-	"advancedmeta-dialog-input-help-keywords": "Разделённый запятыми список ключевых слов. Например: слово1, слово2, слово3"
+	"advancedmeta-dialog-input-help-keywords": "Разделённый запятыми список ключевых слов. Например: слово1, слово2, слово3",
+	"apihelp-advancedmeta-tasks-param-task": "Задача, которая должна быть выполнена",
+	"action-advancedmeta-edit": "редактировать мета-элементы страницы или пространства имён",
+	"right-advancedmeta-edit": "Редактировать мета-элементы страницы или пространства имён"
 }
