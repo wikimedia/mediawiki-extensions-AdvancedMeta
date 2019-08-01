@@ -3,7 +3,8 @@
 		"authors": [
 			"PhiLiP",
 			"科劳",
-			"神樂坂秀吉"
+			"神樂坂秀吉",
+			"VulpesVulpes825"
 		]
 	},
 	"advancedmeta-desc": "允许修改页面的meta设置（机器人、关键词和描述）和标题",
@@ -19,6 +20,7 @@
 	"advancedmeta-dialog-input-label-keywords": "关键词",
 	"advancedmeta-dialog-input-help-keywords": "关键词列表，用逗号分隔；例如：keyword1,keyword2,keyword3",
 	"apihelp-advancedmeta-tasks-description": "提供用于AdvancedMeta的一般操作",
+	"apihelp-advancedmeta-tasks-summary": "为AdvancedMeta提供诸如删除或编辑操作",
 	"apihelp-advancedmeta-tasks-param-task": "需要执行的任务",
 	"apihelp-advancedmeta-tasks-param-taskdata": "JSON字符串编码的对象，带用于任务的任意数据",
 	"apihelp-advancedmeta-tasks-param-format": "输出格式（仅JSON或格式化JSON）",
