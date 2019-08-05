@@ -24,5 +24,6 @@
 	"apihelp-advancedmeta-tasks-param-task": "需要执行的任务",
 	"apihelp-advancedmeta-tasks-param-taskdata": "JSON字符串编码的对象，带用于任务的任意数据",
 	"apihelp-advancedmeta-tasks-param-format": "输出格式（仅JSON或格式化JSON）",
+	"action-advancedmeta-edit": "编辑页面或者名字空间的Meta元素",
 	"right-advancedmeta-edit": "编辑页面或名字空间的meta元素"
 }

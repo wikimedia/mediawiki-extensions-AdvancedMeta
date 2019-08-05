@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Tofeiku"
 		]
 	},
 	"advancedmeta-desc": "Membolehkan tetapan meta selaman (robot, kata kunci, keterangan) dan penukaran tajuk",
 	"advancedmeta-metasettings": "Tetapan meta",
-	"advancedmeta-titlealias": "Alias tajuk:"
+	"advancedmeta-titlealias": "Alias tajuk:",
+	"advancedmeta-dialog-btn-label-save": "Simpan",
+	"advancedmeta-dialog-input-label-keywords": "Kata kunci"
 }
