@@ -18,5 +18,7 @@
 	"advancedmeta-dialog-input-label-follow": "Obserwuj",
 	"advancedmeta-dialog-input-label-index": "Indeks",
 	"advancedmeta-dialog-input-label-keywords": "Słowa kluczowe",
-	"advancedmeta-dialog-input-help-keywords": "Słowa kluczowe oddzielone przecinkami. Na przykład: klucz1, klucz2, klucz3"
+	"advancedmeta-dialog-input-help-keywords": "Słowa kluczowe oddzielone przecinkami. Na przykład: klucz1, klucz2, klucz3",
+	"action-advancedmeta-edit": "edytowania meta-elementów stron lub przestrzeni nazw",
+	"right-advancedmeta-edit": "Edytowanie meta-elementów stron lub przestrzeni nazw"
 }
