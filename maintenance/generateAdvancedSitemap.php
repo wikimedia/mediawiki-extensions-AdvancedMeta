@@ -160,6 +160,7 @@ class GenerateAdvancedSitemap extends Maintenance {
 		$this->addOption(
 			'identifier', 'What site identifier to use for the wiki, defaults to $wgDBname', false, true
 		);
+		$this->requireExtension( 'AdvancedMeta' );
 	}
 
 	/**
