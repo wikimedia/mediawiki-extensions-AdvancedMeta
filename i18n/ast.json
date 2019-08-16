@@ -6,5 +6,21 @@
 	},
 	"advancedmeta-desc": "Permite una meta-configuración de cada páxina (robots, pallabres clave, descripción) y camudar el títulu",
 	"advancedmeta-metasettings": "Meta-configuración",
-	"advancedmeta-titlealias": "Títulu alternativu:"
+	"advancedmeta-titlealias": "Títulu alternativu:",
+	"advancedmeta-navigation-contentaction-label": "Optimización del motor de gueta",
+	"advancedmeta-dialog-btn-label-save": "Guardar",
+	"advancedmeta-dialog-btn-label-cancel": "Encaboxar",
+	"advancedmeta-dialog-btn-label-delete": "Desaniciar",
+	"advancedmeta-dialog-input-label-description": "Descripción",
+	"advancedmeta-dialog-input-label-follow": "Siguir",
+	"advancedmeta-dialog-input-label-index": "Índiz",
+	"advancedmeta-dialog-input-label-keywords": "Palabres clave",
+	"advancedmeta-dialog-input-help-keywords": "Llista de palabres clave separaes por comes. Por casu: palabra1, palabra2, palabra3",
+	"apihelp-advancedmeta-tasks-description": "Ufre operaciones comunes pa AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Ufre operaciones como desaniciar y editar pa AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "La xera que tien d'executase",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Oxetu codificáu de cadena JSON con datos cualesquiera pa la xera",
+	"apihelp-advancedmeta-tasks-param-format": "El formatu pa la salida (solo JSON o JSON con formatu)",
+	"action-advancedmeta-edit": "editar los meta elementos de la páxina o del espaciu de nomes",
+	"right-advancedmeta-edit": "Editar los meta elementos de la páxina o del espaciu de nomes"
 }
