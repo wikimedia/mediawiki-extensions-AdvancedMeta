@@ -3,12 +3,14 @@
 		"authors": [
 			"DCamer",
 			"1233qwer1234qwer4",
-			"Sobloku"
+			"Sobloku",
+			"Vlad5250"
 		]
 	},
 	"advancedmeta-desc": "Добавляет к страницам мета-параметры (роботы, ключевые слова и описание) и изменение названия",
 	"advancedmeta-metasettings": "Мета-параметры",
 	"advancedmeta-titlealias": "Псевдоним названия:",
+	"advancedmeta-navigation-contentaction-label": "Поисковая оптимизация",
 	"advancedmeta-dialog-btn-label-save": "Сохранить",
 	"advancedmeta-dialog-btn-label-cancel": "Отменить",
 	"advancedmeta-dialog-btn-label-delete": "Удалить",
@@ -17,7 +19,11 @@
 	"advancedmeta-dialog-input-label-index": "Индекс",
 	"advancedmeta-dialog-input-label-keywords": "Ключевые слова",
 	"advancedmeta-dialog-input-help-keywords": "Разделённый запятыми список ключевых слов. Например: слово1, слово2, слово3",
+	"apihelp-advancedmeta-tasks-description": "Предоставляет общие операции для AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Предоставляет операции наподобие удаления и правки для AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Задача, которая должна быть выполнена",
+	"apihelp-advancedmeta-tasks-param-taskdata": "JSON-строковый кодированный объект с произвольными данными для задачи",
+	"apihelp-advancedmeta-tasks-param-format": "Формат вывода (только JSON или форматированный JSON)",
 	"action-advancedmeta-edit": "редактировать мета-элементы страницы или пространства имён",
 	"right-advancedmeta-edit": "Редактировать мета-элементы страницы или пространства имён"
 }

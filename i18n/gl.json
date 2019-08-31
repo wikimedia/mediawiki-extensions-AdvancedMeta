@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"advancedmeta-desc": "Permite as configuracións meta de páxina (robots, palabras clave, descrición) e cambios de título",
 	"advancedmeta-metasettings": "Configuración meta",
-	"advancedmeta-titlealias": "Título alternativo:"
+	"advancedmeta-titlealias": "Título alternativo:",
+	"advancedmeta-dialog-btn-label-save": "Gardar",
+	"advancedmeta-dialog-btn-label-cancel": "Cancelar",
+	"advancedmeta-dialog-btn-label-delete": "Borrar",
+	"advancedmeta-dialog-input-label-description": "Descrición",
+	"advancedmeta-dialog-input-label-follow": "Seguir",
+	"advancedmeta-dialog-input-label-index": "Índice",
+	"advancedmeta-dialog-input-label-keywords": "Palabras clave"
 }

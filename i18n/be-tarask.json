@@ -4,7 +4,8 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Wizardist",
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Nerogaf"
 		]
 	},
 	"advancedmeta-desc": "Налады мэтазьвестак для асобных старонак (робаты, ключавыя словы, апісаньне) і магчымасьць зьмены загалоўка",
@@ -15,6 +16,8 @@
 	"advancedmeta-dialog-btn-label-cancel": "Адмяніць",
 	"advancedmeta-dialog-btn-label-delete": "Выдаліць",
 	"advancedmeta-dialog-input-label-description": "Апісаньне",
+	"advancedmeta-dialog-input-label-follow": "Падпісацца",
 	"advancedmeta-dialog-input-label-index": "Індэкс",
-	"advancedmeta-dialog-input-label-keywords": "Ключавыя словы"
+	"advancedmeta-dialog-input-label-keywords": "Ключавыя словы",
+	"apihelp-advancedmeta-tasks-param-task": "Заданьне, якое трэба выканаць"
 }
