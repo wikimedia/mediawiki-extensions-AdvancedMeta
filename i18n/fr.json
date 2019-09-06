@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"advancedmeta-desc": "Permet le paramétrage des balises meta de chaque page (robots, mots clés, description) et le changement de titre",
-	"advancedmeta-metasettings": "Paramètres Meta",
-	"advancedmeta-titlealias": "Alias de titre :",
+	"advancedmeta-metasettings": "Paramètres méta",
+	"advancedmeta-titlealias": "Alias de titre :",
 	"advancedmeta-navigation-contentaction-label": "Optimisation du moteur de recherche",
 	"advancedmeta-dialog-btn-label-save": "Enregistrer",
 	"advancedmeta-dialog-btn-label-cancel": "Annuler",
