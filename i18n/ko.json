@@ -19,5 +19,6 @@
 	"advancedmeta-dialog-input-label-index": "색인",
 	"advancedmeta-dialog-input-label-keywords": "키워드",
 	"apihelp-advancedmeta-tasks-param-format": "출력 형식 (JSON 또는 서식화된 JSON만)",
+	"action-advancedmeta-edit": "문서 또는 이름공간 메타 요소를 편집할",
 	"right-advancedmeta-edit": "문서 또는 이름공간 메타 요소 편집"
 }
