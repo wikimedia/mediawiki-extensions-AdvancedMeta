@@ -2,10 +2,27 @@
 	"@metadata": {
 		"authors": [
 			"Event",
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"advancedmeta-desc": "Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel",
 	"advancedmeta-metasettings": "Meta-innstillinger",
-	"advancedmeta-titlealias": "Tittel-alias:"
+	"advancedmeta-titlealias": "Tittel-alias:",
+	"advancedmeta-navigation-contentaction-label": "Søkemotoroptimalisering",
+	"advancedmeta-dialog-btn-label-save": "Lagre",
+	"advancedmeta-dialog-btn-label-cancel": "Avbryt",
+	"advancedmeta-dialog-btn-label-delete": "Slett",
+	"advancedmeta-dialog-input-label-description": "Beskrivelse",
+	"advancedmeta-dialog-input-label-follow": "Følg",
+	"advancedmeta-dialog-input-label-index": "Indeks",
+	"advancedmeta-dialog-input-label-keywords": "Nøkkelord",
+	"advancedmeta-dialog-input-help-keywords": "Kommaseparert liste over nøkkelord. For eksempel: nøkkelord1, nøkkelord2, nøkkelord3",
+	"apihelp-advancedmeta-tasks-description": "Tilbyr felles operasjoner for AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Tilbyr operasjoner som sletting og redigering for AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "Oppgaven som skal utføres",
+	"apihelp-advancedmeta-tasks-param-taskdata": "JSON-strengkodet objekt med vilkårlige data for oppgaven",
+	"apihelp-advancedmeta-tasks-param-format": "Formatet til utdataene (kun JSON eller formatert JSON)",
+	"action-advancedmeta-edit": "redigere metaelementer for sider eller navnerom",
+	"right-advancedmeta-edit": "Redigere metaelementer for sider eller navnerom"
 }

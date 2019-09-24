@@ -4,12 +4,14 @@
 			"Schu",
 			"Shirayuki",
 			"Aefgh39622",
-			"マツムシ"
+			"マツムシ",
+			"Reiwa period"
 		]
 	},
 	"advancedmeta-desc": "ページ毎のメタ設定（ロボット、キーワード、説明）とタイトルを変更できるようにする",
 	"advancedmeta-metasettings": "メタ設定",
 	"advancedmeta-titlealias": "タイトル別名：",
+	"advancedmeta-navigation-contentaction-label": "検索エンジン最適化",
 	"advancedmeta-dialog-btn-label-save": "保存",
 	"advancedmeta-dialog-btn-label-cancel": "キャンセル",
 	"advancedmeta-dialog-btn-label-delete": "削除",
