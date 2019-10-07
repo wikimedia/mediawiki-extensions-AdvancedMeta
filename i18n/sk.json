@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Vlad5250"
 		]
 	},
 	"advancedmeta-metasettings": "Meta nastavenie",
-	"advancedmeta-titlealias": "Alias názvu:"
+	"advancedmeta-titlealias": "Alias názvu:",
+	"advancedmeta-dialog-btn-label-save": "Uložiť",
+	"advancedmeta-dialog-btn-label-cancel": "Zrušiť",
+	"advancedmeta-dialog-btn-label-delete": "Zmazať",
+	"advancedmeta-dialog-input-label-description": "Popis",
+	"advancedmeta-dialog-input-label-follow": "Sledovať",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Kľúčové slová"
 }
