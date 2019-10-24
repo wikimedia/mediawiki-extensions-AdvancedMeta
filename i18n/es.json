@@ -4,7 +4,8 @@
 			"Fitoschido",
 			"Mor",
 			"Pvgreenzebra",
-			"Ryo567"
+			"Ryo567",
+			"Ihojose"
 		]
 	},
 	"advancedmeta-desc": "Permite metaconfigurar páginas individuals (robots, palabras clave, descripción) y cambiar el título",
@@ -19,6 +20,11 @@
 	"advancedmeta-dialog-input-label-index": "Índice",
 	"advancedmeta-dialog-input-label-keywords": "Palabras clave",
 	"advancedmeta-dialog-input-help-keywords": "Lista de palabras clave separadas por comas. Por ejemplo: palabra1, palabra2, palabra3",
+	"apihelp-advancedmeta-tasks-description": "Proporciona operaciones comunes para AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Proporciona operaciones como eliminar y editar para AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "La tarea que debe ejecutarse",
-	"apihelp-advancedmeta-tasks-param-format": "El formato de la salida (JSON solamente o JSON con formato)"
+	"apihelp-advancedmeta-tasks-param-taskdata": "Objeto codificado en formato JSON con datos arbitrarios para la tarea",
+	"apihelp-advancedmeta-tasks-param-format": "El formato de la salida (JSON solamente o JSON con formato)",
+	"action-advancedmeta-edit": "editar página o renombrar meta elementos",
+	"right-advancedmeta-edit": "Editar página o renombrar meta elementos"
 }
