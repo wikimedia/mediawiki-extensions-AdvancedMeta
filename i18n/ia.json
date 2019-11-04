@@ -6,5 +6,21 @@
 	},
 	"advancedmeta-desc": "Permitte configurar le metadatos de cata pagina (robots, parolas-clave, description) e cambiar le titulo",
 	"advancedmeta-metasettings": "Configuration de metadatos",
-	"advancedmeta-titlealias": "Titulo alternative:"
+	"advancedmeta-titlealias": "Titulo alternative:",
+	"advancedmeta-navigation-contentaction-label": "Optimisation pro motores de recerca",
+	"advancedmeta-dialog-btn-label-save": "Salveguardar",
+	"advancedmeta-dialog-btn-label-cancel": "Cancellar",
+	"advancedmeta-dialog-btn-label-delete": "Deler",
+	"advancedmeta-dialog-input-label-description": "Description",
+	"advancedmeta-dialog-input-label-follow": "Sequer",
+	"advancedmeta-dialog-input-label-index": "Indice",
+	"advancedmeta-dialog-input-label-keywords": "Parolas-clave",
+	"advancedmeta-dialog-input-help-keywords": "Lista de parolas clave separate per commas. Per exemplo: parola1, parola2, parola3",
+	"apihelp-advancedmeta-tasks-description": "Forni operationes commun pro AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Forni operationes como deler e modificar pro AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "Le carga a exequer",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Objecto codificate in texto JSON con datos arbitrari pro le carga",
+	"apihelp-advancedmeta-tasks-param-format": "Le formato del resultato (JSON solmente, o JSON formatate)",
+	"action-advancedmeta-edit": "modificar le meta-elementos de paginas o spatios de nomines",
+	"right-advancedmeta-edit": "Modificar le meta-elementos de paginas o spatios de nomines"
 }

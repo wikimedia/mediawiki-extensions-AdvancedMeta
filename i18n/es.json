@@ -11,7 +11,7 @@
 	"advancedmeta-desc": "Permite metaconfigurar páginas individuals (robots, palabras clave, descripción) y cambiar el título",
 	"advancedmeta-metasettings": "Configuración de meta",
 	"advancedmeta-titlealias": "Alias de título:",
-	"advancedmeta-navigation-contentaction-label": "Optimización del motor de búsqueda",
+	"advancedmeta-navigation-contentaction-label": "Optimización para buscadores",
 	"advancedmeta-dialog-btn-label-save": "Guardar",
 	"advancedmeta-dialog-btn-label-cancel": "Cancelar",
 	"advancedmeta-dialog-btn-label-delete": "Eliminar",
@@ -25,6 +25,6 @@
 	"apihelp-advancedmeta-tasks-param-task": "La tarea que debe ejecutarse",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Objeto codificado en formato JSON con datos arbitrarios para la tarea",
 	"apihelp-advancedmeta-tasks-param-format": "El formato de la salida (JSON solamente o JSON con formato)",
-	"action-advancedmeta-edit": "editar página o renombrar meta elementos",
-	"right-advancedmeta-edit": "Editar página o renombrar meta elementos"
+	"action-advancedmeta-edit": "editar metaelementos de página o espacio de nombres",
+	"right-advancedmeta-edit": "Editar metaelementos de página o espacio de nombres"
 }

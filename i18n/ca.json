@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"advancedmeta-navigation-contentaction-label": "Optimizació per a cercadors",
+	"advancedmeta-dialog-btn-label-save": "Desa",
+	"advancedmeta-dialog-btn-label-cancel": "Cancel·la",
+	"advancedmeta-dialog-btn-label-delete": "Suprimeix",
+	"advancedmeta-dialog-input-label-description": "Descripció",
+	"advancedmeta-dialog-input-label-follow": "Segueix",
+	"advancedmeta-dialog-input-label-index": "Índex",
+	"advancedmeta-dialog-input-label-keywords": "Paraules clau"
+}
