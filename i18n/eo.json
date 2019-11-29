@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Yekrats",
-			"Mirin"
+			"Mirin",
+			"Zarisi"
 		]
 	},
 	"advancedmeta-desc": "Permesas en paĝo meta-agordoj (por robotoj, ŝlosilvortoj, priskribo) kaj ŝanĝado de titolo",
@@ -13,6 +14,7 @@
 	"advancedmeta-dialog-btn-label-cancel": "Nuligi",
 	"advancedmeta-dialog-btn-label-delete": "Forigi",
 	"advancedmeta-dialog-input-label-description": "Priskribo",
+	"advancedmeta-dialog-input-label-follow": "Aboni",
 	"advancedmeta-dialog-input-label-index": "Indekso",
 	"advancedmeta-dialog-input-label-keywords": "Ŝlosilvortoj"
 }
