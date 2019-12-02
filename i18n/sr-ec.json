@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Zoranzoki21"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Сачувај",
+	"advancedmeta-dialog-btn-label-cancel": "Откажи",
+	"advancedmeta-dialog-btn-label-delete": "Избриши",
+	"advancedmeta-dialog-input-label-description": "Опис",
+	"advancedmeta-dialog-input-label-follow": "Прати",
+	"advancedmeta-dialog-input-label-index": "Индекс",
+	"advancedmeta-dialog-input-label-keywords": "Кључне речи"
+}

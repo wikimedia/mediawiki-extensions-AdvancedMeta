@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Incelemeelemani"
+			"Incelemeelemani",
+			"Karduelis"
 		]
 	},
-	"advancedmeta-metasettings": "Meta ayarları"
+	"advancedmeta-metasettings": "Meta ayarları",
+	"advancedmeta-dialog-btn-label-save": "Kaydet",
+	"advancedmeta-dialog-btn-label-cancel": "İptal",
+	"advancedmeta-dialog-btn-label-delete": "Sil",
+	"advancedmeta-dialog-input-label-description": "Açıklama",
+	"advancedmeta-dialog-input-label-index": "Dizin",
+	"advancedmeta-dialog-input-label-keywords": "Anahtar kelimeler"
 }
