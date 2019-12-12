@@ -2,14 +2,27 @@
 	"@metadata": {
 		"authors": [
 			"Incelemeelemani",
-			"Karduelis"
+			"Karduelis",
+			"BaRaN6161 TURK"
 		]
 	},
+	"advancedmeta-desc": "Sayfa başına meta ayarlarına izin verir (robotlar, anahtar kelimeler, açıklama) ve başlığı değiştir",
 	"advancedmeta-metasettings": "Meta ayarları",
+	"advancedmeta-titlealias": "Başlık takma adı:",
+	"advancedmeta-navigation-contentaction-label": "Arama motoru optimizasyonu",
 	"advancedmeta-dialog-btn-label-save": "Kaydet",
 	"advancedmeta-dialog-btn-label-cancel": "İptal",
 	"advancedmeta-dialog-btn-label-delete": "Sil",
 	"advancedmeta-dialog-input-label-description": "Açıklama",
+	"advancedmeta-dialog-input-label-follow": "İzle",
 	"advancedmeta-dialog-input-label-index": "Dizin",
-	"advancedmeta-dialog-input-label-keywords": "Anahtar kelimeler"
+	"advancedmeta-dialog-input-label-keywords": "Anahtar kelimeler",
+	"advancedmeta-dialog-input-help-keywords": "Virgülle ayrılmış anahtar kelime listesi. Örneğin: kelime1, kelime2, kelime3",
+	"apihelp-advancedmeta-tasks-description": "AdvancedMeta için ortak işlemler sağlar",
+	"apihelp-advancedmeta-tasks-summary": "AdvancedMeta için silme ve düzenleme gibi işlemler sağlar",
+	"apihelp-advancedmeta-tasks-param-task": "Yürütülmesi gereken görev",
+	"apihelp-advancedmeta-tasks-param-taskdata": "JSON dizesi görev için rasgele veri içeren kodlanmış nesne",
+	"apihelp-advancedmeta-tasks-param-format": "Çıkışın biçimi (yalnızca JSON veya biçimlendirilmiş JSON)",
+	"action-advancedmeta-edit": "sayfayı veya ad alanı meta öğelerini düzenle",
+	"right-advancedmeta-edit": "Sayfayı veya ad alanı meta öğelerini düzenle"
 }
