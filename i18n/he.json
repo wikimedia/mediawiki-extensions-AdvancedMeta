@@ -4,7 +4,8 @@
 			"Amire80",
 			"Deror avi",
 			"Erelon",
-			"Steeve815"
+			"Steeve815",
+			"Ghsuvr"
 		]
 	},
 	"advancedmeta-desc": "מתן אפשרות ליצור מטא־הגדרות לדפים (רובוטים, מילות מפתח, תיאור) ולשנות את הכותרת",
@@ -18,5 +19,12 @@
 	"advancedmeta-dialog-input-label-follow": "עקוב",
 	"advancedmeta-dialog-input-label-index": "אינדקס",
 	"advancedmeta-dialog-input-label-keywords": "מילות מפתח",
-	"apihelp-advancedmeta-tasks-param-task": "המשימה שאמורה להתבצע"
+	"advancedmeta-dialog-input-help-keywords": "רשימת מילות מפתח מופרדות בפסיקים. לדוגמא: מילת מפתח 1, מילת מפתח 2, מילת מפתח 3",
+	"apihelp-advancedmeta-tasks-description": "מספק פעולות נפוצות עבור AdvencedMeta",
+	"apihelp-advancedmeta-tasks-summary": "מספק פעולות כמו מחיקה ועריכה עבור AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "המשימה שאמורה להתבצע",
+	"apihelp-advancedmeta-tasks-param-taskdata": "מחרוזת JSON מקודדת עם נתונים שרירותיים עבור המשימה",
+	"apihelp-advancedmeta-tasks-param-format": "הפורמט של הפלט (רק JSON או JSON מפורמט)",
+	"action-advancedmeta-edit": "ערוך עמוד או מטא אלמנטים של מרחב השמות",
+	"right-advancedmeta-edit": "ערוך עמוד או מטא אלמנטים של מרחב השמות"
 }
