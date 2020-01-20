@@ -5,7 +5,8 @@
 			"Jim-by",
 			"Wizardist",
 			"Red Winged Duck",
-			"Nerogaf"
+			"Nerogaf",
+			"Renessaince"
 		]
 	},
 	"advancedmeta-desc": "Налады мэтазьвестак для асобных старонак (робаты, ключавыя словы, апісаньне) і магчымасьць зьмены загалоўка",
@@ -21,10 +22,10 @@
 	"advancedmeta-dialog-input-label-keywords": "Ключавыя словы",
 	"advancedmeta-dialog-input-help-keywords": "Сьпіс ключавых словаў, падзеленых коскамі. Напрыклад: keyword1, keyword2, keyword3",
 	"apihelp-advancedmeta-tasks-description": "Прадастаўляе агульныя апэрацыі для AdvancedMeta",
-	"apihelp-advancedmeta-tasks-summary": "Прадастаўляе такія апэрацыі, як выдаленьне й рэдагаваньне формы для Advanced Meta",
+	"apihelp-advancedmeta-tasks-summary": "Прадастаўляе такія апэрацыі, як выдаленьне й рэдагаваньне формы для AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Заданьне, якое трэба выканаць",
-	"apihelp-advancedmeta-tasks-param-taskdata": "Закадаваны аб'ект з адвольнымі дадзенымі для задачы радка JSON",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Закадаваны аб’ект з адвольнымі зьвесткамі для задачы ў радку JSON",
 	"apihelp-advancedmeta-tasks-param-format": "Фармат вываду (толькі JSON або фарматаваны JSON)",
-	"action-advancedmeta-edit": "рэдагаваньне мэтаэлэмэнтаў старонкі або прасторы ймёнаў",
-	"right-advancedmeta-edit": "Рэдагаваньне старонкі або мэтаэлэмэнтаў прасторы ймёнаў"
+	"action-advancedmeta-edit": "рэдагаваньне мэтаэлэмэнтаў старонкі або прасторы назваў",
+	"right-advancedmeta-edit": "Рэдагаваньне старонкі або мэтаэлэмэнтаў прасторы назваў"
 }

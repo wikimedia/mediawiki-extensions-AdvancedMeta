@@ -21,7 +21,7 @@
 	"apihelp-advancedmeta-tasks-description": "AdvancedMeta için ortak işlemler sağlar",
 	"apihelp-advancedmeta-tasks-summary": "AdvancedMeta için silme ve düzenleme gibi işlemler sağlar",
 	"apihelp-advancedmeta-tasks-param-task": "Yürütülmesi gereken görev",
-	"apihelp-advancedmeta-tasks-param-taskdata": "JSON dizesi görev için rasgele veri içeren kodlanmış nesne",
+	"apihelp-advancedmeta-tasks-param-taskdata": "JSON dizesi görev için rastgele veri içeren kodlanmış nesne",
 	"apihelp-advancedmeta-tasks-param-format": "Çıkışın biçimi (yalnızca JSON veya biçimlendirilmiş JSON)",
 	"action-advancedmeta-edit": "sayfayı veya ad alanı meta öğelerini düzenle",
 	"right-advancedmeta-edit": "Sayfayı veya ad alanı meta öğelerini düzenle"
