@@ -12,10 +12,11 @@ class AddAdvancedMeta extends SkinTemplateNavigation {
 		if ( $this->sktemplate->getTitle()->getArticleID() < 1 ) {
 			return true;
 		}
-		if ( !$this->sktemplate->getTitle()->userCan( 'advancedmeta-edit' ) ) {
-			return true;
-		}
-		return false;
+		return !$this->getServices()->getPermissionManager()->userCan(
+			'advancedmeta-edit',
+			$this->sktemplate->getUser(),
+			$this->sktemplate->getTitle()
+		);
 	}
 
 	protected function doProcess() {

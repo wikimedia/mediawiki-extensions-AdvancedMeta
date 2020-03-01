@@ -12,10 +12,11 @@ class AddJSConfigVar extends BeforePageDisplay {
 		if ( $this->out->getTitle()->getArticleID() < 1 ) {
 			return true;
 		}
-		if ( !$this->out->getTitle()->userCan( 'advancedmeta-edit' ) ) {
-			return true;
-		}
-		return false;
+		return !$this->getServices()->getPermissionManager()->userCan(
+			'advancedmeta-edit',
+			$this->out->getUser(),
+			$this->out->getTitle()
+		);
 	}
 
 	protected function doProcess() {
