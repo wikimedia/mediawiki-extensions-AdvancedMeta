@@ -51,6 +51,9 @@
 	"ConfigRegistry": {
 		"adwm": "\\AdvancedMeta\\Config::newInstance"
 	},
+	"AutoloadNamespaces": {
+		"AdvancedMeta\\": "src/"
+	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "\\AdvancedMeta\\Hook\\LoadExtensionSchemaUpdates\\AddAdvancedMetaDBSchema::callback",
 		"BeforePageDisplay": [
