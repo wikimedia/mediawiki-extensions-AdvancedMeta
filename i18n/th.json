@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "บันทึก",
+	"advancedmeta-dialog-btn-label-cancel": "ยกเลิก",
+	"advancedmeta-dialog-btn-label-delete": "ลบ",
+	"advancedmeta-dialog-input-label-description": "คำอธิบาย",
+	"advancedmeta-dialog-input-label-follow": "ติดตาม",
+	"advancedmeta-dialog-input-label-keywords": "คำสำคัญ"
+}
