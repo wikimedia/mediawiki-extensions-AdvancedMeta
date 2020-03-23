@@ -18,5 +18,11 @@
 	"advancedmeta-dialog-input-label-description": "説明",
 	"advancedmeta-dialog-input-label-follow": "フォロー",
 	"advancedmeta-dialog-input-label-index": "目次",
-	"advancedmeta-dialog-input-label-keywords": "キーワード"
+	"advancedmeta-dialog-input-label-keywords": "キーワード",
+	"advancedmeta-dialog-input-help-keywords": "キーワードのカンマ区切りリスト。例: keyword1, keyword2, keyword3",
+	"apihelp-advancedmeta-tasks-description": "AdvancedMetaに共通の操作を提供します",
+	"apihelp-advancedmeta-tasks-summary": "AdvancedMetaの削除や編集などの操作を提供します",
+	"apihelp-advancedmeta-tasks-param-task": "実行する必要のタスク",
+	"apihelp-advancedmeta-tasks-param-taskdata": "タスクの任意のデータを含むJSON文字列エンコードオブジェクト",
+	"apihelp-advancedmeta-tasks-param-format": "出力の形式 (JSONまたはフォーマット済みJSONのみ)"
 }
