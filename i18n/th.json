@@ -4,10 +4,16 @@
 			"Aefgh39622"
 		]
 	},
+	"advancedmeta-desc": "อนุญาตการตั้งค่าเมตา (โรบอต คำสำคัญ คำอธิบาย) และการเปลี่ยนชื่อเรื่องในแต่ละหน้า",
+	"advancedmeta-metasettings": "การตั้งค่าเมตา",
+	"advancedmeta-titlealias": "นามแฝงชื่อเรื่อง:",
+	"advancedmeta-navigation-contentaction-label": "การเพิ่มประสิทธิภาพของเครื่องมือค้นหา",
 	"advancedmeta-dialog-btn-label-save": "บันทึก",
 	"advancedmeta-dialog-btn-label-cancel": "ยกเลิก",
 	"advancedmeta-dialog-btn-label-delete": "ลบ",
 	"advancedmeta-dialog-input-label-description": "คำอธิบาย",
 	"advancedmeta-dialog-input-label-follow": "ติดตาม",
-	"advancedmeta-dialog-input-label-keywords": "คำสำคัญ"
+	"advancedmeta-dialog-input-label-index": "ดัชนี",
+	"advancedmeta-dialog-input-label-keywords": "คำสำคัญ",
+	"apihelp-advancedmeta-tasks-param-format": "รูปแบบของเอาต์พุต (เฉพาะ JSON หรือ JSON ที่ถูกจัดรูปแบบแล้วเท่านั้น)"
 }
