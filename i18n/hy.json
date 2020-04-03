@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Պահպանել",
+	"advancedmeta-dialog-btn-label-cancel": "Չեղարկել",
+	"advancedmeta-dialog-btn-label-delete": "Ջնջել",
+	"advancedmeta-dialog-input-label-description": "Նկարագրություն",
+	"advancedmeta-dialog-input-label-index": "Ինդեքս"
+}
