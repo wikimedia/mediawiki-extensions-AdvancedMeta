@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Leyth",
-			"Amirsara"
+			"Amirsara",
+			"FarsiNevis"
 		]
 	},
 	"advancedmeta-metasettings": "تنظیمات متا",
+	"advancedmeta-titlealias": "عنوان مستعار:",
 	"advancedmeta-dialog-btn-label-save": "ذخیره",
 	"advancedmeta-dialog-btn-label-cancel": "لغو",
 	"advancedmeta-dialog-btn-label-delete": "حذف",
