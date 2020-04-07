@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand",
-			"Mainframe98"
+			"Mainframe98",
+			"Siebrand"
 		]
 	},
 	"advancedmeta-desc": "Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen",

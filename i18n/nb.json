@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Event",
-			"Nghtwlkr",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Nghtwlkr"
 		]
 	},
 	"advancedmeta-desc": "Tillater sidespesifikke metainnstillinger (roboter, nøkkelord, beskrivelse) og endring av tittel",

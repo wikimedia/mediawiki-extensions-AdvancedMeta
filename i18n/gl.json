@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño",
 			"Banjo",
-			"Breogan2008"
+			"Breogan2008",
+			"Toliño"
 		]
 	},
 	"advancedmeta-desc": "Permite as configuracións meta de páxina (robots, palabras clave, descrición) e cambios de título",

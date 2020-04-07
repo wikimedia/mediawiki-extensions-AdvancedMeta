@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Ainali",
-			"WikiPhoenix",
 			"Mjälten",
-			"Technic2"
+			"Technic2",
+			"WikiPhoenix"
 		]
 	},
 	"advancedmeta-desc": "Tillåter sidspecifika metainställningar (robotar, nyckelord, beskrivning) och rubrikändring",
