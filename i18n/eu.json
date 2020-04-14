@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseba"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Gorde",
+	"advancedmeta-dialog-btn-label-delete": "ezabatzeko",
+	"advancedmeta-dialog-input-label-description": "Deskribapena",
+	"advancedmeta-dialog-input-label-follow": "jarraitu",
+	"advancedmeta-dialog-input-label-keywords": "Hitz gakoak"
+}
