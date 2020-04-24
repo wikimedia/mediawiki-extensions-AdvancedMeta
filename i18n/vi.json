@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Phjtieudoc"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Lưu",
+	"advancedmeta-dialog-btn-label-cancel": "Hủy bỏ",
+	"advancedmeta-dialog-btn-label-delete": "Xóa",
+	"advancedmeta-dialog-input-label-description": "Miêu tả",
+	"advancedmeta-dialog-input-label-follow": "Theo dõi",
+	"advancedmeta-dialog-input-label-keywords": "Từ khóa"
+}
