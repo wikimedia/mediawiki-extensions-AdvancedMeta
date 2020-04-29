@@ -1,12 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseba"
+			"Joseba",
+			"Manex"
 		]
 	},
+	"advancedmeta-metasettings": "Meta ezarpenak",
+	"advancedmeta-titlealias": "Izenburuaren ezizena:",
+	"advancedmeta-navigation-contentaction-label": "Bilaketa-motorearen optimizazioa",
 	"advancedmeta-dialog-btn-label-save": "Gorde",
+	"advancedmeta-dialog-btn-label-cancel": "Utzi",
 	"advancedmeta-dialog-btn-label-delete": "ezabatzeko",
 	"advancedmeta-dialog-input-label-description": "Deskribapena",
 	"advancedmeta-dialog-input-label-follow": "jarraitu",
-	"advancedmeta-dialog-input-label-keywords": "Hitz gakoak"
+	"advancedmeta-dialog-input-label-index": "Aurkibidea",
+	"advancedmeta-dialog-input-label-keywords": "Hitz gakoak",
+	"advancedmeta-dialog-input-help-keywords": "Komaz bereiztutako hitz-gakoen zerrenda. Adibidez: hitz-gakoa1, hitz-gakoa2, hitz-gakoa3",
+	"apihelp-advancedmeta-tasks-param-task": "Exekutatu beharko litzatekeen ataza"
 }
