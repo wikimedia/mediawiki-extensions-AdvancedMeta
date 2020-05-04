@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fulup",
 			"Y-M D"
 		]
 	},
 	"advancedmeta-metasettings": "Arventennoù Meta",
-	"advancedmeta-titlealias": "Alias an titl :"
+	"advancedmeta-titlealias": "Alias an titl :",
+	"advancedmeta-dialog-btn-label-save": "Enrollañ",
+	"advancedmeta-dialog-btn-label-cancel": "Nullañ",
+	"advancedmeta-dialog-btn-label-delete": "Dilemel",
+	"advancedmeta-dialog-input-label-description": "Deskrivadur",
+	"advancedmeta-dialog-input-label-follow": "Heuliañ",
+	"advancedmeta-dialog-input-label-index": "Meneger",
+	"advancedmeta-dialog-input-label-keywords": "Gerioù alc'hwez"
 }
