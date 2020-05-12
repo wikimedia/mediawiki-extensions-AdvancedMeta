@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amir1arch",
 			"Amirsara",
 			"FarsiNevis",
 			"Leyth"
@@ -8,11 +9,13 @@
 	},
 	"advancedmeta-metasettings": "تنظیمات متا",
 	"advancedmeta-titlealias": "عنوان مستعار:",
+	"advancedmeta-navigation-contentaction-label": "بهینه‌سازی موتور جستجو",
 	"advancedmeta-dialog-btn-label-save": "ذخیره",
 	"advancedmeta-dialog-btn-label-cancel": "لغو",
 	"advancedmeta-dialog-btn-label-delete": "حذف",
 	"advancedmeta-dialog-input-label-description": "توضیحات",
 	"advancedmeta-dialog-input-label-follow": "دنبال‌کردن",
 	"advancedmeta-dialog-input-label-index": "شاخص",
-	"advancedmeta-dialog-input-label-keywords": "کلیدواژه‌ها"
+	"advancedmeta-dialog-input-label-keywords": "کلیدواژه‌ها",
+	"advancedmeta-dialog-input-help-keywords": "فهرست واژه های کلیدی جدا شده با ویرگول. برای نمونه: واژه1، واژه2، واژه3"
 }
