@@ -1,8 +1,6 @@
 {
 	"@metadata": {
-		"authors": [
-			"Michawiki"
-		]
+		"authors": []
 	},
 	"advancedmeta-desc": "Zmóžnja nastajenje meta-elementow (robots, keywords, description) a měnjenje titula strony",
 	"advancedmeta-metasettings": "Metanastajenja",

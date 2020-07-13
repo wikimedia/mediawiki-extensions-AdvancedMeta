@@ -3,6 +3,7 @@
 		"authors": [
 			"Ainali",
 			"Mjälten",
+			"Sabelöga",
 			"Technic2",
 			"WikiPhoenix"
 		]
@@ -24,6 +25,6 @@
 	"apihelp-advancedmeta-tasks-param-task": "Uppgiften bör utföras",
 	"apihelp-advancedmeta-tasks-param-taskdata": "\nJSON-sträng-kodat objekt med godtycklig data för uppgiften",
 	"apihelp-advancedmeta-tasks-param-format": "Formatet för utmatningen (endast JSON eller formaterad JSON)",
-	"action-advancedmeta-edit": "\nredigera sidan eller namnrymdens meta-element",
+	"action-advancedmeta-edit": "Redigera sidan eller namnrymdens meta-element",
 	"right-advancedmeta-edit": "Justera sida eller namnrymdsmetaelement"
 }
