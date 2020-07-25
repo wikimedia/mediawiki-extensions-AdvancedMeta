@@ -28,6 +28,8 @@
  */
 require_once dirname( dirname( dirname( __DIR__ ) ) ) . '/maintenance/Maintenance.php';
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Maintenance script that generates a sitemap for the site.
  *
@@ -303,7 +305,9 @@ class GenerateAdvancedSitemap extends Maintenance {
 	 * Main loop
 	 */
 	public function main() {
-		global $wgContLang;
+		$contentLang = MediaWikiServices::getInstance()->getContentLanguage();
+		$langConverter = MediaWikiServices::getInstance()->getLanguageConverterFactory()
+			->getLanguageConverter();
 
 		fwrite( $this->findex, $this->openIndex() );
 
@@ -314,10 +318,11 @@ class GenerateAdvancedSitemap extends Maintenance {
 			$length = $this->limit[0];
 			$i = $smcount = 0;
 
-			$fns = $wgContLang->getFormattedNsText( $namespace );
+			$fns = $contentLang->getFormattedNsText( $namespace );
 			$this->output( "$namespace ($fns)\n" );
-			$metaHandlerFactory = \MediaWiki\MediaWikiServices::getInstance()
-						->getService( 'AdvancedMetaFactory' );
+			$metaHandlerFactory = MediaWikiServices::getInstance()->getService(
+				'AdvancedMetaFactory'
+			);
 
 			foreach ( $res as $row ) {
 				if ( $this->skipRedirects && $row->page_is_redirect ) {
@@ -354,10 +359,10 @@ class GenerateAdvancedSitemap extends Maintenance {
 				$length += strlen( $entry );
 				$this->write( $this->file, $entry );
 				// generate pages for language variants
-				if ( $wgContLang->hasVariants() ) {
-					$variants = $wgContLang->getVariants();
+				if ( $langConverter->hasVariants() ) {
+					$variants = $langConverter->getVariants();
 					foreach ( $variants as $vCode ) {
-						if ( $vCode == $wgContLang->getCode() ) {
+						if ( $vCode == $contentLang->getCode() ) {
 							continue; // we don't want default variant
 						}
 						$entry = $this->fileEntry(
