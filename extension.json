@@ -64,7 +64,7 @@
 			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddDescription::callback",
 			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\SetHTMLTitle::callback"
 		],
-		"SkinTemplateNavigation": "\\AdvancedMeta\\Hook\\SkinTemplateNavigation\\AddAdvancedMeta::callback"
+		"SkinTemplateNavigation::Universal": "\\AdvancedMeta\\Hook\\SkinTemplateNavigationUniversal\\AddAdvancedMeta::callback"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",

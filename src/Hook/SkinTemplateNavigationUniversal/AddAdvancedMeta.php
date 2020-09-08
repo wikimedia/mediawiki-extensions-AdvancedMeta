@@ -1,10 +1,10 @@
 <?php
 
-namespace AdvancedMeta\Hook\SkinTemplateNavigation;
+namespace AdvancedMeta\Hook\SkinTemplateNavigationUniversal;
 
-use AdvancedMeta\Hook\SkinTemplateNavigation;
+use AdvancedMeta\Hook\SkinTemplateNavigationUniversal;
 
-class AddAdvancedMeta extends SkinTemplateNavigation {
+class AddAdvancedMeta extends SkinTemplateNavigationUniversal {
 	protected function skipProcessing() {
 		if ( !$this->sktemplate->getTitle() ) {
 			return true;
