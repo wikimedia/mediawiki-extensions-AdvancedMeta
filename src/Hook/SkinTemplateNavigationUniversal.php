@@ -4,7 +4,7 @@ namespace AdvancedMeta\Hook;
 
 use AdvancedMeta\Hook;
 
-abstract class SkinTemplateNavigation extends Hook {
+abstract class SkinTemplateNavigationUniversal extends Hook {
 
 	/**
 	 *
@@ -20,11 +20,11 @@ abstract class SkinTemplateNavigation extends Hook {
 
 	/**
 	 *
-	 * @param \SkinTemplate &$sktemplate
+	 * @param \SkinTemplate $sktemplate
 	 * @param array &$links
 	 * @return bool
 	 */
-	public static function callback( &$sktemplate, &$links ) {
+	public static function callback( $sktemplate, &$links ) {
 		$className = static::class;
 		$hookHandler = new $className(
 			null,
@@ -39,10 +39,10 @@ abstract class SkinTemplateNavigation extends Hook {
 	 *
 	 * @param \IContextSource $context
 	 * @param \Config $config
-	 * @param \SkinTemplate &$sktemplate
+	 * @param \SkinTemplate $sktemplate
 	 * @param array &$links
 	 */
-	public function __construct( $context, $config, &$sktemplate, &$links ) {
+	public function __construct( $context, $config, $sktemplate, &$links ) {
 		parent::__construct( $context, $config );
 
 		$this->sktemplate = $sktemplate;
