@@ -44,10 +44,14 @@
 		"advancedmeta-edit"
 	],
 	"config": {
-		"_prefix": "adwm",
-		"GlobalKeywordsMsgKey": "globalkeywords",
-		"NoIndexOnOldVersions": false
+		"GlobalKeywordsMsgKey": {
+			"value": "globalkeywords"
+		},
+		"NoIndexOnOldVersions": {
+			"value": false
+		}
 	},
+	"config_prefix": "adwm",
 	"ConfigRegistry": {
 		"adwm": "\\AdvancedMeta\\Config::newInstance"
 	},
@@ -94,5 +98,5 @@
 			]
 		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
