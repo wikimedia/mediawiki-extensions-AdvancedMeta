@@ -207,7 +207,11 @@ class Tasks extends \ApiBase {
 		// lookup permission for given task
 		foreach ( $taskPermissions[$task] as $sPermission ) {
 			// check if user have needed permission
-			if ( $this->getUser()->isAllowed( $sPermission ) ) {
+			$isAllowed = $this->getServices()->getPermissionManager()->userHasRight(
+				$this->getUser(),
+				$sPermission
+			);
+			if ( $isAllowed ) {
 				continue;
 			}
 			// TODO: Reflect permission in error message
