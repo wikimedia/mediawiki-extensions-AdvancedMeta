@@ -35,7 +35,7 @@ class MetaHandler implements \JsonSerializable {
 
 	/**
 	 *
-	 * @var boolean
+	 * @var bool
 	 */
 	protected $exists = false;
 
