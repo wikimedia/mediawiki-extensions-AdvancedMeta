@@ -29,6 +29,7 @@
 require_once dirname( dirname( dirname( __DIR__ ) ) ) . '/maintenance/Maintenance.php';
 
 use MediaWiki\MediaWikiServices;
+use Wikimedia\Rdbms\IDatabase;
 
 /**
  * Maintenance script that generates a sitemap for the site.
@@ -118,7 +119,7 @@ class GenerateAdvancedSitemap extends Maintenance {
 	/**
 	 * A database replica DB object
 	 *
-	 * @var object
+	 * @var IDatabase
 	 */
 	public $dbr;
 
