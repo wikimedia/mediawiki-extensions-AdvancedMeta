@@ -18,6 +18,7 @@
 	"advancedmeta-dialog-input-label-follow": "팔로우",
 	"advancedmeta-dialog-input-label-index": "색인",
 	"advancedmeta-dialog-input-label-keywords": "키워드",
+	"advancedmeta-dialog-input-help-keywords": "키워드의 쉼표 구분 목록입니다. 예: 키워드1, 키워드2, 키워드3",
 	"apihelp-advancedmeta-tasks-param-format": "출력 형식 (JSON 또는 서식화된 JSON만)",
 	"action-advancedmeta-edit": "문서 또는 이름공간 메타 요소를 편집할",
 	"right-advancedmeta-edit": "문서 또는 이름공간 메타 요소 편집"
