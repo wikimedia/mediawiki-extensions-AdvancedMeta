@@ -1,24 +1,16 @@
 <?xml version="1.0"?>
 <ruleset>
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
-		<exclude name="MediaWiki.WhiteSpace.SpaceAfterClosure.NoWhitespaceAfterClosure" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceAfterControlStructure.Incorrect" />
-		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeClassBrace.BraceNotOnSameLine" />
-		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeControlStructureBrace.BraceOnNewLine" />
-		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeControlStructureBrace.SpaceBeforeControl" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.SingleSpaceBeforeSingleLineComment" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceyParenthesis.SingleSpaceAfterOpenParenthesis" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceyParenthesis.SingleSpaceBeforeCloseParenthesis" />
-		<exclude name="MediaWiki.WhiteSpace.SpaceyParenthesis.SpaceBeforeOpeningParenthesis" />
-		<exclude name="MediaWiki.WhiteSpace.SpaceyParenthesis.UnnecessarySpaceBetweenParentheses" />
 		<exclude name="MediaWiki.WhiteSpace.MultipleEmptyLines.MultipleEmptyLines" />
 		<exclude name="Generic.Formatting.NoSpaceAfterCast.SpaceFound" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.DefaultNullTypeParam" />
 		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
-		<exclude name="MediaWiki.NamingConventions.PrefixedGlobalFunctions.wfPrefix" />
-		<exclude name="MediaWiki.NamingConventions.ValidGlobalName.wgPrefix" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationProtected" />
-		<exclude name="MediaWiki.Commenting.FunctionComment.NotShortBoolParam" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.NotShortBoolReturn" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamTag" />
 		<exclude name="MediaWiki.ControlStructures.AssignmentInControlStructures.AssignmentInControlStructures" />
@@ -26,6 +18,6 @@
 		<exclude name="PSR2.Namespaces.NamespaceDeclaration.BlankLineAfter" />
 	</rule>
 	<file>.</file>
-	<arg name="extensions" value="php,php5,inc" />
+	<arg name="extensions" value="php" />
 	<arg name="encoding" value="UTF-8" />
 </ruleset>
