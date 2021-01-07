@@ -23,7 +23,7 @@ class MetaHandler implements \JsonSerializable {
 
 	/**
 	 *
-	 * @var \Wikimedia\Rdbms\Database
+	 * @var \Wikimedia\Rdbms\IDatabase
 	 */
 	protected $db = null;
 
@@ -43,7 +43,7 @@ class MetaHandler implements \JsonSerializable {
 	 *
 	 * @param \Config $config
 	 * @param \Title $title
-	 * @praam \Wikimedia\Rdbms\Database
+	 * @param \Wikimedia\Rdbms\IDatabase $db
 	 */
 	public function __construct( \Config $config, \Title $title, $db ) {
 		$this->config = $config;

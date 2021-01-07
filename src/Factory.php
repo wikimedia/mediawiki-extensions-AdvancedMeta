@@ -14,12 +14,14 @@ class Factory {
 	 *
 	 * @var \Config
 	 */
-	protected $config = null;
+	protected $config;
 
+	/** @var \Wikimedia\Rdbms\ILoadBalancer|null */
 	protected $lb = null;
 
 	/**
 	 * @param \Config $config
+	 * @param \Wikimedia\Rdbms\ILoadBalancer|null $lb
 	 * @return Factory
 	 */
 	public function __construct( $config, $lb = null ) {
@@ -37,7 +39,7 @@ class Factory {
 	/**
 	 *
 	 * @param \Title|null $title
-	 * @return MetaHandler | null
+	 * @return MetaHandler|null
 	 */
 	public function newFromTitle( \Title $title = null ) {
 		$instance = null;
@@ -69,7 +71,7 @@ class Factory {
 	/**
 	 * TODO: real object cache!
 	 * @param \Title $title
-	 * @return MetaHandler | null
+	 * @return MetaHandler|null
 	 */
 	protected function fromCache( \Title $title ) {
 		if ( !isset( $this->instances[$title->getArticleID()] ) ) {

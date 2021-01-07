@@ -7,6 +7,7 @@ use AdvancedMeta\MetaHandler;
 
 class AddKeywords extends BeforePageDisplay {
 
+	/** @var array|null */
 	protected $keywords = null;
 
 	protected function skipProcessing() {

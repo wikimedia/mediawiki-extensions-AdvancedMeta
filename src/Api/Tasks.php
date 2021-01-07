@@ -94,7 +94,7 @@ class Tasks extends \ApiBase {
 
 	/**
 	 *
-	 * @return \MediaWiki\MediaWikiServices | false
+	 * @return \MediaWiki\MediaWikiServices|false
 	 */
 	protected function getServices() {
 		if ( !class_exists( "\\MediaWiki\\MediaWikiServices" ) ) {
