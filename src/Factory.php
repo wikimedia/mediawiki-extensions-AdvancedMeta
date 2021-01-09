@@ -44,10 +44,11 @@ class Factory {
 	public function newFromTitle( \Title $title = null ) {
 		$instance = null;
 		if ( !$title ) {
-			return $instance;
+			return null;
 		}
 
-		if ( !$instance = $this->fromCache( $title ) ) {
+		$instance = $this->fromCache( $title );
+		if ( !$instance ) {
 			$instance = $this->appendCache(
 				new MetaHandler(
 					$this->config,

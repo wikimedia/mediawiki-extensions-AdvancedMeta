@@ -208,7 +208,8 @@ class MetaHandler implements \JsonSerializable {
 			if ( $name !== static::ALIAS || $value == '' ) {
 				return $value;
 			}
-			if ( !$title = \Title::newFromText( $value ) ) {
+			$title = \Title::newFromText( $value );
+			if ( !$title ) {
 				throw new \MWException(
 					"invalid value or param $name: " . __METHOD__
 				);
@@ -230,7 +231,8 @@ class MetaHandler implements \JsonSerializable {
 				if ( empty( $keyword ) ) {
 					continue;
 				}
-				if ( !$title = \Title::newFromText( $keyword ) ) {
+				$title = \Title::newFromText( $keyword );
+				if ( !$title ) {
 					continue;
 				}
 				$keywords[] = $title->getText();

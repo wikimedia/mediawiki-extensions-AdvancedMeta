@@ -6,7 +6,6 @@
 		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
 		<exclude name="MediaWiki.Usage.ExtendClassUsage.FunctionConfigUsage" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationProtected" />
-		<exclude name="MediaWiki.ControlStructures.AssignmentInControlStructures.AssignmentInControlStructures" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php" />

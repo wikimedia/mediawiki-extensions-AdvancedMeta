@@ -52,7 +52,8 @@ class GlobalMetaKeys {
 			if ( empty( $keyword ) ) {
 				continue;
 			}
-			if ( !$title = \Title::newFromText( $keyword ) ) {
+			$title = \Title::newFromText( $keyword );
+			if ( !$title ) {
 				continue;
 			}
 			$keywords[] = $title->getText();

@@ -53,7 +53,8 @@ class Tasks extends \ApiBase {
 		}
 		$status = $metaHandler->save( (array)$taskData, $this->getUser() );
 
-		if ( !$result->success = $status->isOK() ) {
+		$result->success = $status->isOK();
+		if ( !$result->success ) {
 			$result->message = $status->getHTML();
 		}
 
@@ -76,7 +77,8 @@ class Tasks extends \ApiBase {
 		}
 
 		$status = $metaHandler->delete( $this->getUser() );
-		if ( !$result->success = $status->isOK() ) {
+		$result->success = $status->isOK();
+		if ( !$result->success ) {
 			$result->message = $status->getHTML();
 		}
 
