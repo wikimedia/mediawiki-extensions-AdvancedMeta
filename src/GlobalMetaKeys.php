@@ -4,19 +4,16 @@ namespace AdvancedMeta;
 
 class GlobalMetaKeys {
 	/**
-	 *
 	 * @var \Title
 	 */
-	protected $title = null;
+	protected $title;
 
 	/**
-	 *
 	 * @var \Config
 	 */
-	protected $config = null;
+	protected $config;
 
 	/**
-	 *
 	 * @param \Config $config
 	 * @param \Title $title
 	 */
@@ -26,7 +23,6 @@ class GlobalMetaKeys {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	public function getKeys() {

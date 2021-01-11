@@ -95,7 +95,6 @@ class Tasks extends \ApiBase {
 	}
 
 	/**
-	 *
 	 * @return \MediaWiki\MediaWikiServices|false
 	 */
 	protected function getServices() {
@@ -194,7 +193,6 @@ class Tasks extends \ApiBase {
 	}
 
 	/**
-	 *
 	 * @param string $task
 	 * @return bool null if requested task not in list
 	 * true if allowed

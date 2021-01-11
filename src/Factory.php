@@ -5,24 +5,21 @@ namespace AdvancedMeta;
 class Factory {
 
 	/**
-	 *
 	 * @var MetaHandler[]
 	 */
 	protected $instances = [];
 
 	/**
-	 *
 	 * @var \Config
 	 */
 	protected $config;
 
 	/** @var \Wikimedia\Rdbms\ILoadBalancer|null */
-	protected $lb = null;
+	protected $lb;
 
 	/**
 	 * @param \Config $config
 	 * @param \Wikimedia\Rdbms\ILoadBalancer|null $lb
-	 * @return Factory
 	 */
 	public function __construct( $config, $lb = null ) {
 		$this->config = $config;
@@ -37,31 +34,24 @@ class Factory {
 	}
 
 	/**
-	 *
 	 * @param \Title|null $title
 	 * @return MetaHandler|null
 	 */
 	public function newFromTitle( \Title $title = null ) {
-		$instance = null;
 		if ( !$title ) {
 			return null;
 		}
 
-		$instance = $this->fromCache( $title );
-		if ( !$instance ) {
-			$instance = $this->appendCache(
-				new MetaHandler(
-					$this->config,
-					$title,
-					$this->getDB()
-				)
-			);
-		}
-		return $instance;
+		return $this->fromCache( $title ) ?: $this->appendCache(
+			new MetaHandler(
+				$this->config,
+				$title,
+				$this->getDB()
+			)
+		);
 	}
 
 	/**
-	 *
 	 * @param \Title $title
 	 * @return GlobalMetaKeys
 	 */
@@ -94,7 +84,6 @@ class Factory {
 	}
 
 	/**
-	 *
 	 * @param MetaHandler $instance
 	 * @return bool
 	 */

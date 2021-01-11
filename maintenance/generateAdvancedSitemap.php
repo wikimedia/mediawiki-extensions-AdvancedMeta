@@ -412,7 +412,7 @@ class GenerateAdvancedSitemap extends Maintenance {
 	 * @param string $str
 	 */
 	private function write( &$handle, $str ) {
-		if ( $handle === true || $handle === false ) {
+		if ( is_bool( $handle ) ) {
 			throw new MWException( __METHOD__ . " was passed a boolean as a file handle.\n" );
 		}
 		if ( $this->compress ) {

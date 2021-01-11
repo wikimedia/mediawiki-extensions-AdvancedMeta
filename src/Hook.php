@@ -7,16 +7,14 @@ use MediaWiki\MediaWikiServices;
 abstract class Hook {
 
 	/**
-	 *
 	 * @var \IContextSource
 	 */
-	private $context = null;
+	private $context;
 
 	/**
-	 *
 	 * @var \Config
 	 */
-	private $config = null;
+	private $config;
 
 	/**
 	 * Normally both parameters are NULL on instantiation. This is because we
@@ -31,28 +29,25 @@ abstract class Hook {
 	}
 
 	/**
-	 *
 	 * @return \IContextSource
 	 */
 	protected function getContext() {
-		if ( $this->context instanceof \IContextSource === false ) {
+		if ( !( $this->context instanceof \IContextSource ) ) {
 			$this->context = \RequestContext::getMain();
 		}
 		return $this->context;
 	}
 
 	/**
-	 *
 	 * @var string
 	 */
 	protected static $configName = 'adwm';
 
 	/**
-	 *
 	 * @return \Config
 	 */
 	protected function getConfig() {
-		if ( $this->config instanceof \Config === false ) {
+		if ( !( $this->config instanceof \Config ) ) {
 			$this->config = $this->getServices()->getConfigFactory()
 				->makeConfig( static::$configName );
 		}
@@ -61,7 +56,6 @@ abstract class Hook {
 	}
 
 	/**
-	 *
 	 * @return MediaWikiServices
 	 */
 	protected function getServices() {
@@ -88,7 +82,6 @@ abstract class Hook {
 	}
 
 	/**
-	 *
 	 * @return Factory
 	 */
 	protected function getFactory() {

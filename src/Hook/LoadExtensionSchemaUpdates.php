@@ -7,13 +7,11 @@ use AdvancedMeta\Hook;
 abstract class LoadExtensionSchemaUpdates extends Hook {
 
 	/**
-	 *
 	 * @var \DatabaseUpdater
 	 */
-	protected $updater = null;
+	protected $updater;
 
 	/**
-	 *
 	 * @param \DatabaseUpdater $updater
 	 * @return bool
 	 */
@@ -28,7 +26,6 @@ abstract class LoadExtensionSchemaUpdates extends Hook {
 	}
 
 	/**
-	 *
 	 * @param \IContextSource $context
 	 * @param \Config $config
 	 * @param \DatabaseUpdater $updater

@@ -10,37 +10,31 @@ class MetaHandler implements \JsonSerializable {
 	const KEYWORDS = 'keywords';
 
 	/**
-	 *
 	 * @var \Title
 	 */
-	protected $title = null;
+	protected $title;
 
 	/**
-	 *
 	 * @var \Config
 	 */
-	protected $config = null;
+	protected $config;
 
 	/**
-	 *
 	 * @var \Wikimedia\Rdbms\IDatabase
 	 */
-	protected $db = null;
+	protected $db;
 
 	/**
-	 *
 	 * @var array
 	 */
 	protected $params = [];
 
 	/**
-	 *
 	 * @var bool
 	 */
 	protected $exists = false;
 
 	/**
-	 *
 	 * @param \Config $config
 	 * @param \Title $title
 	 * @param \Wikimedia\Rdbms\IDatabase $db
@@ -53,7 +47,6 @@ class MetaHandler implements \JsonSerializable {
 	}
 
 	/**
-	 *
 	 * @return bool
 	 */
 	public function exists() {
@@ -146,7 +139,6 @@ class MetaHandler implements \JsonSerializable {
 	}
 
 	/**
-	 *
 	 * @return \Title
 	 */
 	public function getTitle() {
@@ -154,7 +146,6 @@ class MetaHandler implements \JsonSerializable {
 	}
 
 	/**
-	 *
 	 * @param array $params
 	 * @param \User|null $user
 	 * @return \Status
@@ -246,7 +237,6 @@ class MetaHandler implements \JsonSerializable {
 	}
 
 	/**
-	 *
 	 * @param \User|null $user
 	 * @return \Status
 	 */
@@ -269,7 +259,6 @@ class MetaHandler implements \JsonSerializable {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	public function getData() {

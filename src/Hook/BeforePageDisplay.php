@@ -7,19 +7,16 @@ use AdvancedMeta\Hook;
 abstract class BeforePageDisplay extends Hook {
 
 	/**
-	 *
 	 * @var \OutputPage
 	 */
-	protected $out = null;
+	protected $out;
 
 	/**
-	 *
 	 * @var \Skin
 	 */
-	protected $skin = null;
+	protected $skin;
 
 	/**
-	 *
 	 * @param \OutputPage $out
 	 * @param \Skin $skin
 	 * @return bool
@@ -36,7 +33,6 @@ abstract class BeforePageDisplay extends Hook {
 	}
 
 	/**
-	 *
 	 * @param \IContextSource $context
 	 * @param \Config $config
 	 * @param \OutputPage $out

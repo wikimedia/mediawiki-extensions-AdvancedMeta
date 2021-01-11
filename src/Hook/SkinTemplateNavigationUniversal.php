@@ -7,19 +7,16 @@ use AdvancedMeta\Hook;
 abstract class SkinTemplateNavigationUniversal extends Hook {
 
 	/**
-	 *
 	 * @var \SkinTemplate
 	 */
-	protected $sktemplate = null;
+	protected $sktemplate;
 
 	/**
-	 *
 	 * @var array
 	 */
-	protected $links = [];
+	protected $links;
 
 	/**
-	 *
 	 * @param \SkinTemplate $sktemplate
 	 * @param array &$links
 	 * @return bool
@@ -36,7 +33,6 @@ abstract class SkinTemplateNavigationUniversal extends Hook {
 	}
 
 	/**
-	 *
 	 * @param \IContextSource $context
 	 * @param \Config $config
 	 * @param \SkinTemplate $sktemplate
