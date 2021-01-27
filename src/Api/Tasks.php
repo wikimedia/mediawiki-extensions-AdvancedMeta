@@ -8,7 +8,7 @@ class Tasks extends \ApiBase {
 	/**
 	 * Returns an array of tasks and their required permissions
 	 * array('taskname' => array('read', 'edit'))
-	 * @return type
+	 * @return array
 	 */
 	protected function getRequiredTaskPermissions() {
 		return [
@@ -194,7 +194,7 @@ class Tasks extends \ApiBase {
 
 	/**
 	 * @param string $task
-	 * @return bool null if requested task not in list
+	 * @return bool|null null if requested task not in list
 	 * true if allowed
 	 * false if not found in permission table of current user
 	 */
@@ -202,7 +202,7 @@ class Tasks extends \ApiBase {
 		$taskPermissions = $this->getRequiredTaskPermissions();
 
 		if ( empty( $taskPermissions[$task] ) ) {
-			return;
+			return null;
 		}
 		// lookup permission for given task
 		foreach ( $taskPermissions[$task] as $sPermission ) {
