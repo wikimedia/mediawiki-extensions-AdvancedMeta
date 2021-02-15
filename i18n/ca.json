@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alan Mena",
 			"Fitoschido"
 		]
 	},
+	"advancedmeta-titlealias": "Àlies del títol:",
 	"advancedmeta-navigation-contentaction-label": "Optimizació per a cercadors",
 	"advancedmeta-dialog-btn-label-save": "Desa",
 	"advancedmeta-dialog-btn-label-cancel": "Cancel·la",
