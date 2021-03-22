@@ -7,9 +7,9 @@
 			"Wladek92"
 		]
 	},
-	"advancedmeta-desc": "Permet le paramétrage des balises meta de chaque page (robots, mots clés, description) et le changement de titre",
+	"advancedmeta-desc": "Permet le paramétrage des balises « meta » de chaque page (robots, mots clés, description) et le changement de titre",
 	"advancedmeta-metasettings": "Paramètres méta",
-	"advancedmeta-titlealias": "Alias de titre :",
+	"advancedmeta-titlealias": "Alias de titre :",
 	"advancedmeta-navigation-contentaction-label": "Optimisation du moteur de recherche",
 	"advancedmeta-dialog-btn-label-save": "Enregistrer",
 	"advancedmeta-dialog-btn-label-cancel": "Annuler",
@@ -23,7 +23,7 @@
 	"apihelp-advancedmeta-tasks-summary": "Fournit des opérations telles que supprimer et modifier pour AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "La tâche à exécuter",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Objet encodé en chaîne JSON avec des données arbitraires pour la tâche",
-	"apihelp-advancedmeta-tasks-param-format": "Le format de la sortie (JSON uniquement, ou JSON mis en forme)",
+	"apihelp-advancedmeta-tasks-param-format": "Le format de la sortie (JSON uniquement ou JSON mis en forme)",
 	"action-advancedmeta-edit": "modifier les méta-éléments de la page ou de l’espace de noms",
 	"right-advancedmeta-edit": "Modifier les méta-éléments de la page ou de l’espace de noms"
 }
