@@ -154,7 +154,8 @@ class Tasks extends \ApiBase {
 
 		foreach ( $result as $sFieldName => $mFieldValue ) {
 			if ( $mFieldValue === null ) {
-				continue; // MW Api doesn't like NULL values
+				// MW Api doesn't like NULL values
+				continue;
 			}
 
 			// Remove empty 'errors' array from respons as mw.Api in MW 1.30+

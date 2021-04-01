@@ -364,7 +364,8 @@ class GenerateAdvancedSitemap extends Maintenance {
 					$variants = $langConverter->getVariants();
 					foreach ( $variants as $vCode ) {
 						if ( $vCode == $contentLang->getCode() ) {
-							continue; // we don't want default variant
+							// we don't want default variant
+							continue;
 						}
 						$entry = $this->fileEntry(
 							$title->getCanonicalURL( '', $vCode ), $date, $this->priority( $namespace )

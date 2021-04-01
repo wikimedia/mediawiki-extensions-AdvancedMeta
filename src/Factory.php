@@ -27,7 +27,8 @@ class Factory {
 	}
 
 	protected function getDB() {
-		if ( !$this->lb ) { // only on mw < 1.28
+		if ( !$this->lb ) {
+			// only on mw < 1.28
 			return wfGetDB( DB_MASTER );
 		}
 		return $this->lb->getConnection( DB_MASTER );
