@@ -3,6 +3,7 @@
 		"authors": [
 			"DCLXVI",
 			"StanProg",
+			"Ted Masters",
 			"Vodnokon4e"
 		]
 	},
@@ -13,5 +14,5 @@
 	"advancedmeta-dialog-input-label-description": "Описание",
 	"advancedmeta-dialog-input-label-index": "Индекс",
 	"advancedmeta-dialog-input-label-keywords": "Ключови думи",
-	"advancedmeta-dialog-input-help-keywords": "Списък на ключови думи, отделени със запетаи. Например: дума1, дума2, дума3"
+	"advancedmeta-dialog-input-help-keywords": "Списък на ключови думи, разделени със запетаи. Например: дума1, дума2, дума3"
 }
