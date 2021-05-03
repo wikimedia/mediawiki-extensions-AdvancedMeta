@@ -4,7 +4,7 @@ use MediaWiki\MediaWikiServices;
 
 return [
 
-	'AdvancedMetaFactory' => function ( MediaWikiServices $services ) {
+	'AdvancedMetaFactory' => static function ( MediaWikiServices $services ) {
 		$lb = null;
 		// not available on MW < 1.28
 		if ( is_callable( $services, 'getDBLoadBalancer' ) ) {
