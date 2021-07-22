@@ -281,7 +281,7 @@ class GenerateAdvancedSitemap extends Maintenance {
 	 * @return string
 	 */
 	private function guessPriority( $namespace ) {
-		return MWNamespace::isSubject( $namespace )
+		return MediaWikiServices::getInstance()->getNamespaceInfo()->isSubject( $namespace )
 			? $this->priorities[self::GS_MAIN]
 			: $this->priorities[self::GS_TALK];
 	}
