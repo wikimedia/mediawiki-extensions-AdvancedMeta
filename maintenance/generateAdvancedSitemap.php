@@ -38,8 +38,8 @@ use Wikimedia\Rdbms\IDatabase;
  */
 class GenerateAdvancedSitemap extends Maintenance {
 
-	const GS_MAIN = -2;
-	const GS_TALK = -1;
+	public const GS_MAIN = -2;
+	public const GS_TALK = -1;
 
 	/**
 	 * The maximum amount of urls in a sitemap file

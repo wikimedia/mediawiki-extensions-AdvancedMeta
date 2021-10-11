@@ -3,11 +3,11 @@
 namespace AdvancedMeta;
 
 class MetaHandler implements \JsonSerializable {
-	const DESCRIPTION = 'description';
-	const FOLLOW = 'follow';
-	const INDEX = 'index';
-	const ALIAS = 'alias';
-	const KEYWORDS = 'keywords';
+	public const DESCRIPTION = 'description';
+	public const FOLLOW = 'follow';
+	public const INDEX = 'index';
+	public const ALIAS = 'alias';
+	public const KEYWORDS = 'keywords';
 
 	/**
 	 * @var \Title
