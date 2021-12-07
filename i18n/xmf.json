@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "ჩუალა",
+	"advancedmeta-dialog-btn-label-cancel": "გოუქვაფა",
+	"advancedmeta-dialog-btn-label-delete": "ლასუა",
+	"advancedmeta-dialog-input-label-description": "ეჭარუა",
+	"advancedmeta-dialog-input-label-keywords": "ოგორალი ზიტყვები"
+}

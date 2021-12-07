@@ -2,10 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"StanProg"
+			"StanProg",
+			"Ted Masters",
+			"Vodnokon4e"
 		]
 	},
 	"advancedmeta-metasettings": "Мета настройки",
 	"advancedmeta-dialog-btn-label-save": "Съхраняване",
-	"advancedmeta-dialog-btn-label-cancel": "Отказ"
+	"advancedmeta-dialog-btn-label-cancel": "Отказ",
+	"advancedmeta-dialog-btn-label-delete": "Изтриване",
+	"advancedmeta-dialog-input-label-description": "Описание",
+	"advancedmeta-dialog-input-label-index": "Индекс",
+	"advancedmeta-dialog-input-label-keywords": "Ключови думи",
+	"advancedmeta-dialog-input-help-keywords": "Списък на ключови думи, разделени със запетаи. Например: дума1, дума2, дума3"
 }
