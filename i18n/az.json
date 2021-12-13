@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ebrahimi-amir"
+			"Ebrahimi-amir",
+			"NMW03"
 		]
 	},
-	"advancedmeta-metasettings": "Meta tənzimləməsi"
+	"advancedmeta-metasettings": "Meta tənzimləməsi",
+	"advancedmeta-dialog-btn-label-delete": "Sil"
 }

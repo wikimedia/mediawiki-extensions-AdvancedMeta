@@ -5,7 +5,8 @@
 			"Rail",
 			"Railfail536",
 			"Sp5uhe",
-			"Woytecr"
+			"Woytecr",
+			"Msz2001"
 		]
 	},
 	"advancedmeta-desc": "Pozwala na oddzielne meta ustawienia strony (roboty, słowa kluczowe, opis) i zmienia tytuł",
@@ -20,7 +21,10 @@
 	"advancedmeta-dialog-input-label-index": "Indeks",
 	"advancedmeta-dialog-input-label-keywords": "Słowa kluczowe",
 	"advancedmeta-dialog-input-help-keywords": "Słowa kluczowe oddzielone przecinkami. Na przykład: klucz1, klucz2, klucz3",
+	"apihelp-advancedmeta-tasks-description": "Dostarcza podstawowe operacje dla AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Dostarcza AdvancedMeta operacje takie jak usuwanie i edycja",
 	"apihelp-advancedmeta-tasks-param-task": "Zadanie, które powinno zostać wykonane",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Obiekt z dowolnymi danymi dla zadania, zakodowany jako JSON",
 	"apihelp-advancedmeta-tasks-param-format": "Format danych wyjściowych (tylko JSON lub sformatowany JSON)",
 	"action-advancedmeta-edit": "edytowania meta-elementów stron lub przestrzeni nazw",
 	"right-advancedmeta-edit": "Edytowanie meta-elementów stron lub przestrzeni nazw"

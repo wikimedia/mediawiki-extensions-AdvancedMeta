@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"TheRukk"
+			"TheRukk",
+			"Gianfranco"
 		]
 	},
 	"advancedmeta-desc": "Consente meta-impostazioni per pagina (robots, parole chiave, descrizione) e cambio titolo",
@@ -21,5 +22,7 @@
 	"apihelp-advancedmeta-tasks-summary": "Fornisce le operazione come cancella e modifica per AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "L'attività che deve essere eseguita",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Un oggetto stringa JSON codificata con dati arbitrari per l'attività",
-	"apihelp-advancedmeta-tasks-param-format": "Il formato di output (solo JSON o JSON formattato)"
+	"apihelp-advancedmeta-tasks-param-format": "Il formato di output (solo JSON o JSON formattato)",
+	"action-advancedmeta-edit": "modifica elementi meta di pagine o namespace",
+	"right-advancedmeta-edit": "Modifica elementi meta di pagine o namespace"
 }

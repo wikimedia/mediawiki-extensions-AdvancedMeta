@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andreyyshore",
+			"Carcassonne93"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Salvează",
+	"advancedmeta-dialog-btn-label-cancel": "Revocare",
+	"advancedmeta-dialog-btn-label-delete": "Șterge",
+	"advancedmeta-dialog-input-label-description": "Descriere",
+	"advancedmeta-dialog-input-label-follow": "Urmărește",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Cuvinte cheie"
+}

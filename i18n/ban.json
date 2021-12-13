@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"NoiX180"
+			"NoiX180",
+			"Chinamoonroll"
 		]
 	},
-	"advancedmeta-dialog-btn-label-save": "Raksa"
+	"advancedmeta-titlealias": "Alias murda:",
+	"advancedmeta-dialog-btn-label-save": "Raksa",
+	"advancedmeta-dialog-btn-label-cancel": "Wangdé",
+	"advancedmeta-dialog-btn-label-delete": "Usap",
+	"advancedmeta-dialog-input-label-description": "Déskripsi",
+	"advancedmeta-dialog-input-label-follow": "Sarengin",
+	"advancedmeta-dialog-input-label-index": "Indéks",
+	"advancedmeta-dialog-input-label-keywords": "Kruna sereg"
 }
