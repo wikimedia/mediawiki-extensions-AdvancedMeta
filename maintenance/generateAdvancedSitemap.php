@@ -185,7 +185,7 @@ class GenerateAdvancedSitemap extends Maintenance {
 		if ( $this->urlpath !== "" && substr( $this->urlpath, -1 ) !== '/' ) {
 			$this->urlpath .= '/';
 		}
-		$this->identifier = $this->getOption( 'identifier', wfWikiID() );
+		$this->identifier = $this->getOption( 'identifier', WikiMap::getCurrentWikiId() );
 		$this->compress = $this->getOption( 'compress', 'yes' ) !== 'no';
 		$this->skipRedirects = $this->hasOption( 'skip-redirects' );
 		$this->dbr = $this->getDB( DB_REPLICA );
