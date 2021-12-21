@@ -4,9 +4,11 @@
 			"Ajeje Brazorf"
 		]
 	},
+	"advancedmeta-metasettings": "Meta mpustazzioni",
 	"advancedmeta-dialog-btn-label-save": "Sarva",
 	"advancedmeta-dialog-btn-label-cancel": "Annulla",
 	"advancedmeta-dialog-btn-label-delete": "Cancella",
 	"advancedmeta-dialog-input-label-description": "Discrizzioni",
-	"advancedmeta-dialog-input-label-index": "Ìnnici"
+	"advancedmeta-dialog-input-label-index": "Ìnnici",
+	"advancedmeta-dialog-input-label-keywords": "Palori chiavi"
 }
