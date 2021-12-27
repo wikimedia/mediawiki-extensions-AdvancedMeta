@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Daud I.F. Argana",
 			"Farras",
 			"Palladin911"
 		]
@@ -8,11 +9,19 @@
 	"advancedmeta-desc": "Memungkinkan pengaturan meta (robot, kata kunci, deskripsi) dan perubahan judul per halaman",
 	"advancedmeta-metasettings": "Pengaturan meta",
 	"advancedmeta-titlealias": "Alias judul:",
+	"advancedmeta-navigation-contentaction-label": "Pengoptimalan mesin pencarian",
 	"advancedmeta-dialog-btn-label-save": "Simpan",
 	"advancedmeta-dialog-btn-label-cancel": "Batal",
 	"advancedmeta-dialog-btn-label-delete": "Hapus",
 	"advancedmeta-dialog-input-label-description": "Deskripsi",
 	"advancedmeta-dialog-input-label-follow": "mengikuti",
 	"advancedmeta-dialog-input-label-index": "Indeks",
-	"advancedmeta-dialog-input-label-keywords": "Kata kunci"
+	"advancedmeta-dialog-input-label-keywords": "Kata kunci",
+	"advancedmeta-dialog-input-help-keywords": "Daftar kata kunci yang dipisahkan oleh tanda koma. Contoh: katakunci1, katakunci2, katakunci3",
+	"apihelp-advancedmeta-tasks-description": "Menyediakan operasi umum untuk AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Menyediakan operasi seperti menghapus dan menyunting untuk AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "Pekerjaan yang seharusnya dilaksanakan",
+	"apihelp-advancedmeta-tasks-param-format": "Format keluaran (hanya bisa JSON atau JSON yang sudah diformat)",
+	"action-advancedmeta-edit": "menyunting elemen meta halaman atau ruang nama",
+	"right-advancedmeta-edit": "Menyunting elemen meta halaman atau ruang nama"
 }
