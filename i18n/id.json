@@ -21,6 +21,7 @@
 	"apihelp-advancedmeta-tasks-description": "Menyediakan operasi umum untuk AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Menyediakan operasi seperti menghapus dan menyunting untuk AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Pekerjaan yang seharusnya dilaksanakan",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Objek yang dienkode menjadi untaian JSON dengan data sembarang untuk pekerjaan",
 	"apihelp-advancedmeta-tasks-param-format": "Format keluaran (hanya bisa JSON atau JSON yang sudah diformat)",
 	"action-advancedmeta-edit": "menyunting elemen meta halaman atau ruang nama",
 	"right-advancedmeta-edit": "Menyunting elemen meta halaman atau ruang nama"
