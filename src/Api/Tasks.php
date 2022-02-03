@@ -126,9 +126,8 @@ class Tasks extends \ApiBase {
 					$this->dieUsageMsg( 'badaccess-groups' );
 				}
 			}
-			if ( wfReadOnly() ) {
-				global $wgReadOnly;
-				$result->message = $wgReadOnly;
+			if ( $this->getServices()->getReadOnlyMode()->isReadOnly() ) {
+				$result->message = $this->getServices()->getReadOnlyMode()->getReason();
 			} else {
 				$taskData = $this->getParameter( 'taskdata' );
 				if ( empty( $result->errors ) && empty( $result->message ) ) {
