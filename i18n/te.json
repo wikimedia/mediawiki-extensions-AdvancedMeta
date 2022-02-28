@@ -1,14 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chaduvari",
 			"Veeven"
 		]
 	},
 	"advancedmeta-metasettings": "మెటా అమరికలు",
 	"advancedmeta-titlealias": "శీర్షిక మారుపేరు:",
+	"advancedmeta-navigation-contentaction-label": "సెర్చి ఇంజను ఆప్టిమైజేషను",
 	"advancedmeta-dialog-btn-label-save": "భద్రపరుచు",
 	"advancedmeta-dialog-btn-label-cancel": "రద్దుచేయి",
 	"advancedmeta-dialog-btn-label-delete": "తొలగించు",
 	"advancedmeta-dialog-input-label-description": "వివరణ",
-	"advancedmeta-dialog-input-label-keywords": "కీలకపదాలు"
+	"advancedmeta-dialog-input-label-follow": "అనుసరించు",
+	"advancedmeta-dialog-input-label-index": "సూచిక",
+	"advancedmeta-dialog-input-label-keywords": "కీలకపదాలు",
+	"advancedmeta-dialog-input-help-keywords": "కామాతో వేరు చేసిన కీలకపదాల జాబితా. ఉదాహరణకు: కీలకపదం 1, కీలకపదం 2, కీలకపదం 3"
 }
