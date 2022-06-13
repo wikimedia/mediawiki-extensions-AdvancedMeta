@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Alan Mena"
+			"Alan Mena",
+			"Toniher"
 		]
 	},
+	"advancedmeta-metasettings": "Configuració meta",
 	"advancedmeta-titlealias": "Àlies del títol:",
 	"advancedmeta-navigation-contentaction-label": "Optimizació per a cercadors",
 	"advancedmeta-dialog-btn-label-save": "Desa",
@@ -13,5 +15,7 @@
 	"advancedmeta-dialog-input-label-description": "Descripció",
 	"advancedmeta-dialog-input-label-follow": "Segueix",
 	"advancedmeta-dialog-input-label-index": "Índex",
-	"advancedmeta-dialog-input-label-keywords": "Paraules clau"
+	"advancedmeta-dialog-input-label-keywords": "Paraules clau",
+	"advancedmeta-dialog-input-help-keywords": "Llista separada per comes de paraules claus. Per exemple: clau1, clau2, clau3",
+	"apihelp-advancedmeta-tasks-param-task": "La tasca que hauria d'executar-se"
 }
