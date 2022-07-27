@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Idulin",
+	"advancedmeta-dialog-btn-label-cancel": "Ukasen",
+	"advancedmeta-dialog-btn-label-delete": "Ikkaten",
+	"advancedmeta-dialog-input-label-description": "Deskripsion",
+	"advancedmeta-dialog-input-label-follow": "Suroten",
+	"advancedmeta-dialog-input-label-index": "Indeks",
+	"advancedmeta-dialog-input-label-keywords": "Nangruna a balbalikas"
+}
