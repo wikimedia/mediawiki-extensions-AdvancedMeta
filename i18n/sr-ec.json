@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"BadDog",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Kizule",
+			"Vlad5250"
 		]
 	},
+	"advancedmeta-metasettings": "Мета подешавања",
 	"advancedmeta-dialog-btn-label-save": "Сачувај",
 	"advancedmeta-dialog-btn-label-cancel": "Откажи",
 	"advancedmeta-dialog-btn-label-delete": "Избриши",
