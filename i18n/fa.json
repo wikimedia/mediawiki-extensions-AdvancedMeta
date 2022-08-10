@@ -19,5 +19,6 @@
 	"advancedmeta-dialog-input-label-index": "شاخص",
 	"advancedmeta-dialog-input-label-keywords": "کلیدواژه‌ها",
 	"advancedmeta-dialog-input-help-keywords": "فهرست واژه های کلیدی جدا شده با ویرگول. برای نمونه: واژه1، واژه2، واژه3",
-	"apihelp-advancedmeta-tasks-param-task": "وظیفه‌ای که باید اجرا شود"
+	"apihelp-advancedmeta-tasks-param-task": "وظیفه‌ای که باید اجرا شود",
+	"apihelp-advancedmeta-tasks-param-format": "قالب خروجی (فقط JSON یا JSON قالب‌بندی‌شده)"
 }
