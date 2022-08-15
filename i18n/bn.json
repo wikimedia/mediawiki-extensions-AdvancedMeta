@@ -3,15 +3,25 @@
 		"authors": [
 			"YahyA",
 			"Yahya",
+			"আজিজ",
 			"আফতাবুজ্জামান"
 		]
 	},
+	"advancedmeta-desc": "পাতা প্রতি অধি সেটিংস (রোবট, মুখ্যশব্দ, বিবরণ) এবং শিরোনাম পরিবর্তন করার অনুমতি প্রদান করে",
+	"advancedmeta-metasettings": "অধি সেটিংস",
+	"advancedmeta-titlealias": "শিরো-উপনাম:",
+	"advancedmeta-navigation-contentaction-label": "সন্ধান যন্ত্র নিখুতকরণ",
 	"advancedmeta-dialog-btn-label-save": "সংরক্ষণ করুন",
 	"advancedmeta-dialog-btn-label-cancel": "বাতিল",
 	"advancedmeta-dialog-btn-label-delete": "মুছে ফেলুন",
 	"advancedmeta-dialog-input-label-description": "বর্ণনা",
 	"advancedmeta-dialog-input-label-follow": "অনুসরণ",
 	"advancedmeta-dialog-input-label-index": "নির্ঘণ্ট",
-	"advancedmeta-dialog-input-label-keywords": "কীওয়ার্ড সমূহ",
-	"advancedmeta-dialog-input-help-keywords": "কমা দিয়ে আলাদাকৃত কীওয়ার্ড তালিকা। উদাহরণস্বরুপঃ কীওয়ার্ড১, কীওয়ার্ড২, কীওয়ার্ড৩"
+	"advancedmeta-dialog-input-label-keywords": "মুখ্যশব্দসমূহ",
+	"advancedmeta-dialog-input-help-keywords": "কমা দিয়ে আলাদাকৃত কীওয়ার্ড তালিকা। উদাহরণস্বরুপঃ কীওয়ার্ড১, কীওয়ার্ড২, কীওয়ার্ড৩",
+	"apihelp-advancedmeta-tasks-description": "AdvancedMeta-এর জন্য সাধারণ ক্রিয়াকলাপ প্রদান করে",
+	"apihelp-advancedmeta-tasks-summary": "AdvancedMeta-এর জন্য অপসারণ এবং সম্পাদনা করার মত ক্রিয়াকলাপ প্রদান করে",
+	"apihelp-advancedmeta-tasks-param-task": "যে কাজটি নির্বাহ করতে হবে",
+	"action-advancedmeta-edit": "পাতা বা নামস্থানের অধি উপাদান সম্পাদনা করুন",
+	"right-advancedmeta-edit": "পাতা বা নামস্থানের অধি উপাদান সম্পাদনা করুন"
 }
