@@ -4,5 +4,12 @@
 			"Eleassar"
 		]
 	},
+	"advancedmeta-dialog-btn-label-save": "Shrani",
+	"advancedmeta-dialog-btn-label-cancel": "Prekliči",
+	"advancedmeta-dialog-btn-label-delete": "Izbriši",
+	"advancedmeta-dialog-input-label-description": "Opis",
+	"advancedmeta-dialog-input-label-keywords": "Ključne besede",
+	"advancedmeta-dialog-input-help-keywords": "Seznam ključnih besed, ločenih z vejicami. Na primer: ključna beseda1, ključna beseda2, ključna beseda3",
+	"apihelp-advancedmeta-tasks-param-task": "Naloga, ki jo je treba izvesti",
 	"apihelp-advancedmeta-tasks-param-format": "Oblika izhoda (samo JSON ali oblikovani JSON)"
 }
