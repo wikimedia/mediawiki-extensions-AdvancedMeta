@@ -254,7 +254,7 @@ class MetaHandler implements \JsonSerializable {
 		return \Status::newGood( $this );
 	}
 
-	public function jsonSerialize() {
+	public function jsonSerialize(): array {
 		return $this->getData();
 	}
 
