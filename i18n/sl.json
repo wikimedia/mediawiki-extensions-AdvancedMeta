@@ -4,13 +4,23 @@
 			"Eleassar"
 		]
 	},
+	"advancedmeta-desc": "Omogoča metanastavitve po straneh (roboti, ključne besede, opis) in spreminjanje naslova",
+	"advancedmeta-metasettings": "Metanastavitve",
+	"advancedmeta-titlealias": "Sopomenka naslova:",
+	"advancedmeta-navigation-contentaction-label": "Optimizacija za iskalnike",
 	"advancedmeta-dialog-btn-label-save": "Shrani",
 	"advancedmeta-dialog-btn-label-cancel": "Prekliči",
 	"advancedmeta-dialog-btn-label-delete": "Izbriši",
 	"advancedmeta-dialog-input-label-description": "Opis",
+	"advancedmeta-dialog-input-label-follow": "Sledi",
 	"advancedmeta-dialog-input-label-index": "Indeks",
 	"advancedmeta-dialog-input-label-keywords": "Ključne besede",
 	"advancedmeta-dialog-input-help-keywords": "Seznam ključnih besed, ločenih z vejicami. Na primer: ključna beseda1, ključna beseda2, ključna beseda3",
+	"apihelp-advancedmeta-tasks-description": "Zagotavlja splošne operacije za AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Zagotavlja operacije, kot sta brisanje in urejanje, za AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Naloga, ki jo je treba izvesti",
-	"apihelp-advancedmeta-tasks-param-format": "Oblika izhoda (samo JSON ali oblikovani JSON)"
+	"apihelp-advancedmeta-tasks-param-taskdata": "Objekt, kodiran z nizom JSON, s poljubnimi podatki za opravilo",
+	"apihelp-advancedmeta-tasks-param-format": "Oblika izhoda (samo JSON ali oblikovani JSON)",
+	"action-advancedmeta-edit": "urejanje metaelementov strani ali imenskega prostora",
+	"right-advancedmeta-edit": "Urejanje metaelementov strani ali imenskega prostora"
 }
