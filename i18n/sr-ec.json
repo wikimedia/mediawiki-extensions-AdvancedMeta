@@ -4,15 +4,18 @@
 			"BadDog",
 			"Kizule",
 			"Vlad5250",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Milicevic01"
 		]
 	},
 	"advancedmeta-metasettings": "Мета подешавања",
+	"advancedmeta-titlealias": "Алтернативни наслов:",
 	"advancedmeta-dialog-btn-label-save": "Сачувај",
 	"advancedmeta-dialog-btn-label-cancel": "Откажи",
 	"advancedmeta-dialog-btn-label-delete": "Избриши",
 	"advancedmeta-dialog-input-label-description": "Опис",
 	"advancedmeta-dialog-input-label-follow": "Прати",
 	"advancedmeta-dialog-input-label-index": "Индекс",
-	"advancedmeta-dialog-input-label-keywords": "Кључне речи"
+	"advancedmeta-dialog-input-label-keywords": "Кључне речи",
+	"apihelp-advancedmeta-tasks-param-task": "Задатак који би требао бити извршен"
 }

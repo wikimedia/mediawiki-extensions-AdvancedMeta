@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"捍粵者"
 		]
 	},
 	"advancedmeta-desc": "允許為每個頁面設置機器人政策、關鍵字和描述，以及修改標題",
@@ -18,7 +19,7 @@
 	"advancedmeta-dialog-input-help-keywords": "逗號區分的關鍵字清單。例如：keyword1, keyword2, keyword3",
 	"apihelp-advancedmeta-tasks-description": "提供用於 AdvancedMeta 的一般操作",
 	"apihelp-advancedmeta-tasks-summary": "提供用於 AdvancedMeta 像是刪除和編輯之類的操作",
-	"apihelp-advancedmeta-tasks-param-task": "應被執行的任務",
+	"apihelp-advancedmeta-tasks-param-task": "應執行的任務",
 	"apihelp-advancedmeta-tasks-param-taskdata": "用於任務，帶有任意資料的 JSON 字串編碼物件",
 	"apihelp-advancedmeta-tasks-param-format": "輸出格式（僅限 JSON 或格式化 JSON）",
 	"action-advancedmeta-edit": "編輯頁面或命名空間元要素",
