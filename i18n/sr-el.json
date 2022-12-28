@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"advancedmeta-metasettings": "Meta podešavanja",
+	"advancedmeta-titlealias": "Alternativni naslov:",
+	"advancedmeta-dialog-btn-label-save": "Sačuvaj",
+	"advancedmeta-dialog-btn-label-cancel": "Otkaži",
+	"advancedmeta-dialog-btn-label-delete": "Izbriši",
+	"advancedmeta-dialog-input-label-description": "Opis",
+	"advancedmeta-dialog-input-label-follow": "Prati",
+	"advancedmeta-dialog-input-label-index": "Indeks",
+	"advancedmeta-dialog-input-label-keywords": "Ključne reči",
+	"apihelp-advancedmeta-tasks-param-task": "Zadatak koji bi trebao biti izvršen"
+}
