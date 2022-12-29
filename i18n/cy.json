@@ -1,10 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Pwyll"
 		]
 	},
 	"advancedmeta-desc": "Yn galluogi gosodiadau meta yn ôl tudalen (robotiaid, geiriau allweddol, disgrifiad) a newid teitl",
 	"advancedmeta-metasettings": "Gosodiadau meta",
-	"advancedmeta-titlealias": "Teitl amgen:"
+	"advancedmeta-titlealias": "Teitl amgen:",
+	"advancedmeta-dialog-btn-label-save": "Cadw",
+	"advancedmeta-dialog-btn-label-cancel": "Canslo",
+	"advancedmeta-dialog-btn-label-delete": "Dileu",
+	"advancedmeta-dialog-input-label-description": "Disgrifiad",
+	"advancedmeta-dialog-input-label-follow": "Dilyn",
+	"advancedmeta-dialog-input-label-keywords": "Allweddeiriau"
 }
