@@ -25,6 +25,6 @@
 	"apihelp-advancedmeta-tasks-param-task": "המשימה שאמורה להתבצע",
 	"apihelp-advancedmeta-tasks-param-taskdata": "מחרוזת JSON מקודדת עם נתונים שרירותיים עבור המשימה",
 	"apihelp-advancedmeta-tasks-param-format": "הפורמט של הפלט (רק JSON או JSON מפורמט)",
-	"action-advancedmeta-edit": "ערוך עמוד או מטא אלמנטים של מרחב השמות",
-	"right-advancedmeta-edit": "ערוך עמוד או מטא אלמנטים של מרחב השמות"
+	"action-advancedmeta-edit": "לערוך מטא־רכיבים של דף או של מרחב שם",
+	"right-advancedmeta-edit": "עריכת מטא־רכיבים של דף או של מרחב שם"
 }

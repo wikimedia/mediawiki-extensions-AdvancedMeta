@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Phjtieudoc"
+			"Phjtieudoc",
+			"NguyenHung"
 		]
 	},
 	"advancedmeta-dialog-btn-label-save": "Lưu",
@@ -9,5 +10,6 @@
 	"advancedmeta-dialog-btn-label-delete": "Xóa",
 	"advancedmeta-dialog-input-label-description": "Miêu tả",
 	"advancedmeta-dialog-input-label-follow": "Theo dõi",
+	"advancedmeta-dialog-input-label-index": "Mục lục",
 	"advancedmeta-dialog-input-label-keywords": "Từ khóa"
 }
