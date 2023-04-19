@@ -1,10 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ignas693"
+			"Ignas693",
+			"Nokeoo"
 		]
 	},
 	"advancedmeta-desc": "Leidžia už puslapio meta parametrų (robotai, raktažodžius, aprašymą) ir keisti pavadinimą",
 	"advancedmeta-metasettings": "Mano nustatymai",
-	"advancedmeta-titlealias": "Antraštinė dalis pseudonimas:"
+	"advancedmeta-titlealias": "Antraštinė dalis pseudonimas:",
+	"advancedmeta-navigation-contentaction-label": "Paieškos variklio optimizavimas",
+	"advancedmeta-dialog-btn-label-save": "Išsaugoti",
+	"advancedmeta-dialog-btn-label-cancel": "Atšaukti",
+	"advancedmeta-dialog-btn-label-delete": "Ištrinti",
+	"advancedmeta-dialog-input-label-description": "Aprašymas",
+	"advancedmeta-dialog-input-label-follow": "Sekti",
+	"advancedmeta-dialog-input-label-index": "Indeksas",
+	"advancedmeta-dialog-input-label-keywords": "Raktiniai žodžiai",
+	"advancedmeta-dialog-input-help-keywords": "Kableliais atskirtų raktinių žodžių sąrašas. Pavyzdžiui: raktinisžodis1, raktinisžodis2, raktinisžodis3",
+	"apihelp-advancedmeta-tasks-param-task": "Užduotis vykdymui"
 }
