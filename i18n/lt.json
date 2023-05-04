@@ -17,5 +17,6 @@
 	"advancedmeta-dialog-input-label-index": "Indeksas",
 	"advancedmeta-dialog-input-label-keywords": "Raktiniai žodžiai",
 	"advancedmeta-dialog-input-help-keywords": "Kableliais atskirtų raktinių žodžių sąrašas. Pavyzdžiui: raktinisžodis1, raktinisžodis2, raktinisžodis3",
-	"apihelp-advancedmeta-tasks-param-task": "Užduotis vykdymui"
+	"apihelp-advancedmeta-tasks-param-task": "Užduotis vykdymui",
+	"apihelp-advancedmeta-tasks-param-format": "Produkto formatas (tik JSON arba formatuotas JSON)"
 }
