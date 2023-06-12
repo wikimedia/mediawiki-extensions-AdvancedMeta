@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gpbiza"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Αποθήκευση",
+	"advancedmeta-dialog-btn-label-cancel": "Ακύρωση",
+	"advancedmeta-dialog-btn-label-delete": "Διαγραφή",
+	"advancedmeta-dialog-input-label-description": "Περιγραφή",
+	"advancedmeta-dialog-input-label-keywords": "Λέξεις κλειδιά"
+}
