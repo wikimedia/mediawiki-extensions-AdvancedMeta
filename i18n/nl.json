@@ -18,7 +18,6 @@
 	"advancedmeta-dialog-input-label-index": "Index",
 	"advancedmeta-dialog-input-label-keywords": "Trefwoorden",
 	"advancedmeta-dialog-input-help-keywords": "Een kommagescheiden lijst met sleutelwoorden. Bijvoorbeeld: sleutelwoord1, sleutelwoord2, sleutelwoord3",
-	"apihelp-advancedmeta-tasks-description": "Voorziet in algemene handelingen voor AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Voorziet in handelingen zoals verwijderen en bewerken voor AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "De uit te voeren taak",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Object, gecodeerd als JSON-tekenreeks, met willekeurige gegevens voor de taak",

@@ -16,7 +16,6 @@
 	"advancedmeta-dialog-input-label-index": "Indeks",
 	"advancedmeta-dialog-input-label-keywords": "Ključne riječi",
 	"advancedmeta-dialog-input-help-keywords": "Popis ključnih riječi odvojenih zarezima. Na primjer: keyword1, keyword2, keyword3",
-	"apihelp-advancedmeta-tasks-description": "Pruža česte postupke za AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Pruža postupke kao brisanje i uređivanje za AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Zadatak što treba se izvršiti",
 	"apihelp-advancedmeta-tasks-param-taskdata": "JSON-niz kodiran u objektu s proizvoljnim podacima zadatka",

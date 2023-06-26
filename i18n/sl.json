@@ -16,7 +16,6 @@
 	"advancedmeta-dialog-input-label-index": "Indeks",
 	"advancedmeta-dialog-input-label-keywords": "Ključne besede",
 	"advancedmeta-dialog-input-help-keywords": "Seznam ključnih besed, ločenih z vejicami. Na primer: ključna beseda1, ključna beseda2, ključna beseda3",
-	"apihelp-advancedmeta-tasks-description": "Zagotavlja splošne operacije za AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Zagotavlja operacije, kot sta brisanje in urejanje, za AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Naloga, ki jo je treba izvesti",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Objekt, kodiran z nizom JSON, s poljubnimi podatki za opravilo",

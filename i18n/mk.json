@@ -16,7 +16,6 @@
 	"advancedmeta-dialog-input-label-index": "Показател",
 	"advancedmeta-dialog-input-label-keywords": "Клучни зборови",
 	"advancedmeta-dialog-input-help-keywords": "Список на клучни зборови, оделени со запирки. На пример: збор1, збор2, збор3",
-	"apihelp-advancedmeta-tasks-description": "Дава чести постапки за AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Дава постапки како бришење и уредување за AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Задачата што треба да се изврши",
 	"apihelp-advancedmeta-tasks-param-taskdata": "JSON-низа кодирана во објект со произволни податоци за задачата",

@@ -16,7 +16,6 @@
 	"advancedmeta-dialog-input-label-index": "Índice",
 	"advancedmeta-dialog-input-label-keywords": "Palavras-chave",
 	"advancedmeta-dialog-input-help-keywords": "Lista de palavras-chave separadas por vírgulas. Por exemplo: palavra-chave1, palavra-chave2, palavra-chave3",
-	"apihelp-advancedmeta-tasks-description": "Fornece operações comuns para AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Fornece operações como eliminar e editar para AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "A tarefa que deve ser executada",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Objeto codificado em texto JSON com dados arbitrários para a tarefa",

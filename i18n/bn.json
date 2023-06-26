@@ -19,7 +19,6 @@
 	"advancedmeta-dialog-input-label-index": "নির্ঘণ্ট",
 	"advancedmeta-dialog-input-label-keywords": "মুখ্যশব্দসমূহ",
 	"advancedmeta-dialog-input-help-keywords": "কমা দিয়ে আলাদাকৃত কীওয়ার্ড তালিকা। উদাহরণস্বরুপঃ কীওয়ার্ড১, কীওয়ার্ড২, কীওয়ার্ড৩",
-	"apihelp-advancedmeta-tasks-description": "AdvancedMeta-এর জন্য সাধারণ ক্রিয়াকলাপ প্রদান করে",
 	"apihelp-advancedmeta-tasks-summary": "AdvancedMeta-এর জন্য অপসারণ এবং সম্পাদনা করার মত ক্রিয়াকলাপ প্রদান করে",
 	"apihelp-advancedmeta-tasks-param-task": "যে কাজটি নির্বাহ করতে হবে",
 	"action-advancedmeta-edit": "পাতা বা নামস্থানের অধি উপাদান সম্পাদনা করুন",

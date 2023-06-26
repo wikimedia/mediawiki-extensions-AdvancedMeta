@@ -20,7 +20,6 @@
 	"advancedmeta-dialog-input-label-index": "Index",
 	"advancedmeta-dialog-input-label-keywords": "Nyckelord",
 	"advancedmeta-dialog-input-help-keywords": "Komma-separerad lista med nyckelord. Exempelvis exempel1, exempel2, exempel3",
-	"apihelp-advancedmeta-tasks-description": "Erbjuder vanliga operationer för AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Ger operationer som radera och redigera för AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Uppgiften bör utföras",
 	"apihelp-advancedmeta-tasks-param-taskdata": "\nJSON-sträng-kodat objekt med godtycklig data för uppgiften",

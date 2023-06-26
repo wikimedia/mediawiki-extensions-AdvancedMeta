@@ -16,7 +16,6 @@
 	"advancedmeta-dialog-input-label-index": "Indice",
 	"advancedmeta-dialog-input-label-keywords": "Parolas-clave",
 	"advancedmeta-dialog-input-help-keywords": "Lista de parolas clave separate per commas. Per exemplo: parola1, parola2, parola3",
-	"apihelp-advancedmeta-tasks-description": "Forni operationes commun pro AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Forni operationes como deler e modificar pro AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "Le carga a exequer",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Objecto codificate in texto JSON con datos arbitrari pro le carga",

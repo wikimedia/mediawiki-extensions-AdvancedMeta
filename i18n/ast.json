@@ -16,7 +16,6 @@
 	"advancedmeta-dialog-input-label-index": "Índiz",
 	"advancedmeta-dialog-input-label-keywords": "Palabres clave",
 	"advancedmeta-dialog-input-help-keywords": "Llista de palabres clave separaes por comes. Por casu: palabra1, palabra2, palabra3",
-	"apihelp-advancedmeta-tasks-description": "Ufre operaciones comunes pa AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Ufre operaciones como desaniciar y editar pa AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "La xera que tien d'executase",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Oxetu codificáu de cadena JSON con datos cualesquiera pa la xera",

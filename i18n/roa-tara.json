@@ -16,7 +16,6 @@
 	"advancedmeta-dialog-input-label-index": "Indice",
 	"advancedmeta-dialog-input-label-keywords": "Parole chiave",
 	"advancedmeta-dialog-input-help-keywords": "Elenghe separate da virgole de le parole chiave. Pe esembie: parolechiave1, parolechiave2, parolechiave3",
-	"apihelp-advancedmeta-tasks-description": "Dèje le operaziune comune pe AdvancedMeta",
 	"apihelp-advancedmeta-tasks-summary": "Dèje operaziune cumme scangellazzione e cangiamende pe AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "L'attività ca avessa essere eseguite",
 	"apihelp-advancedmeta-tasks-param-taskdata": "'N'oggette stringhe JSON codifecate cu date arbitrarie pe l'attivitate",
