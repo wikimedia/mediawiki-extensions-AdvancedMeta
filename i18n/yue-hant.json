@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "儲存",
+	"advancedmeta-dialog-btn-label-cancel": "取消",
+	"advancedmeta-dialog-btn-label-delete": "剷走",
+	"advancedmeta-dialog-input-label-description": "描述",
+	"advancedmeta-dialog-input-label-index": "索引",
+	"advancedmeta-dialog-input-label-keywords": "關鍵字"
+}

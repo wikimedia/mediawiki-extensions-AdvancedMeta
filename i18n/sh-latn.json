@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"advancedmeta-desc": "Omogućuje meta-postavke za pojedinačne stranice (roboti, ključne riječi, opis) i promjenu naslova",
+	"advancedmeta-metasettings": "Meta-psotavke",
+	"advancedmeta-titlealias": "Alijas naslova:",
+	"advancedmeta-navigation-contentaction-label": "Optimizacija pretraživača",
+	"advancedmeta-dialog-btn-label-save": "Snimi",
+	"advancedmeta-dialog-btn-label-cancel": "Otkaži",
+	"advancedmeta-dialog-btn-label-delete": "Izbriši",
+	"advancedmeta-dialog-input-label-description": "Opis",
+	"advancedmeta-dialog-input-label-follow": "Slijedi",
+	"advancedmeta-dialog-input-label-index": "Indeks",
+	"advancedmeta-dialog-input-label-keywords": "Ključne riječi",
+	"advancedmeta-dialog-input-help-keywords": "Popis ključnih riječi odvojenih zarezima. Na primjer: keyword1, keyword2, keyword3",
+	"apihelp-advancedmeta-tasks-summary": "Pruža postupke kao brisanje i uređivanje za AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "Zadatak što treba se izvršiti",
+	"apihelp-advancedmeta-tasks-param-taskdata": "JSON-niz kodiran u objektu s proizvoljnim podacima zadatka",
+	"apihelp-advancedmeta-tasks-param-format": "Format izlaza (samo JSON ili formatirani JSON)",
+	"action-advancedmeta-edit": "uređivanje metaelemenata na stranici ili imenskom prostoru",
+	"right-advancedmeta-edit": "Uređivanje metaelemenata na stranici ili imenskom prostoru"
+}
