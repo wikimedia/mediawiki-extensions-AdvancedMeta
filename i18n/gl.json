@@ -6,10 +6,10 @@
 			"Toliño"
 		]
 	},
-	"advancedmeta-desc": "Permite as configuracións meta de páxina (robots, palabras clave, descrición) e cambios de título",
+	"advancedmeta-desc": "Permite as configuracións meta de páxina (robots, palabras clave, descrición) e cambiar o título",
 	"advancedmeta-metasettings": "Configuración meta",
 	"advancedmeta-titlealias": "Título alternativo:",
-	"advancedmeta-navigation-contentaction-label": "Otimización dos motores de busca",
+	"advancedmeta-navigation-contentaction-label": "Optimización dos motores de busca",
 	"advancedmeta-dialog-btn-label-save": "Gardar",
 	"advancedmeta-dialog-btn-label-cancel": "Cancelar",
 	"advancedmeta-dialog-btn-label-delete": "Borrar",
@@ -17,6 +17,12 @@
 	"advancedmeta-dialog-input-label-follow": "Seguir",
 	"advancedmeta-dialog-input-label-index": "Índice",
 	"advancedmeta-dialog-input-label-keywords": "Palabras clave",
-	"advancedmeta-dialog-input-help-keywords": "Lista de palabras chave separadas por comas. Por exemplo: palabra chave1, palabra chave2, palabra chave3",
-	"apihelp-advancedmeta-tasks-description": "Fornece operacións comúns para AdvancedMeta"
+	"advancedmeta-dialog-input-help-keywords": "Lista de palabras clave separadas por comas. Por exemplo: palabra1, palabra2, palabra3",
+	"apihelp-advancedmeta-tasks-description": "Fornece operacións comúns para AdvancedMeta",
+	"apihelp-advancedmeta-tasks-summary": "Ofrece operacións como eliminar e editar para AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "A tarefa que vai executar",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Obxecto codificado como unha cadea JSON con datos arbitrarios para a tarefa",
+	"apihelp-advancedmeta-tasks-param-format": "O formato de saída (só JSON ou JSON formatado)",
+	"action-advancedmeta-edit": "editar a páxina ou os metaelementos do espazo de nomes",
+	"right-advancedmeta-edit": "Editar a páxina ou os metaelementos do espazo de nomes"
 }
