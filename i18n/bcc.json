@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sultanselim baloch"
+			"Sultanselim baloch",
+			"Moshtank"
 		]
 	},
 	"advancedmeta-dialog-btn-label-save": "سَپت",
 	"advancedmeta-dialog-btn-label-cancel": "بجَگ",
-	"advancedmeta-dialog-btn-label-delete": "پاک",
+	"advancedmeta-dialog-btn-label-delete": "گار",
 	"advancedmeta-dialog-input-label-description": "بارءَ",
 	"advancedmeta-dialog-input-label-keywords": "کلیتگال"
 }
