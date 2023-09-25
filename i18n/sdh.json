@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"TerranBoy"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "پاشەکەفت",
+	"advancedmeta-dialog-btn-label-cancel": "هەڵوەشاننەوە",
+	"advancedmeta-dialog-btn-label-delete": "سڕینەوە",
+	"advancedmeta-dialog-input-label-description": "وەسف",
+	"advancedmeta-dialog-input-label-keywords": "کلیلەوشەگان"
+}
