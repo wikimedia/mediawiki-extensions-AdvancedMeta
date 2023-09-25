@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Misibacsi",
-			"TK-999"
+			"TK-999",
+			"Beze"
 		]
 	},
 	"advancedmeta-desc": "Lehetővé teszi a meta-beállítások (robots, keywords, description) és a cím oldalanként történő változtatását",
@@ -13,5 +14,6 @@
 	"advancedmeta-dialog-btn-label-delete": "Törlés",
 	"advancedmeta-dialog-input-label-description": "Leírás",
 	"advancedmeta-dialog-input-label-follow": "Követ",
+	"advancedmeta-dialog-input-label-keywords": "Kulcsszavak",
 	"advancedmeta-dialog-input-help-keywords": "Vesszővel elválasztott kulcsszavak. Például: kulcsszó1, kulcsszó2, kulcsszó3"
 }
