@@ -5,5 +5,13 @@
 		]
 	},
 	"advancedmeta-metasettings": "Мета-параметраш",
-	"advancedmeta-dialog-input-label-follow": "Йаздала"
+	"advancedmeta-titlealias": "ЦӀеран псевдоним:",
+	"advancedmeta-navigation-contentaction-label": "Лахаран оптимизаци",
+	"advancedmeta-dialog-btn-label-save": "Ӏалашйан",
+	"advancedmeta-dialog-btn-label-cancel": "Йухайаккха",
+	"advancedmeta-dialog-btn-label-delete": "ДӀайаккха",
+	"advancedmeta-dialog-input-label-description": "Цуьнах лаьцна",
+	"advancedmeta-dialog-input-label-follow": "Йаздала",
+	"advancedmeta-dialog-input-label-index": "Индекс",
+	"advancedmeta-dialog-input-label-keywords": "Коьрта дешнаш"
 }
