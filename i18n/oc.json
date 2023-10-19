@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nicolas Eynaud"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "Sauvar",
+	"advancedmeta-dialog-btn-label-cancel": "Annular",
+	"advancedmeta-dialog-btn-label-delete": "Suprimir",
+	"advancedmeta-dialog-input-label-description": "Descripcion",
+	"advancedmeta-dialog-input-label-follow": "Seguir",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Mòts clau"
+}
