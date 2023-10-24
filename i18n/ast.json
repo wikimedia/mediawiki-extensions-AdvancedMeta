@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"advancedmeta-desc": "Permite una meta-configuración de cada páxina (robots, pallabres clave, descripción) y camudar el títulu",
@@ -9,7 +10,7 @@
 	"advancedmeta-titlealias": "Títulu alternativu:",
 	"advancedmeta-navigation-contentaction-label": "Optimización del motor de gueta",
 	"advancedmeta-dialog-btn-label-save": "Guardar",
-	"advancedmeta-dialog-btn-label-cancel": "Encaboxar",
+	"advancedmeta-dialog-btn-label-cancel": "Zarrar",
 	"advancedmeta-dialog-btn-label-delete": "Desaniciar",
 	"advancedmeta-dialog-input-label-description": "Descripción",
 	"advancedmeta-dialog-input-label-follow": "Siguir",
