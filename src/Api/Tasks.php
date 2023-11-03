@@ -117,14 +117,10 @@ class Tasks extends \ApiBase {
 		} else {
 			$res = $this->checkTaskPermission( $task );
 			if ( !$res ) {
-				if ( is_callable( [ $this, 'dieWithError' ] ) ) {
-					$this->dieWithError(
-						'apierror-permissiondenied-generic',
-						'permissiondenied'
-					);
-				} else {
-					$this->dieUsageMsg( 'badaccess-groups' );
-				}
+				$this->dieWithError(
+					'apierror-permissiondenied-generic',
+					'permissiondenied'
+				);
 			}
 			if ( $this->getServices()->getReadOnlyMode()->isReadOnly() ) {
 				$result->message = $this->getServices()->getReadOnlyMode()->getReason();
