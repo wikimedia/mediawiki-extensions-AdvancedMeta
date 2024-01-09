@@ -4,9 +4,11 @@
 			"Kareyac"
 		]
 	},
-	"advancedmeta-dialog-btn-label-save": "Պահպանել",
+	"advancedmeta-dialog-btn-label-save": "Հիշել",
 	"advancedmeta-dialog-btn-label-cancel": "Չեղարկել",
 	"advancedmeta-dialog-btn-label-delete": "Ջնջել",
 	"advancedmeta-dialog-input-label-description": "Նկարագրություն",
-	"advancedmeta-dialog-input-label-index": "Ինդեքս"
+	"advancedmeta-dialog-input-label-follow": "Հետևել",
+	"advancedmeta-dialog-input-label-index": "Ինդեքս",
+	"advancedmeta-dialog-input-label-keywords": "Հիմնաբառեր"
 }
