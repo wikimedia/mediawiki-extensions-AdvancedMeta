@@ -3,7 +3,8 @@
 		"authors": [
 			"Purodha",
 			"Raymond",
-			"Siebrand"
+			"Siebrand",
+			"Amire80"
 		]
 	},
 	"advancedmeta-desc": "{{desc}}",
@@ -17,7 +18,7 @@
 	"advancedmeta-dialog-input-label-follow": "Label for checkbox input field \"follow\" in the OOJS dialog for AdvancedMeta.\n{{Identical|Follow}}",
 	"advancedmeta-dialog-input-label-index": "Label for checkbox input field \"index\" in the OOJS dialog for AdvancedMeta.\n{{Identical|Index}}",
 	"advancedmeta-dialog-input-label-keywords": "Label for text input field \"keywords\" in the OOJS dialog for AdvancedMeta.\n{{Identical|Keywords}}",
-	"advancedmeta-dialog-input-help-keywords": "Help text for text input field \"keywords\" in the OOJS dialog for AdvancedMeta, that explains, that keywords can be added in this input in the style of a comma separated list.\nPlease add an example like \"For example: keyword1, keyword2, keyword3\"",
+	"advancedmeta-dialog-input-help-keywords": "Help text for text input field \"keywords\" in the OOJS dialog for AdvancedMeta, that explains, that keywords can be added in this input in the style of a comma-separated list.\nPlease add an example like \"For example: keyword1, keyword2, keyword3\"",
 	"apihelp-advancedmeta-tasks-summary": "{{doc-apihelp-summary|advancedmeta-tasks}}",
 	"apihelp-advancedmeta-tasks-param-task": "{{doc-apihelp-param|advancedmeta-tasks|task}}",
 	"apihelp-advancedmeta-tasks-param-taskdata": "{{doc-apihelp-param|advancedmeta-tasks|taskdata}}",
