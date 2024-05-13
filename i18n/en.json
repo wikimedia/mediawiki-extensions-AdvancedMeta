@@ -2,7 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
-	"advancedmeta-desc": "Allows per page meta settings (robots, keywords, description) and change title",
+	"advancedmeta-desc": "Allows per-page meta settings (robots, keywords, description) and title change",
 	"advancedmeta-metasettings": "Meta settings",
 	"advancedmeta-titlealias": "Title alias:",
 	"advancedmeta-navigation-contentaction-label": "Search engine optimization",
@@ -13,7 +13,7 @@
 	"advancedmeta-dialog-input-label-follow": "Follow",
 	"advancedmeta-dialog-input-label-index": "Index",
 	"advancedmeta-dialog-input-label-keywords": "Keywords",
-	"advancedmeta-dialog-input-help-keywords": "Comma separated list of keywords. For example: keyword1, keyword2, keyword3",
+	"advancedmeta-dialog-input-help-keywords": "Comma-separated list of keywords. For example: keyword1, keyword2, keyword3",
 	"apihelp-advancedmeta-tasks-summary": "Provides operations such as delete and edit for AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "The task that should be executed",
 	"apihelp-advancedmeta-tasks-param-taskdata": "JSON string encoded object with arbitrary data for the task",
