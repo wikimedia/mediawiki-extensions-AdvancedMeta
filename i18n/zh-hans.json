@@ -3,6 +3,7 @@
 		"authors": [
 			"A Retired User",
 			"Lakejason0",
+			"LittlePaw365",
 			"PhiLiP",
 			"VulpesVulpes825",
 			"Xiplus",
@@ -11,7 +12,7 @@
 			"科劳"
 		]
 	},
-	"advancedmeta-desc": "允许修改页面的meta设置（机器人、关键词和描述）和标题",
+	"advancedmeta-desc": "允许每个页面的meta设置（机器人、关键词、描述）和标题更改",
 	"advancedmeta-metasettings": "Meta设置",
 	"advancedmeta-titlealias": "标题：",
 	"advancedmeta-navigation-contentaction-label": "搜索引擎优化",
@@ -22,7 +23,7 @@
 	"advancedmeta-dialog-input-label-follow": "关注",
 	"advancedmeta-dialog-input-label-index": "索引",
 	"advancedmeta-dialog-input-label-keywords": "关键词",
-	"advancedmeta-dialog-input-help-keywords": "关键词列表，用逗号分隔；例如：keyword1,keyword2,keyword3",
+	"advancedmeta-dialog-input-help-keywords": "半角逗号分隔的关键词列表。例如：关键词1, 关键词2, 关键词3",
 	"apihelp-advancedmeta-tasks-summary": "为AdvancedMeta提供诸如删除或编辑操作",
 	"apihelp-advancedmeta-tasks-param-task": "需要执行的任务",
 	"apihelp-advancedmeta-tasks-param-taskdata": "JSON字符串编码的对象，带用于任务的任意数据",
