@@ -14,23 +14,19 @@ class Factory {
 	 */
 	protected $config;
 
-	/** @var \Wikimedia\Rdbms\ILoadBalancer|null */
+	/** @var \Wikimedia\Rdbms\ILoadBalancer */
 	protected $lb;
 
 	/**
 	 * @param \Config $config
-	 * @param \Wikimedia\Rdbms\ILoadBalancer|null $lb
+	 * @param \Wikimedia\Rdbms\ILoadBalancer $lb
 	 */
-	public function __construct( $config, $lb = null ) {
+	public function __construct( $config, $lb ) {
 		$this->config = $config;
 		$this->lb = $lb;
 	}
 
 	protected function getDB() {
-		if ( !$this->lb ) {
-			// only on mw < 1.28
-			return wfGetDB( DB_PRIMARY );
-		}
 		return $this->lb->getConnection( DB_PRIMARY );
 	}
 
