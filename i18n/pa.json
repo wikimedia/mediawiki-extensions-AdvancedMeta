@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cabal"
+		]
+	},
+	"advancedmeta-dialog-btn-label-save": "ਸਾਂਭੋ",
+	"advancedmeta-dialog-btn-label-cancel": "ਰੱਦ ਕਰੋ",
+	"advancedmeta-dialog-btn-label-delete": "ਮਿਟਾਓ",
+	"advancedmeta-dialog-input-label-description": "ਵੇਰਵਾ"
+}
