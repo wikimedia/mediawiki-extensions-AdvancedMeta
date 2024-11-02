@@ -34,7 +34,7 @@ class Factory {
 	 * @param \Title|null $title
 	 * @return MetaHandler|null
 	 */
-	public function newFromTitle( \Title $title = null ) {
+	public function newFromTitle( ?\Title $title = null ) {
 		if ( !$title ) {
 			return null;
 		}
