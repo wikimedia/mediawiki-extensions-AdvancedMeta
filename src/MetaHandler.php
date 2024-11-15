@@ -150,7 +150,7 @@ class MetaHandler implements \JsonSerializable {
 	 * @param \User|null $user
 	 * @return \Status
 	 */
-	public function save( array $params = [], \User $user = null ) {
+	public function save( array $params = [], ?\User $user = null ) {
 		// TODO: logging
 
 		$data = [];
@@ -240,7 +240,7 @@ class MetaHandler implements \JsonSerializable {
 	 * @param \User|null $user
 	 * @return \Status
 	 */
-	public function delete( \User $user = null ) {
+	public function delete( ?\User $user = null ) {
 		// TODO: logging
 		if ( !$this->exists() ) {
 			return \Status::newGood( $this );
