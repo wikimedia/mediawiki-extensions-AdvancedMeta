@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
-	"advancedmeta-metasettings": "مېټا امستنې"
+	"advancedmeta-metasettings": "مېټا اوڼنې",
+	"advancedmeta-titlealias": "سرليک بل‌نوم:",
+	"advancedmeta-dialog-btn-label-save": "خوندي‌کول",
+	"advancedmeta-dialog-btn-label-cancel": "ناگارل",
+	"advancedmeta-dialog-btn-label-delete": "ړنگول",
+	"advancedmeta-dialog-input-label-description": "څرگنداوی",
+	"advancedmeta-dialog-input-label-follow": "څارل",
+	"advancedmeta-dialog-input-label-index": "ليکلړ",
+	"advancedmeta-dialog-input-label-keywords": "کليدي‌وييي"
 }
