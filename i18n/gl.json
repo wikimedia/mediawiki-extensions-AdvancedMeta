@@ -21,7 +21,7 @@
 	"apihelp-advancedmeta-tasks-summary": "Ofrece operacións como eliminar e editar para AdvancedMeta",
 	"apihelp-advancedmeta-tasks-param-task": "A tarefa que vai executar",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Obxecto codificado como unha cadea JSON con datos arbitrarios para a tarefa",
-	"apihelp-advancedmeta-tasks-param-format": "O formato de saída (só JSON ou JSON formatado)",
+	"apihelp-advancedmeta-tasks-param-format": "O formato da saída (só JSON ou JSON formatado)",
 	"action-advancedmeta-edit": "editar a páxina ou os metaelementos do espazo de nomes",
 	"right-advancedmeta-edit": "Editar a páxina ou os metaelementos do espazo de nomes"
 }
