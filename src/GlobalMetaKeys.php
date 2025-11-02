@@ -2,6 +2,8 @@
 
 namespace AdvancedMeta;
 
+use MediaWiki\Title\Title;
+
 class GlobalMetaKeys {
 	/**
 	 * @var \Title
@@ -15,9 +17,9 @@ class GlobalMetaKeys {
 
 	/**
 	 * @param \Config $config
-	 * @param \Title $title
+	 * @param Title $title
 	 */
-	public function __construct( \Config $config, \Title $title ) {
+	public function __construct( \Config $config, Title $title ) {
 		$this->config = $config;
 		$this->title = $title;
 	}
@@ -48,7 +50,7 @@ class GlobalMetaKeys {
 			if ( empty( $keyword ) ) {
 				continue;
 			}
-			$title = \Title::newFromText( $keyword );
+			$title = Title::newFromText( $keyword );
 			if ( !$title ) {
 				continue;
 			}

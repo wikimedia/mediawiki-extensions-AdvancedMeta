@@ -2,6 +2,8 @@
 
 namespace AdvancedMeta;
 
+use MediaWiki\Title\Title;
+
 class MetaHandler implements \JsonSerializable {
 	public const DESCRIPTION = 'description';
 	public const FOLLOW = 'follow';
@@ -10,7 +12,7 @@ class MetaHandler implements \JsonSerializable {
 	public const KEYWORDS = 'keywords';
 
 	/**
-	 * @var \Title
+	 * @var Title
 	 */
 	protected $title;
 
@@ -36,10 +38,10 @@ class MetaHandler implements \JsonSerializable {
 
 	/**
 	 * @param \Config $config
-	 * @param \Title $title
+	 * @param Title $title
 	 * @param \Wikimedia\Rdbms\IDatabase $db
 	 */
-	public function __construct( \Config $config, \Title $title, $db ) {
+	public function __construct( \Config $config, Title $title, $db ) {
 		$this->config = $config;
 		$this->title = $title;
 		$this->db = $db;
@@ -139,7 +141,7 @@ class MetaHandler implements \JsonSerializable {
 	}
 
 	/**
-	 * @return \Title
+	 * @return Title
 	 */
 	public function getTitle() {
 		return $this->title;
@@ -199,7 +201,7 @@ class MetaHandler implements \JsonSerializable {
 			if ( $name !== static::ALIAS || $value == '' ) {
 				return $value;
 			}
-			$title = \Title::newFromText( $value );
+			$title = Title::newFromText( $value );
 			if ( !$title ) {
 				throw new \MWException(
 					"invalid value or param $name: " . __METHOD__
@@ -222,7 +224,7 @@ class MetaHandler implements \JsonSerializable {
 				if ( empty( $keyword ) ) {
 					continue;
 				}
-				$title = \Title::newFromText( $keyword );
+				$title = Title::newFromText( $keyword );
 				if ( !$title ) {
 					continue;
 				}

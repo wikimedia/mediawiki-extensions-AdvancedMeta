@@ -2,6 +2,8 @@
 
 namespace AdvancedMeta;
 
+use MediaWiki\Title\Title;
+
 class Factory {
 
 	/**
@@ -31,10 +33,10 @@ class Factory {
 	}
 
 	/**
-	 * @param \Title|null $title
+	 * @param Title|null $title
 	 * @return MetaHandler|null
 	 */
-	public function newFromTitle( ?\Title $title = null ) {
+	public function newFromTitle( ?Title $title = null ) {
 		if ( !$title ) {
 			return null;
 		}
@@ -49,19 +51,19 @@ class Factory {
 	}
 
 	/**
-	 * @param \Title $title
+	 * @param Title $title
 	 * @return GlobalMetaKeys
 	 */
-	public function newGlobalKeywordsFromTitle( \Title $title ) {
+	public function newGlobalKeywordsFromTitle( Title $title ) {
 		return new GlobalMetaKeys( $this->config, $title );
 	}
 
 	/**
 	 * TODO: real object cache!
-	 * @param \Title $title
+	 * @param Title $title
 	 * @return MetaHandler|null
 	 */
-	protected function fromCache( \Title $title ) {
+	protected function fromCache( Title $title ) {
 		if ( !isset( $this->instances[$title->getArticleID()] ) ) {
 			return null;
 		}
