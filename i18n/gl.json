@@ -19,7 +19,7 @@
 	"advancedmeta-dialog-input-label-keywords": "Palabras clave",
 	"advancedmeta-dialog-input-help-keywords": "Lista de palabras clave separadas por comas. Por exemplo: palabra1, palabra2, palabra3",
 	"apihelp-advancedmeta-tasks-summary": "Ofrece operacións como eliminar e editar para AdvancedMeta",
-	"apihelp-advancedmeta-tasks-param-task": "A tarefa que vai executar",
+	"apihelp-advancedmeta-tasks-param-task": "A tarefa que se vai executar",
 	"apihelp-advancedmeta-tasks-param-taskdata": "Obxecto codificado como unha cadea JSON con datos arbitrarios para a tarefa",
 	"apihelp-advancedmeta-tasks-param-format": "O formato da saída (só JSON ou JSON formatado)",
 	"action-advancedmeta-edit": "editar a páxina ou os metaelementos do espazo de nomes",
