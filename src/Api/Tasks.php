@@ -3,7 +3,9 @@
 namespace AdvancedMeta\Api;
 
 use AdvancedMeta\MetaHandler;
+use Exception;
 use MediaWiki\Title\Title;
+use Wikimedia\Rdbms\DBError;
 
 class Tasks extends \ApiBase {
 	/**

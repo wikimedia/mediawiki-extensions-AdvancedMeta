@@ -2,32 +2,44 @@
 
 namespace AdvancedMeta\Hook\SkinTemplateNavigationUniversal;
 
-use AdvancedMeta\Hook\SkinTemplateNavigationUniversal;
+use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
+use MediaWiki\Permissions\PermissionManager;
 
-class AddAdvancedMeta extends SkinTemplateNavigationUniversal {
-	protected function skipProcessing() {
-		if ( !$this->sktemplate->getTitle() ) {
-			return true;
-		}
-		if ( $this->sktemplate->getTitle()->getArticleID() < 1 ) {
-			return true;
-		}
-		return !$this->getServices()->getPermissionManager()->userCan(
-			'advancedmeta-edit',
-			$this->sktemplate->getUser(),
-			$this->sktemplate->getTitle()
-		);
+class AddAdvancedMeta implements SkinTemplateNavigation__UniversalHook {
+
+	/**
+	 * @param PermissionManager $permissionManager
+	 */
+	public function __construct(
+		private PermissionManager $permissionManager
+	) {
 	}
 
-	protected function doProcess() {
+	/**
+	 * @inheritDoc
+	 */
+	public function onSkinTemplateNavigation__Universal( $sktemplate, &$links ): void {
+		if ( !$sktemplate->getTitle() ) {
+			return;
+		}
+		if ( $sktemplate->getTitle()->getArticleID() < 1 ) {
+			return;
+		}
+		$userCan = $this->permissionManager->quickUserCan(
+			'advancedmeta-edit',
+			$sktemplate->getUser(),
+			$sktemplate->getTitle()
+		);
+		if ( !$userCan ) {
+			return;
+		}
 		$lnkTextMsg = \Message::newFromKey(
 			'advancedmeta-navigation-contentaction-label'
 		);
-		$this->links['actions']['advancedmeta'] = [
+		$links['actions']['advancedmeta'] = [
 			'class' => false,
 			'text' => $lnkTextMsg->plain(),
 			'href' => '#',
 		];
 	}
-
 }
