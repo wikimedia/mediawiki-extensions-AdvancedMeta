@@ -12,9 +12,8 @@
 	"type": "other",
 	"license-name": "GPL-2.0-or-later",
 	"requires": {
-		"MediaWiki": ">= 1.39.0"
+		"MediaWiki": ">= 1.43.0"
 	},
-	"callback": "\\AdvancedMeta\\Extension::onRegistration",
 	"MessagesDirs": {
 		"AdvancedMeta": [
 			"i18n"
@@ -59,16 +58,26 @@
 		"AdvancedMeta\\": "src/"
 	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": "\\AdvancedMeta\\Hook\\LoadExtensionSchemaUpdates\\AddAdvancedMetaDBSchema::callback",
-		"BeforePageDisplay": [
-			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddResources::callback",
-			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddPolicies::callback",
-			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddJSConfigVar::callback",
-			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddKeywords::callback",
-			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\AddDescription::callback",
-			"\\AdvancedMeta\\Hook\\BeforePageDisplay\\SetHTMLTitle::callback"
-		],
-		"SkinTemplateNavigation::Universal": "\\AdvancedMeta\\Hook\\SkinTemplateNavigationUniversal\\AddAdvancedMeta::callback"
+		"LoadExtensionSchemaUpdates": "runDatabaseUpdates",
+		"BeforePageDisplay": [ "addResources", "applyMetaData" ],
+		"SkinTemplateNavigation::Universal": "addLinks"
+	},
+	"HookHandlers": {
+		"addLinks": {
+			"class": "AdvancedMeta\\Hook\\SkinTemplateNavigationUniversal\\AddAdvancedMeta",
+			"services": [ "PermissionManager" ]
+		},
+		"runDatabaseUpdates": {
+			"class": "AdvancedMeta\\Hook\\LoadExtensionSchemaUpdates\\AddAdvancedMetaDBSchema"
+		},
+		"addResources": {
+			"class": "AdvancedMeta\\Hook\\BeforePageDisplay\\AddResources",
+			"services": [ "PermissionManager", "AdvancedMetaFactory" ]
+		},
+		"applyMetaData": {
+			"class": "AdvancedMeta\\Hook\\BeforePageDisplay\\ApplyMetaData",
+			"services": [ "AdvancedMetaFactory", "AdvancedMeta._Config" ]
+		}
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",

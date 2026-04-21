@@ -3,6 +3,9 @@
 namespace AdvancedMeta\Api;
 
 use AdvancedMeta\MetaHandler;
+use Exception;
+use MediaWiki\Title\Title;
+use Wikimedia\Rdbms\DBError;
 
 class Tasks extends \ApiBase {
 	/**
@@ -46,7 +49,7 @@ class Tasks extends \ApiBase {
 		}
 
 		$metaHandler = $this->getFactory()->newFromTitle(
-			\Title::newFromID( $taskData->articleId )
+			Title::newFromID( $taskData->articleId )
 		);
 		if ( !$metaHandler ) {
 			return $result;
@@ -70,7 +73,7 @@ class Tasks extends \ApiBase {
 		}
 
 		$metaHandler = $this->getFactory()->newFromTitle(
-			\Title::newFromID( $taskData->articleId )
+			Title::newFromID( $taskData->articleId )
 		);
 		if ( !$metaHandler ) {
 			return $result;

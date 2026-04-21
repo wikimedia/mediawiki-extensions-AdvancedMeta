@@ -2,12 +2,14 @@
 
 namespace AdvancedMeta;
 
+use MediaWiki\Config\GlobalVarConfig;
+
 class Config extends \MultiConfig {
 
 	public function __construct() {
 		parent::__construct( [
-			new \GlobalVarConfig( 'adwm' ),
-			new \GlobalVarConfig( 'wg' ),
+			new GlobalVarConfig( 'adwm' ),
+			new GlobalVarConfig( 'wg' ),
 		] );
 	}
 
