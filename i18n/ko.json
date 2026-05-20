@@ -24,6 +24,6 @@
 	"apihelp-advancedmeta-tasks-param-task": "수행해야 할 임무",
 	"apihelp-advancedmeta-tasks-param-taskdata": "작업을 위한 임의의 데이터를 가진 JSON 문자열 코딩된 객체",
 	"apihelp-advancedmeta-tasks-param-format": "출력 형식 (JSON 또는 서식화된 JSON만)",
-	"action-advancedmeta-edit": "문서 또는 이름공간 메타 요소를 편집할",
-	"right-advancedmeta-edit": "문서 또는 이름공간 메타 요소 편집"
+	"action-advancedmeta-edit": "문서 또는 이름공간 메타 요소를 편집",
+	"right-advancedmeta-edit": "문서 또는 이름공간 메타 요소를 편집"
 }
