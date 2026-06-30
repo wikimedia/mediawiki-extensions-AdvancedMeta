@@ -192,6 +192,13 @@ class MetaHandler implements \JsonSerializable {
 		return \Status::newGood( $this );
 	}
 
+	/**
+	 * @param string $name
+	 * @param mixed $value
+	 * @param array $params
+	 * @return mixed
+	 * @throws \MWException
+	 */
 	protected function prepareSave( $name, $value, $params ) {
 		if ( isset( $params[$name] ) ) {
 			$value = $params[$name];

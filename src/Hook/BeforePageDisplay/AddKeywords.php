@@ -22,6 +22,9 @@ class AddKeywords extends BeforePageDisplay {
 		return true;
 	}
 
+	/**
+	 * @return array
+	 */
 	protected function getKeywords() {
 		if ( $this->keywords ) {
 			return $this->keywords;
