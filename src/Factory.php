@@ -3,6 +3,7 @@
 namespace AdvancedMeta;
 
 use MediaWiki\Title\Title;
+use Wikimedia\Rdbms\IDatabase;
 
 class Factory {
 
@@ -28,6 +29,9 @@ class Factory {
 		$this->lb = $lb;
 	}
 
+	/**
+	 * @return IDatabase|false
+	 */
 	protected function getDB() {
 		return $this->lb->getConnection( DB_PRIMARY );
 	}

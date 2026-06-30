@@ -5,6 +5,7 @@ namespace AdvancedMeta\Api;
 use AdvancedMeta\MetaHandler;
 use Exception;
 use MediaWiki\Title\Title;
+use stdClass;
 use Wikimedia\Rdbms\DBError;
 
 class Tasks extends \ApiBase {
@@ -26,7 +27,12 @@ class Tasks extends \ApiBase {
 		];
 	}
 
-	protected function task_save( $taskData, $params ) {
+	/**
+	 * @param stdClass $taskData
+	 * @param array $params
+	 * @return stdClass
+	 */
+	protected function task_save( $taskData, $params ) { // phpcs:ignore MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName, Generic.Files.LineLength.TooLong
 		$result = $this->makeStandardReturn();
 
 		if ( empty( $taskData->articleId ) ) {
@@ -65,7 +71,12 @@ class Tasks extends \ApiBase {
 		return $result;
 	}
 
-	protected function task_delete( $taskData, $params ) {
+	/**
+	 * @param stdClass $taskData
+	 * @param array $params
+	 * @return stdClass
+	 */
+	protected function task_delete( $taskData, $params ) { // phpcs:ignore MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName, Generic.Files.LineLength.TooLong
 		$result = $this->makeStandardReturn();
 
 		if ( empty( $taskData->articleId ) ) {
@@ -165,6 +176,12 @@ class Tasks extends \ApiBase {
 		}
 	}
 
+	/**
+	 * @param string $paramName
+	 * @param array $paramSettings
+	 * @param int $parseLimit
+	 * @return mixed
+	 */
 	protected function getParameterFromSettings( $paramName, $paramSettings, $parseLimit ) {
 		$value = parent::getParameterFromSettings(
 			$paramName,
@@ -242,6 +259,9 @@ class Tasks extends \ApiBase {
 		];
 	}
 
+	/**
+	 * @return string
+	 */
 	public function needsToken() {
 		return 'csrf';
 	}

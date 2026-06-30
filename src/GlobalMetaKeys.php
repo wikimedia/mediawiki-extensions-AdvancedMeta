@@ -33,6 +33,9 @@ class GlobalMetaKeys {
 			: [];
 	}
 
+	/**
+	 * @return \Message
+	 */
 	protected function getMessage() {
 		return \Message::newFromKey(
 			$this->config->get( 'GlobalKeywordsMsgKey' ),
@@ -40,6 +43,10 @@ class GlobalMetaKeys {
 		);
 	}
 
+	/**
+	 * @param string $msgText
+	 * @return array
+	 */
 	protected function parseMessage( $msgText ) {
 		if ( $msgText == '' ) {
 			return [];

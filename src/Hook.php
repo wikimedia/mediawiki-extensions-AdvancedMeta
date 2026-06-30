@@ -62,6 +62,9 @@ abstract class Hook {
 		return MediaWikiServices::getInstance();
 	}
 
+	/**
+	 * @return mixed
+	 */
 	public function process() {
 		if ( $this->skipProcessing() ) {
 			return true;
