@@ -5,7 +5,8 @@
 		"[http://www.stephanmuller.nl Stephan Muller]",
 		"Bart van Heukelom",
 		"Zayoo",
-		"Patric Wirth <wirth@hallowelt.com>"
+		"Patric Wirth <wirth@hallowelt.com>",
+		"[https://www.hallowelt.com Hallo Welt! GmbH]"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:AdvancedMeta",
 	"descriptionmsg": "advancedmeta-desc",
