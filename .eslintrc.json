@@ -2,6 +2,18 @@
 	"root": true,
 	"extends": [
 		"wikimedia/client",
+		"wikimedia/jquery",
 		"wikimedia/mediawiki"
-	]
+	],
+	"parserOptions": {
+		"sourceType": "commonjs"
+	},
+	"globals": {
+		"jQuery": "readonly",
+		"mediaWiki": "readonly"
+	},
+	"rules": {
+		"no-jquery/no-global-selector": "off",
+		"no-jquery/no-done-fail": "warn"
+	}
 }
