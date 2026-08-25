@@ -2,16 +2,26 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
+	"advancedmeta-desc": "Umožňuje nastavenia meta údajov pre jednotlivé stránky (robots, keywords, description) a zmenu názvu",
 	"advancedmeta-metasettings": "Meta nastavenie",
 	"advancedmeta-titlealias": "Alias názvu:",
+	"advancedmeta-navigation-contentaction-label": "Optimalizácia pre vyhľadávače",
 	"advancedmeta-dialog-btn-label-save": "Uložiť",
 	"advancedmeta-dialog-btn-label-cancel": "Zrušiť",
 	"advancedmeta-dialog-btn-label-delete": "Zmazať",
 	"advancedmeta-dialog-input-label-description": "Popis",
 	"advancedmeta-dialog-input-label-follow": "Sledovať",
 	"advancedmeta-dialog-input-label-index": "Index",
-	"advancedmeta-dialog-input-label-keywords": "Kľúčové slová"
+	"advancedmeta-dialog-input-label-keywords": "Kľúčové slová",
+	"advancedmeta-dialog-input-help-keywords": "Zoznam kľúčových slov oddelených čiarkou. Napríklad: kľúčové slovo1, kľúčové slovo2, kľúčové slovo3",
+	"apihelp-advancedmeta-tasks-summary": "Poskytuje operácie ako mazanie a úprava pre rozšírenie AdvancedMeta",
+	"apihelp-advancedmeta-tasks-param-task": "Úloha, ktorá sa má vykonať",
+	"apihelp-advancedmeta-tasks-param-taskdata": "Objekt zakódovaný ako reťazec JSON s ľubovoľnými údajmi pre úlohu",
+	"apihelp-advancedmeta-tasks-param-format": "Formát výstupu (iba JSON alebo formátovaný JSON)",
+	"action-advancedmeta-edit": "upravovať meta prvky stránky alebo menného priestoru",
+	"right-advancedmeta-edit": "Upravovať meta prvky stránky alebo menného priestoru"
 }
