@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
-			"شاه زمان پټان"
+			"شاه زمان پټان",
+			"باران"
 		]
 	},
 	"advancedmeta-desc": "د هر مخ مېټا اوڼنو (روباټونو، کيليدي‌ويوکو، څرگنداوي) او سرليک بدلون ته اجازه ورکوي",
@@ -18,7 +19,7 @@
 	"advancedmeta-dialog-input-label-keywords": "کليدي‌وييي",
 	"advancedmeta-dialog-input-help-keywords": "د بنسټيزو ويوکو کامې سره جلا شوی لړليک. د بېلگې په توگه: بنسټيز‌ويومی۱, بنسټيزويوکی۲، بنسټيز‌ويټکی۳",
 	"apihelp-advancedmeta-tasks-summary": "د پرمختللې‌مېټا لپاره د ړنگولو او سمولو په څېر چارې چمتو کوي",
-	"apihelp-advancedmeta-tasks-param-task": "هغه دنده چې باید ترسره شي",
+	"apihelp-advancedmeta-tasks-param-task": "هغه کاردنده چې باید ترسره شي",
 	"apihelp-advancedmeta-tasks-param-taskdata": "د دندو لپاره جی‌آی‌اېس‌او‌اېن لړۍ کوډشوی څيز له خپلسري اومتوک سره",
 	"apihelp-advancedmeta-tasks-param-format": "د بهر اېښودنې بڼه (يوازې جی‌اېس‌او‌اېن يا جی‌اېس‌او‌اېن بڼل‌شوی)",
 	"action-advancedmeta-edit": "د مخ يا مېټا عناصرو نوم‌تشيال سمول",
